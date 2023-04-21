@@ -6,13 +6,11 @@ const fs = require('fs');
 const path = require('path');
 const prettier = require("prettier");
 
-const rootPath = path.join(__dirname, "muse/github.copilot-1.57.7193/dist");
+const rootPath = path.join(__dirname, "muse/github.copilot-agent-1.8x");
 const outPath = path.join(__dirname, "codeviz/data");
-// const srcFile = path.join(rootPath, 'extension_expanded.js');
-const srcFile = path.join(rootPath, 'extension_expanded_v2.js'); // this modifies module 3055 by splitting it into multiple modules (originally 3055 consisted of multiple nested modules which weren't being extracted automatically. So I extracted them manually)
-const mainModuleSrcFile = path.join(rootPath, "extension_expanded_main.js");
+const srcFile = path.join(rootPath, 'agent-expanded.js');
+// const srcFile = path.join(rootPath, 'extension_expanded_v2.js'); // this modifies module 3055 by splitting it into multiple modules (originally 3055 consisted of multiple nested modules which weren't being extracted automatically. So I extracted them manually)
 const code = fs.readFileSync(srcFile, 'utf8');
-const mainCode = fs.readFileSync(mainModuleSrcFile, 'utf8');
 
 // navigate the AST of var e = {...}. Every property is a module.
 // We want to separate each module into its own file.
@@ -476,12 +474,6 @@ traverse(ast, {
         }
     }
 });
-
-// handle the main module - special case because it's not in the `e` object
-const mainModuleId = "main";
-const mainModuleAst = babel.parse(mainCode).program.body[0].expression;
-moduleDeps[mainModuleId] = {}
-handleModule(mainModuleId, mainModuleAst, moduleDeps[mainModuleId]);
 
 // add reverse dependencies
 for (const moduleId in moduleDeps) {

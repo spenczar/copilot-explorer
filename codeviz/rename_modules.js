@@ -36,6 +36,13 @@ function mergeAnnotations(gold, pred) {
             "predictedNames": predAnnotations.name,
             "predictedCategories": predAnnotations.category,
         }
+
+	// Strip both single and double quotes from the name
+	merged[goldKey].name = merged[goldKey].name.replace(/"/g, '');
+	merged[goldKey].name = merged[goldKey].name.replace(/'/g, '');
+
+	// Fill in spaces with underscores
+	merged[goldKey].name = merged[goldKey].name.replace(/ /g, '_');
     }
 
     return merged;

@@ -25,6 +25,10 @@ def predict_with_retries(*args, **kwargs):
                 print("Too many requests, waiting 30 seconds...")
                 time.sleep(30)
                 continue
+            if "internal server error" in str(e).lower():
+                print("Internal server error, waiting 5 seconds...")
+                time.sleep(5)
+                continue
             else:
                 raise e
     raise Exception("Too many retries")

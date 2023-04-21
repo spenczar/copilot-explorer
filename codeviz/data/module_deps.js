@@ -1,277 +1,278 @@
 let module_deps_data = {
-  "3": {
+  "439": {
     "deps": [
-      "1133",
-      "9189",
-      "70"
+      "94641",
+      "92646",
+      "29816",
+      "12010"
     ],
     "exports": [
-      "getEngineURL",
-      "TEST_ENGINE_PATHS",
-      "OPENAI_PROXY_HOST"
+      "$maybe-default$ l $maybe-default$"
     ],
     "importedBy": [
-      "2388",
-      "9334"
+      "58144"
     ],
-    "lines": 34
+    "lines": 69
   },
-  "19": {
+  "593": {
     "deps": [
-      "412"
+      "56105",
+      "91183",
+      "56827"
     ],
     "exports": [
-      "default"
+      "$complex-export$ n.sha512 = n.sha512 || {} $complex-export$"
     ],
     "importedBy": [
-      "8200"
+      "48757",
+      "63585"
     ],
-    "lines": 13
+    "lines": 440
   },
-  "34": {
+  "598": {
     "deps": [
-      "8249",
-      "4938"
+      "39800",
+      "5798",
+      "65489",
+      "20913",
+      "52031"
     ],
     "exports": [
-      "$complex-export$ r.SHA512 $complex-export$"
+      "getTemperatureForSamples",
+      "calculateMeanAlternativeLogProb",
+      "calculateMeanLogProb",
+      "cleanupIndentChoices",
+      "convertToAPIChoice",
+      "DEFAULT_CHARACTER_MULTIPLIER",
+      "MAX_PROMPT_LENGTH",
+      "OpenAIFetcher",
+      "LiveOpenAIFetcher",
+      "getRequestId",
+      "CopilotUiKind"
     ],
     "importedBy": [
-      "1354",
-      "7460"
+      "24586",
+      "36317",
+      "40702",
+      "52031"
     ],
-    "lines": 337
+    "lines": 104
   },
-  "39": {
+  "892": {
+    "deps": [],
+    "exports": [
+      "Type",
+      "TypeBuilder",
+      "Modifier",
+      "Hint",
+      "Kind"
+    ],
+    "importedBy": [
+      "8269",
+      "8730",
+      "22229",
+      "22930",
+      "31451",
+      "31620",
+      "33340",
+      "55581",
+      "56056",
+      "61025",
+      "66885",
+      "71382",
+      "72530",
+      "73609",
+      "79638",
+      "82043",
+      "86584",
+      "86934",
+      "89629",
+      "90623",
+      "91300",
+      "94340",
+      "96656",
+      "98127"
+    ],
+    "lines": 535
+  },
+  "946": {
     "deps": [
-      "\"tty\"",
-      "\"util\"",
-      "2130",
-      "2447"
+      "14964"
     ],
     "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 4
+  },
+  "1007": {
+    "deps": [
+      "58112",
+      "88400",
+      "89039"
+    ],
+    "exports": [
+      "$complex-export$ u.SHA384 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 38
+  },
+  "1055": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "55856"
+    ],
+    "lines": 8
+  },
+  "1193": {
+    "deps": [
+      "\"net\"",
+      "\"tls\"",
+      "\"http\"",
+      "\"https\"",
+      "\"events\"",
+      "\"assert\"",
+      "\"util\""
+    ],
+    "exports": [
+      "httpOverHttp",
+      "httpsOverHttp",
+      "httpOverHttps",
+      "httpsOverHttps",
+      "debug"
+    ],
+    "importedBy": [
+      "57158"
+    ],
+    "lines": 223
+  },
+  "1767": {
+    "deps": [
+      "12010",
+      "6315",
+      "66932"
+    ],
+    "exports": [
+      "IsInitialized",
+      "registerContextPreservation"
+    ],
+    "importedBy": [
+      "3245",
+      "6751",
+      "29816"
+    ],
+    "lines": 38
+  },
+  "2273": {
+    "deps": [
+      "44617",
+      "13094"
+    ],
+    "exports": [
+      "parsesWithoutError",
+      "getPrompt",
+      "getNodeStart",
+      "getFunctionPositions",
+      "getBlockCloseToken",
+      "isSupportedLanguageId",
+      "isBlockBodyFinished",
+      "isEmptyBlockStart",
+      "terminate",
       "init",
-      "inspectOpts",
-      "log",
-      "formatArgs",
-      "save",
-      "load",
-      "useColors",
-      "destroy",
-      "colors",
-      "humanize",
-      "$complex-export$ require(2447)(exports) $complex-export$"
+      "r"
     ],
     "importedBy": [
-      "8104"
+      "3883",
+      "24090",
+      "36317",
+      "47917"
     ],
-    "lines": 85
+    "lines": 127
   },
-  "47": {
-    "deps": [
-      "\"vscode\""
-    ],
-    "exports": [
-      "getGithubAccount",
-      "getSession"
-    ],
-    "importedBy": [
-      "1862"
-    ],
-    "lines": 45
-  },
-  "70": {
-    "deps": [],
-    "exports": [
-      "isVerboseLoggingEnabled",
-      "isDebugEnabled",
-      "shouldFailForDebugPurposes",
-      "isRunningInTest",
-      "RuntimeMode"
-    ],
-    "importedBy": [
-      "3",
-      "937",
-      "1124",
-      "6333",
-      "9334",
-      "9425",
-      "main"
-    ],
-    "lines": 63
-  },
-  "98": {
+  "2501": {
     "deps": [],
     "exports": [],
     "importedBy": [
-      "1581"
+      "14735",
+      "54214"
     ],
-    "lines": 3
+    "lines": 29
   },
-  "106": {
-    "deps": [],
-    "exports": [
-      "debounce",
-      "Debouncer"
-    ],
-    "importedBy": [
-      "893",
-      "7254",
-      "9334"
-    ],
-    "lines": 31
-  },
-  "130": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "4953"
-    ],
-    "lines": 3
-  },
-  "219": {
+  "3245": {
     "deps": [
-      "6333",
-      "6500"
+      "1767",
+      "72469",
+      "23805",
+      "27916"
     ],
-    "exports": [
-      "ExpConfig",
-      "ExpTreatmentVariables"
-    ],
-    "importedBy": [
-      "9189",
-      "9748"
-    ],
-    "lines": 52
-  },
-  "256": {
-    "deps": [
-      "7373",
-      "6403",
-      "4197"
-    ],
-    "exports": [
-      "decodeLocation",
-      "encodeLocation",
-      "completionContextForDocument",
-      "CompletionContext",
-      "completionTypeToString",
-      "CompletionType"
-    ],
-    "importedBy": [
-      "1929",
-      "2388",
-      "2990",
-      "6267"
-    ],
-    "lines": 76
-  },
-  "298": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$complex-export$ r.enc.Utf16 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 63
-  },
-  "299": {
-    "deps": [],
-    "exports": [
-      "Clock"
-    ],
-    "importedBy": [
-      "9189",
-      "9899",
-      "main"
-    ],
-    "lines": 9
-  },
-  "313": {
-    "deps": [
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "assignDefaults"
-    ],
-    "importedBy": [
-      "4815"
-    ],
-    "lines": 24
-  },
-  "320": {
-    "deps": [],
     "exports": [
       "$maybe-default$ i $maybe-default$"
     ],
     "importedBy": [
-      "9958"
+      "58144"
     ],
-    "lines": 33
+    "lines": 28
   },
-  "362": {
-    "deps": [
-      "\"events\"",
-      "1133",
-      "9899",
-      "2279",
-      "1547",
-      "6333",
-      "7057"
-    ],
+  "3341": {
+    "deps": [],
     "exports": [
-      "refreshToken",
-      "CopilotTokenManagerFromGitHubToken",
-      "FixedCopilotTokenManager",
-      "CopilotTokenManager",
-      "setTelemetryConfigFromTokenInfo",
-      "extractTrackingIdFromToken",
-      "authFromGitHubToken",
-      "nowSeconds",
-      "TOKEN_REFRESHED_EVENT"
+      "SEMVER_SPEC_VERSION",
+      "re",
+      "src",
+      "parse",
+      "valid",
+      "clean",
+      "SemVer",
+      "inc",
+      "diff",
+      "compareIdentifiers",
+      "rcompareIdentifiers",
+      "major",
+      "minor",
+      "patch",
+      "compare",
+      "compareLoose",
+      "rcompare",
+      "sort",
+      "rsort",
+      "gt",
+      "lt",
+      "eq",
+      "neq",
+      "gte",
+      "lte",
+      "cmp",
+      "Comparator",
+      "Range",
+      "toComparators",
+      "satisfies",
+      "maxSatisfying",
+      "minSatisfying",
+      "minVersion",
+      "validRange",
+      "ltr",
+      "gtr",
+      "outside",
+      "prerelease",
+      "intersects",
+      "coerce"
     ],
     "importedBy": [
-      "766",
-      "956",
-      "1862",
-      "4419",
-      "main"
+      "71274"
     ],
-    "lines": 314
+    "lines": 1103
   },
-  "385": {
+  "3499": {
     "deps": [
-      "\"path\"",
-      "\"vscode\"",
-      "3136"
-    ],
-    "exports": [
-      "ExtensionTextDocumentManager"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 49
-  },
-  "406": {
-    "deps": [
-      "6252"
-    ],
-    "exports": [],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 1
-  },
-  "412": {
-    "deps": [
-      "3487",
-      "6776",
-      "2141"
+      "15669",
+      "88936",
+      "17250",
+      "88936"
     ],
     "exports": [
       "validateUnion",
@@ -289,251 +290,27 @@ let module_deps_data = {
       "checkReportMissingProp"
     ],
     "importedBy": [
-      "19",
-      "1119",
-      "2296",
-      "3301",
-      "4336",
-      "4665",
-      "5005",
-      "6239",
-      "7772",
-      "8280",
-      "9351"
+      "5463",
+      "24943",
+      "34243",
+      "41939",
+      "51216",
+      "54279",
+      "65151",
+      "95782",
+      "96962",
+      "98103",
+      "98634"
     ],
-    "lines": 165
+    "lines": 169
   },
-  "420": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "8002"
-    ],
-    "lines": 8
-  },
-  "430": {
+  "3591": {
     "deps": [
-      "3487"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 24
-  },
-  "452": {
-    "deps": [
-      "8249",
-      "8269",
-      "8214",
-      "888",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.AES $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 209
-  },
-  "453": {
-    "deps": [
-      "3141",
-      "8876",
-      "4181",
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "reportTypeError",
-      "checkDataTypes",
-      "checkDataType",
-      "coerceAndCheckDataType",
-      "getJSONTypes",
-      "getSchemaTypes",
-      "DataType"
-    ],
-    "importedBy": [
-      "2958",
-      "4815",
-      "4815",
-      "7159"
-    ],
-    "lines": 205
-  },
-  "454": {
-    "deps": [
-      "5290",
-      "4953"
-    ],
-    "exports": [
-      "wp"
-    ],
-    "importedBy": [
-      "6281"
-    ],
-    "lines": 67
-  },
-  "464": {
-    "deps": [
+      "44617",
+      "36314",
       "\"path\"",
-      "4087"
-    ],
-    "exports": [
-      "getFunctionPositions",
-      "getFirstPrecedingComment",
-      "isFunctionDefinition",
-      "isFunction",
-      "getAncestorWithSiblingFunctions",
-      "queryPythonIsDocstring",
-      "queryGlobalVars",
-      "queryExports",
-      "queryImports",
-      "queryFunctions",
-      "getBlockCloseToken",
-      "parsesWithoutError",
-      "parseTree",
-      "getLanguage",
-      "languageIdToWasmLanguage",
-      "isSupportedLanguageId",
-      "WASMLanguage"
-    ],
-    "importedBy": [
-      "820",
-      "3507",
-      "4723",
-      "9940"
-    ],
-    "lines": 292
-  },
-  "465": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "7898"
-    ],
-    "lines": 31
-  },
-  "495": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "8602",
-      "9958"
-    ],
-    "lines": 6
-  },
-  "498": {
-    "deps": [
-      "3487"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 23
-  },
-  "540": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "2531",
-      "5173"
-    ],
-    "lines": 1245
-  },
-  "569": {
-    "deps": [
-      "4855",
-      "1016"
-    ],
-    "exports": [
-      "computeScore",
-      "IndentationBasedJaccardMatcher",
-      "FixedWindowSizeJaccardMatcher"
-    ],
-    "importedBy": [
-      "9931"
-    ],
-    "lines": 84
-  },
-  "608": {
-    "deps": [
-      "5290"
-    ],
-    "exports": [
-      "samplingTelemetryProcessor",
-      "getSamplingHashCode"
-    ],
-    "importedBy": [
-      "9428"
-    ],
-    "lines": 28
-  },
-  "706": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$complex-export$ r.RIPEMD160 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 168
-  },
-  "731": {
-    "deps": [
-      "\"http\"",
-      "\"https\"",
-      "5282",
-      "5740",
-      "9036",
-      "6694",
-      "894",
-      "4350"
-    ],
-    "exports": [
-      "$maybe-default$ d $maybe-default$"
-    ],
-    "importedBy": [
-      "1259",
-      "9574"
-    ],
-    "lines": 212
-  },
-  "750": {
-    "deps": [
-      "6333",
-      "8965"
-    ],
-    "exports": [
-      "handleGhostTextResultTelemetry",
-      "mkBasicResultTelemetry",
-      "mkCanceledResultTelemetry",
-      "telemetryRejected",
-      "telemetryAccepted",
-      "telemetryShown"
-    ],
-    "importedBy": [
-      "3197",
-      "7017",
-      "9334"
-    ],
-    "lines": 73
-  },
-  "766": {
-    "deps": [
-      "3055563",
-      "3458",
-      "\"path\"",
-      "362",
-      "3076"
+      "35765",
+      "70140"
     ],
     "exports": [
       "ComputationStatus",
@@ -543,276 +320,3163 @@ let module_deps_data = {
       "extractRepoInfoInBackground",
       "tryGetGitHubNWO",
       "getDogFood",
-      "Dogfood",
       "getUserKind",
       "isNotRepo",
       "isRepoInfo"
     ],
     "importedBy": [
-      "2388",
-      "4419",
-      "4969",
-      "9334",
-      "main"
+      "24090",
+      "36317",
+      "40702",
+      "52031"
     ],
-    "lines": 196
+    "lines": 179
   },
-  "820": {
+  "3855": {
     "deps": [
-      "1747",
-      "464"
+      "5798",
+      "20913"
     ],
     "exports": [
-      "getSiblingFunctionStart",
-      "getSiblingFunctions"
+      "LoggingTelemetryReporter"
     ],
     "importedBy": [
-      "1747"
+      "89531"
     ],
-    "lines": 92
+    "lines": 48
   },
-  "862": {
-    "deps": [],
-    "exports": [
-      "TimeBucketGranularity",
-      "DEFAULT_GRANULARITY",
-      "GranularityImplementation"
-    ],
-    "importedBy": [
-      "9030"
-    ],
-    "lines": 98
-  },
-  "888": {
+  "3866": {
     "deps": [
-      "8249",
-      "2783",
-      "9824"
+      "58112",
+      "78976"
     ],
     "exports": [
-      "$complex-export$ u.EvpKDF $complex-export$"
+      "$complex-export$ n.pad.Ansix923 $complex-export$"
     ],
     "importedBy": [
-      "452",
-      "1354",
-      "1857",
-      "3974",
-      "4253",
-      "4454",
-      "5109"
+      "76679"
     ],
-    "lines": 61
+    "lines": 19
   },
-  "893": {
+  "3883": {
     "deps": [
-      "106",
-      "1133",
-      "6333",
-      "2388"
-    ],
-    "exports": [
-      "CopilotListDocument"
-    ],
-    "importedBy": [
-      "2990"
-    ],
-    "lines": 141
-  },
-  "894": {
-    "deps": [
-      "5282",
-      "7396",
-      "9562",
-      "3057"
-    ],
-    "exports": [
-      "CorrelationContextManager"
-    ],
-    "importedBy": [
-      "731",
-      "7625",
-      "8723",
-      "9574",
-      "9813"
-    ],
-    "lines": 151
-  },
-  "901": {
-    "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 36
-  },
-  "935": {
-    "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 38
-  },
-  "937": {
-    "deps": [
-      "1133",
-      "9899",
-      "6333",
-      "70",
-      "4419"
-    ],
-    "exports": [
-      "getTemperatureForSamples",
-      "calculateMeanAlternativeLogProb",
-      "calculateMeanLogProb",
-      "cleanupIndentChoices",
-      "convertToAPIChoice",
-      "DEFAULT_CHARACTER_MULTIPLIER",
-      "MAX_PROMPT_LENGTH",
-      "OpenAIFetcher",
-      "LiveOpenAIFetcher",
-      "getRequestId",
-      "CopilotUiKind"
-    ],
-    "importedBy": [
-      "2388",
-      "2901",
-      "4419",
-      "9334"
-    ],
-    "lines": 114
-  },
-  "956": {
-    "deps": [
-      "\"fs\"",
-      "362"
-    ],
-    "exports": [
-      "readTestingGitHubToken",
-      "makeTestingCopilotTokenManager"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 31
-  },
-  "966": {
-    "deps": [
-      "3487",
-      "6776",
-      "3510"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 46
-  },
-  "1006": {
-    "deps": [
-      "9899",
-      "7481"
-    ],
-    "exports": [
-      "ghostTextScoreQuantile",
-      "ghostTextScoreConfidence"
-    ],
-    "importedBy": [
-      "9334"
-    ],
-    "lines": 86
-  },
-  "1016": {
-    "deps": [
-      "1747"
-    ],
-    "exports": [
-      "splitIntoWords",
-      "WindowedMatcher",
-      "SortOptions"
-    ],
-    "importedBy": [
-      "569"
-    ],
-    "lines": 267
-  },
-  "1077": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.pad.Iso97971 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 14
-  },
-  "1119": {
-    "deps": [
-      "3487",
-      "6776",
-      "412",
-      "4783"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 31
-  },
-  "1124": {
-    "deps": [
-      "9189",
-      "2533",
-      "6333",
-      "70",
-      "9657"
+      "16905",
+      "2273",
+      "65489",
+      "20913",
+      "54604"
     ],
     "exports": [
       "checkSuffix",
       "postProcessChoice"
     ],
     "importedBy": [
-      "2388",
-      "9334"
+      "36317",
+      "40702"
     ],
-    "lines": 104
+    "lines": 100
   },
-  "1125": {
+  "3895": {
     "deps": [
-      "6776"
+      "39800"
+    ],
+    "exports": [
+      "AgentEditorInfo",
+      "AgentConfigProvider"
+    ],
+    "importedBy": [
+      "6159",
+      "81843"
+    ],
+    "lines": 42
+  },
+  "4173": {
+    "deps": [
+      "56105",
+      "60070",
+      "61057",
+      "62148",
+      "91183",
+      "81877",
+      "72299",
+      "25661",
+      "46572",
+      "50514",
+      "69597",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ s.pbe = n.pbe = n.pbe || {} $complex-export$"
+    ],
+    "importedBy": [
+      "23245",
+      "88577"
+    ],
+    "lines": 770
+  },
+  "4240": {
+    "deps": [
+      "12010"
+    ],
+    "exports": [
+      "$maybe-default$ i $maybe-default$"
+    ],
+    "importedBy": [
+      "94641"
+    ],
+    "lines": 64
+  },
+  "4428": {
+    "deps": [
+      "\"tty\"",
+      "\"util\"",
+      "56974",
+      "29374"
+    ],
+    "exports": [
+      "init",
+      "inspectOpts",
+      "log",
+      "formatArgs",
+      "save",
+      "load",
+      "useColors",
+      "destroy",
+      "colors",
+      "humanize",
+      "$complex-export$ require(29374)(exports) $complex-export$"
+    ],
+    "importedBy": [
+      "41241"
+    ],
+    "lines": 85
+  },
+  "4445": {
+    "deps": [
+      "\"events\"",
+      "\"fs\"",
+      "\"http\"",
+      "\"path\"",
+      "\"stream\""
+    ],
+    "exports": [
+      "DebugServer"
+    ],
+    "importedBy": [
+      "87426"
+    ],
+    "lines": 67
+  },
+  "4480": {
+    "deps": [
+      "73599"
     ],
     "exports": [
       "default"
     ],
     "importedBy": [
-      "8200"
+      "35671"
+    ],
+    "lines": 5
+  },
+  "4630": {
+    "deps": [
+      "44617",
+      "\"fs\"",
+      "35765",
+      "40084",
+      "32137",
+      "39800",
+      "75611",
+      "70769",
+      "16905",
+      "66046",
+      "96817",
+      "54619",
+      "63405",
+      "20190",
+      "5798",
+      "15291",
+      "57158",
+      "20039",
+      "69035",
+      "70216",
+      "86635",
+      "65489",
+      "89531",
+      "52369",
+      "70819",
+      "84567",
+      "82161",
+      "20913",
+      "66584",
+      "67066",
+      "35095",
+      "80751"
+    ],
+    "exports": [
+      "createLibTestingContext",
+      "_createBaselineContext"
+    ],
+    "importedBy": [
+      "6159"
+    ],
+    "lines": 107
+  },
+  "4765": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "redis",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 41
+  },
+  "5129": {
+    "deps": [
+      "58112",
+      "58885",
+      "74678",
+      "6165",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.Rabbit $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 138
+  },
+  "5206": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "SelectionRangeRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 10
+  },
+  "5381": {
+    "deps": [],
+    "exports": [
+      "extractAjvErrors",
+      "ErrorCode"
+    ],
+    "importedBy": [
+      "8269",
+      "8730",
+      "9321",
+      "22229",
+      "22930",
+      "31451",
+      "31620",
+      "32879",
+      "33340",
+      "55581",
+      "61025",
+      "66885",
+      "71382",
+      "72530",
+      "73609",
+      "79638",
+      "82043",
+      "86584",
+      "86934",
+      "89629",
+      "90623",
+      "91300",
+      "94340",
+      "96656",
+      "98127"
+    ],
+    "lines": 17
+  },
+  "5463": {
+    "deps": [
+      "15669",
+      "88936",
+      "3499"
+    ],
+    "exports": [
+      "validateSchemaDeps",
+      "validatePropertyDeps",
+      "error",
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 90
+  },
+  "5520": {
+    "deps": [],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 38
+  },
+  "5798": {
+    "deps": [
+      "32137",
+      "39800",
+      "65489"
+    ],
+    "exports": [
+      "logger",
+      "toPlainText",
+      "Logger",
+      "MultiLog",
+      "OutputChannelLog",
+      "ConsoleLog",
+      "LogTarget",
+      "verboseLogging",
+      "LogVerbose",
+      "LogLevel"
+    ],
+    "importedBy": [
+      "598",
+      "3855",
+      "4630",
+      "15291",
+      "24586",
+      "32879",
+      "33340",
+      "35765",
+      "36317",
+      "40702",
+      "52031",
+      "70769",
+      "71153",
+      "76974",
+      "79638",
+      "81843",
+      "82043",
+      "87426",
+      "93402",
+      "93927"
+    ],
+    "lines": 140
+  },
+  "5945": {
+    "deps": [
+      "56105",
+      "91183",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.hmac = n.hmac || {} $complex-export$"
+    ],
+    "importedBy": [
+      "21431",
+      "35758",
+      "72299",
+      "78653",
+      "88577"
+    ],
+    "lines": 65
+  },
+  "6159": {
+    "deps": [
+      "44617",
+      "39800",
+      "75611",
+      "69035",
+      "4630",
+      "52369",
+      "70819",
+      "3895",
+      "53007",
+      "76021",
+      "42401",
+      "87426",
+      "39824",
+      "65332",
+      "57214",
+      "56238"
+    ],
+    "exports": [
+      "createAgentTestingContext",
+      "TestAgentEditorInfo",
+      "TestTextDocumentManager",
+      "getTestingContext",
+      "newTestingContext"
+    ],
+    "importedBy": [
+      "8269",
+      "8730",
+      "22229",
+      "22930",
+      "33340",
+      "55581",
+      "71382",
+      "72530",
+      "79638",
+      "86584",
+      "86934",
+      "91300",
+      "94340"
+    ],
+    "lines": 132
+  },
+  "6165": {
+    "deps": [
+      "58112",
+      "31284",
+      "73456"
+    ],
+    "exports": [
+      "$complex-export$ u.EvpKDF $complex-export$"
+    ],
+    "importedBy": [
+      "5129",
+      "18107",
+      "46725",
+      "53954",
+      "69708",
+      "76679",
+      "78976"
+    ],
+    "lines": 61
+  },
+  "6315": {
+    "deps": [
+      "72784",
+      "70248",
+      "8159",
+      "7834",
+      "44826",
+      "55856",
+      "68345",
+      "67726",
+      "4765",
+      "61624",
+      "88041"
+    ],
+    "exports": [
+      "azuresdk",
+      "bunyan",
+      "console",
+      "mongodbCore",
+      "mongodb",
+      "mysql",
+      "pgPool",
+      "pg",
+      "redis",
+      "tedious",
+      "winston",
+      "enable"
+    ],
+    "importedBy": [
+      "1767"
+    ],
+    "lines": 38
+  },
+  "6441": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 5
+  },
+  "6751": {
+    "deps": [
+      "12010",
+      "1767",
+      "19172",
+      "92611"
+    ],
+    "exports": [
+      "CorrelationContextManager"
+    ],
+    "importedBy": [
+      "29816",
+      "58144",
+      "74532",
+      "92646",
+      "94641"
+    ],
+    "lines": 151
+  },
+  "6863": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.pad.Iso97971 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 14
+  },
+  "6885": {
+    "deps": [],
+    "exports": [
+      "findEditDistanceScore"
+    ],
+    "importedBy": [
+      "28684"
+    ],
+    "lines": 30
+  },
+  "6930": {
+    "deps": [
+      "15669",
+      "88936",
+      "17250"
+    ],
+    "exports": [
+      "extendErrors",
+      "resetErrorsCount",
+      "reportExtraError",
+      "reportError",
+      "keyword$DataError",
+      "keywordError"
+    ],
+    "importedBy": [
+      "12171",
+      "91686",
+      "95782",
+      "97332"
+    ],
+    "lines": 152
+  },
+  "7057": {
+    "deps": [
+      "\"crypto\""
+    ],
+    "exports": [],
+    "importedBy": [
+      "33340",
+      "36317",
+      "40702",
+      "63993",
+      "65120",
+      "65489",
+      "79638"
+    ],
+    "lines": 199
+  },
+  "7267": {
+    "deps": [
+      "94403"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "42172",
+      "68423",
+      "92611"
+    ],
+    "lines": 124
+  },
+  "7619": {
+    "deps": [
+      "13573",
+      "48226"
+    ],
+    "exports": [
+      "$complex-export$ class {\n  constructor(e, t, r) {\n    this.policy = new n(o(e), s(t), r);\n  }\n  storable() {\n    return this.policy.storable();\n  }\n  satisfiesWithoutRevalidation(e) {\n    return this.policy.satisfiesWithoutRevalidation(o(e));\n  }\n  responseHeaders(e) {\n    return new i(this.policy.responseHeaders(s(e)));\n  }\n  timeToLive() {\n    return this.policy.timeToLive();\n  }\n} $complex-export$"
+    ],
+    "importedBy": [
+      "14735"
+    ],
+    "lines": 28
+  },
+  "7834": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "mongoCore",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 33
+  },
+  "7838": {
+    "deps": [],
+    "exports": [
+      "parseChallengeDoc"
+    ],
+    "importedBy": [
+      "33340",
+      "79638"
+    ],
+    "lines": 41
+  },
+  "8120": {
+    "deps": [
+      "40273"
+    ],
+    "exports": [
+      "MonikerFeature"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 23
+  },
+  "8159": {
+    "deps": [
+      "66932",
+      "\"stream\"",
+      "\"console\""
+    ],
+    "exports": [
+      "console",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 70
+  },
+  "8269": {
+    "deps": [
+      "892",
+      "86236",
+      "5381",
+      "6159"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 24
+  },
+  "8497": {
+    "deps": [
+      "\"path\"",
+      "56190",
+      "\"module\""
+    ],
+    "exports": [
+      "makePatchingRequire"
+    ],
+    "importedBy": [
+      "66932",
+      "66932"
+    ],
+    "lines": 41
+  },
+  "8730": {
+    "deps": [
+      "892",
+      "86236",
+      "5381",
+      "6159"
+    ],
+    "exports": [
+      "PanelCompletionDocuments",
+      "default"
+    ],
+    "importedBy": [
+      "65332",
+      "79638"
+    ],
+    "lines": 41
+  },
+  "8748": {
+    "deps": [],
+    "exports": [
+      "normalizeSnippetScore",
+      "announceSnippet",
+      "SnippetSemantics",
+      "SnippetProvider"
+    ],
+    "importedBy": [
+      "27289",
+      "28684"
+    ],
+    "lines": 43
+  },
+  "9321": {
+    "deps": [
+      "35765",
+      "75611",
+      "5381"
+    ],
+    "exports": [
+      "createRequestContext",
+      "AuthManager"
+    ],
+    "importedBy": [
+      "22229",
+      "31451",
+      "33340",
+      "66885",
+      "72530",
+      "79638",
+      "81843",
+      "86584",
+      "86934",
+      "91728",
+      "96656"
+    ],
+    "lines": 102
+  },
+  "9370": {
+    "deps": [
+      "56105",
+      "91003"
+    ],
+    "exports": [
+      "$complex-export$ n.mgf = n.mgf || {} $complex-export$"
+    ],
+    "importedBy": [
+      "46461"
+    ],
+    "lines": 4
+  },
+  "10017": {
+    "deps": [
+      "56105"
+    ],
+    "exports": [
+      "$complex-export$ i.jsbn = i.jsbn || {} $complex-export$"
+    ],
+    "importedBy": [
+      "29908",
+      "48757",
+      "69597",
+      "77466"
+    ],
+    "lines": 1276
+  },
+  "10194": {
+    "deps": [
+      "97332",
+      "15669",
+      "88936",
+      "94285"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 81
+  },
+  "10234": {
+    "deps": [
+      "95263"
+    ],
+    "exports": [
+      "hasOwnProperty",
+      "r"
+    ],
+    "importedBy": [
+      "85512"
+    ],
+    "lines": 9
+  },
+  "10407": {
+    "deps": [
+      "22371"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "38355"
+    ],
+    "lines": 6
+  },
+  "10540": {
+    "deps": [
+      "\"events\"",
+      "\"path\"",
+      "35809",
+      "16630",
+      "20190",
+      "70819",
+      "87426",
+      "42401"
+    ],
+    "exports": [
+      "AgentTextDocumentManager"
+    ],
+    "importedBy": [
+      "32879",
+      "81843",
+      "98127"
+    ],
+    "lines": 125
+  },
+  "10542": {
+    "deps": [
+      "69533",
+      "66140",
+      "82122",
+      "71589",
+      "79795",
+      "85934",
+      "79891",
+      "13394",
+      "40764",
+      "5206",
+      "21862",
+      "82918",
+      "39434",
+      "75726",
+      "26305",
+      "37846",
+      "73443"
+    ],
+    "exports": [
+      "DocumentLinkRequest",
+      "CodeLensRefreshRequest",
+      "CodeLensResolveRequest",
+      "CodeLensRequest",
+      "WorkspaceSymbolRequest",
+      "CodeActionResolveRequest",
+      "CodeActionRequest",
+      "DocumentSymbolRequest",
+      "DocumentHighlightRequest",
+      "ReferencesRequest",
+      "DefinitionRequest",
+      "SignatureHelpRequest",
+      "SignatureHelpTriggerKind",
+      "HoverRequest",
+      "CompletionResolveRequest",
+      "CompletionRequest",
+      "CompletionTriggerKind",
+      "PublishDiagnosticsNotification",
+      "WatchKind",
+      "FileChangeType",
+      "DidChangeWatchedFilesNotification",
+      "WillSaveTextDocumentWaitUntilRequest",
+      "WillSaveTextDocumentNotification",
+      "TextDocumentSaveReason",
+      "DidSaveTextDocumentNotification",
+      "DidCloseTextDocumentNotification",
+      "DidChangeTextDocumentNotification",
+      "TextDocumentContentChangeEvent",
+      "DidOpenTextDocumentNotification",
+      "TextDocumentSyncKind",
+      "TelemetryEventNotification",
+      "LogMessageNotification",
+      "ShowMessageRequest",
+      "ShowMessageNotification",
+      "MessageType",
+      "DidChangeConfigurationNotification",
+      "ExitNotification",
+      "ShutdownRequest",
+      "InitializedNotification",
+      "InitializeError",
+      "InitializeRequest",
+      "WorkDoneProgressOptions",
+      "TextDocumentRegistrationOptions",
+      "StaticRegistrationOptions",
+      "FailureHandlingKind",
+      "ResourceOperationKind",
+      "UnregistrationRequest",
+      "RegistrationRequest",
+      "DocumentSelector",
+      "DocumentFilter",
+      "MonikerRequest",
+      "MonikerKind",
+      "UniquenessLevel",
+      "WillDeleteFilesRequest",
+      "DidDeleteFilesNotification",
+      "WillRenameFilesRequest",
+      "DidRenameFilesNotification",
+      "WillCreateFilesRequest",
+      "DidCreateFilesNotification",
+      "FileOperationPatternKind",
+      "LinkedEditingRangeRequest",
+      "ShowDocumentRequest",
+      "SemanticTokensRegistrationType",
+      "SemanticTokensRefreshRequest",
+      "SemanticTokensRangeRequest",
+      "SemanticTokensDeltaRequest",
+      "SemanticTokensRequest",
+      "TokenFormat",
+      "SemanticTokens",
+      "SemanticTokenModifiers",
+      "SemanticTokenTypes",
+      "CallHierarchyPrepareRequest",
+      "CallHierarchyOutgoingCallsRequest",
+      "CallHierarchyIncomingCallsRequest",
+      "WorkDoneProgressCancelNotification",
+      "WorkDoneProgressCreateRequest",
+      "WorkDoneProgress",
+      "SelectionRangeRequest",
+      "DeclarationRequest",
+      "FoldingRangeRequest",
+      "ColorPresentationRequest",
+      "DocumentColorRequest",
+      "ConfigurationRequest",
+      "DidChangeWorkspaceFoldersNotification",
+      "WorkspaceFoldersRequest",
+      "TypeDefinitionRequest",
+      "ImplementationRequest",
+      "ApplyWorkspaceEditRequest",
+      "ExecuteCommandRequest",
+      "PrepareRenameRequest",
+      "RenameRequest",
+      "PrepareSupportDefaultBehavior",
+      "DocumentOnTypeFormattingRequest",
+      "DocumentRangeFormattingRequest",
+      "DocumentFormattingRequest",
+      "DocumentLinkResolveRequest"
+    ],
+    "importedBy": [
+      "51661"
+    ],
+    "lines": 452
+  },
+  "11240": {
+    "deps": [
+      "\"https\"",
+      "60325",
+      "\"child_process\""
+    ],
+    "exports": [
+      "all",
+      "each",
+      "der2"
+    ],
+    "importedBy": [
+      "15291"
+    ],
+    "lines": 36
+  },
+  "11523": {
+    "deps": [],
+    "exports": [
+      "ghostTextDisplayQuantiles",
+      "ghostTextDisplayLanguageParameters",
+      "ghostTextDisplayMeanAlternativeLogProbParameter",
+      "ghostTextDisplayMeanLogProbParameter",
+      "ghostTextDisplayLog1pcompCharLenParameter",
+      "ghostTextDisplayInterceptParameter"
+    ],
+    "importedBy": [
+      "71153"
+    ],
+    "lines": 34
+  },
+  "11661": {
+    "deps": [],
+    "exports": [
+      "asyncIterableFromArray",
+      "asyncIterableMapFilter",
+      "asyncIterableFilter",
+      "asyncIterableMap"
+    ],
+    "importedBy": [
+      "36317",
+      "40702",
+      "52031"
+    ],
+    "lines": 28
+  },
+  "11864": {
+    "deps": [
+      "28684",
+      "42133"
+    ],
+    "exports": [
+      "splitIntoWords",
+      "FunctionalMatcher",
+      "WindowedMatcher",
+      "SortOptions"
+    ],
+    "importedBy": [
+      "91186"
+    ],
+    "lines": 323
+  },
+  "12010": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "439",
+      "1767",
+      "4240",
+      "6751",
+      "26590",
+      "29816",
+      "53629",
+      "56405",
+      "58144",
+      "77649",
+      "80582",
+      "80639",
+      "82028",
+      "90589",
+      "92646",
+      "94641"
+    ],
+    "lines": 29
+  },
+  "12049": {
+    "deps": [
+      "26590",
+      "42495",
+      "85315",
+      "\"url\""
+    ],
+    "exports": [
+      "$maybe-default$ a $maybe-default$"
+    ],
+    "importedBy": [
+      "80582",
+      "80639",
+      "94641"
+    ],
+    "lines": 103
+  },
+  "12171": {
+    "deps": [
+      "6930",
+      "15669",
+      "17250"
+    ],
+    "exports": [
+      "boolOrEmptySchema",
+      "topBoolOrEmptySchema"
+    ],
+    "importedBy": [
+      "91686"
+    ],
+    "lines": 46
+  },
+  "12262": {
+    "deps": [
+      "56105",
+      "91183",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.sha256 = n.sha256 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "46572",
+      "63585"
+    ],
+    "lines": 199
+  },
+  "12414": {
+    "deps": [
+      "\"net\""
+    ],
+    "exports": [
+      "$complex-export$ async e =&gt; {\n  let t;\n  if (e) {\n    t = \"number\" == typeof e.port ? [e.port] : e.port;\n  }\n  if (undefined === s) {\n    s = setInterval(() => {\n      o.old = o.young;\n      o.young = new Set();\n    }, 15e3);\n    if (s.unref) {\n      s.unref();\n    }\n  }\n  for (const r of function* (e) {\n    if (e) {\n      yield* e;\n    }\n    yield 0;\n  }(t)) try {\n    let t = await a({\n      ...e,\n      port: r\n    });\n    for (; o.old.has(t) || o.young.has(t);) {\n      if (0 !== r) throw new i(r);\n      t = await a({\n        ...e,\n        port: r\n      });\n    }\n    o.young.add(t);\n    return t;\n  } catch (e) {\n    if (!([\"EADDRINUSE\", \"EACCES\"].includes(e.code) || e instanceof i)) throw e;\n  }\n  throw new Error(\"No available ports found\");\n} $complex-export$",
+      "makeRange"
+    ],
+    "importedBy": [
+      "89600"
+    ],
+    "lines": 76
+  },
+  "12436": {
+    "deps": [
+      "93809"
+    ],
+    "exports": [
+      "RemoteDependencyDataConstants",
+      "domainSupportsProperties"
+    ],
+    "importedBy": [
+      "85512"
+    ],
+    "lines": 23
+  },
+  "12563": {
+    "deps": [
+      "34990",
+      "72890"
+    ],
+    "exports": [
+      "parseTree",
+      "registerLanguageSpecificParser",
+      "flattenVirtual",
+      "groupBlocks",
+      "combineClosersAndOpeners",
+      "buildLabelRules",
+      "labelVirtualInherited",
+      "labelLines",
+      "parseRaw"
+    ],
+    "importedBy": [
+      "16468",
+      "16468",
+      "53105",
+      "64505",
+      "77651"
+    ],
+    "lines": 207
+  },
+  "13014": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "58144"
+    ],
+    "lines": 92
+  },
+  "13094": {
+    "deps": [
+      "\"path\"",
+      "\"worker_threads\"",
+      "16468",
+      "42133",
+      "94343",
+      "28684",
+      "83542",
+      "23272",
+      "65614",
+      "27289"
+    ],
+    "exports": [
+      "createWorker",
+      "NeighboringSnippetType",
+      "NeighboringTabsOption",
+      "FileSystem",
+      "comment",
+      "languageCommentMarkers"
+    ],
+    "importedBy": [
+      "2273"
+    ],
+    "lines": 60
+  },
+  "13103": {
+    "deps": [
+      "\"os\"",
+      "85315"
+    ],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "29180",
+      "58144",
+      "92646"
+    ],
+    "lines": 289
+  },
+  "13191": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "21974"
+    ],
+    "lines": 35
+  },
+  "13394": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "FoldingRangeRequest",
+      "FoldingRangeKind"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 14
+  },
+  "13573": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "7619"
+    ],
+    "lines": 399
+  },
+  "13881": {
+    "deps": [
+      "30147",
+      "67574",
+      "27135"
+    ],
+    "exports": [
+      "CancellationTokenSource",
+      "CancellationToken"
+    ],
+    "importedBy": [
+      "23870",
+      "61343"
+    ],
+    "lines": 88
+  },
+  "14373": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.mode.CTRGladman $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 56
+  },
+  "14735": {
+    "deps": [
+      "\"events\"",
+      "\"stream\"",
+      "41241",
+      "39941",
+      "54214",
+      "48226",
+      "93505",
+      "28327",
+      "2501",
+      "64346",
+      "7619",
+      "98941",
+      "45591",
+      "86029",
+      "44673"
+    ],
+    "exports": [
+      "$complex-export$ new A().api() $complex-export$"
+    ],
+    "importedBy": [
+      "20039",
+      "57158"
+    ],
+    "lines": 367
+  },
+  "14880": {
+    "deps": [
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 62
+  },
+  "14964": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "946",
+      "93809"
+    ],
+    "lines": 6
+  },
+  "15291": {
+    "deps": [
+      "\"child_process\"",
+      "\"fs\"",
+      "\"os\"",
+      "\"path\"",
+      "40084",
+      "5798",
+      "11240",
+      "35758",
+      "79321"
+    ],
+    "exports": [
+      "getRootCertificateReader",
+      "RootCertificateReader"
+    ],
+    "importedBy": [
+      "4630",
+      "58290",
+      "82161",
+      "90623",
+      "93927"
+    ],
+    "lines": 177
+  },
+  "15669": {
+    "deps": [
+      "66545",
+      "59187",
+      "66545",
+      "59187"
+    ],
+    "exports": [
+      "or",
+      "and",
+      "not",
+      "CodeGen",
+      "operators",
+      "varKinds",
+      "ValueScopeName",
+      "ValueScope",
+      "Scope",
+      "Name",
+      "regexpCode",
+      "stringify",
+      "getProperty",
+      "nil",
+      "strConcat",
+      "str",
+      "_"
+    ],
+    "importedBy": [
+      "3499",
+      "5463",
+      "6930",
+      "10194",
+      "12171",
+      "14880",
+      "17250",
+      "24943",
+      "30002",
+      "31337",
+      "36577",
+      "38355",
+      "38355",
+      "38878",
+      "41939",
+      "50076",
+      "51216",
+      "53021",
+      "59450",
+      "59706",
+      "61135",
+      "65151",
+      "70034",
+      "73599",
+      "78891",
+      "86236",
+      "87382",
+      "88936",
+      "91481",
+      "91686",
+      "95609",
+      "95782",
+      "96962",
+      "97332",
+      "98103",
+      "98634",
+      "99507"
+    ],
+    "lines": 707
+  },
+  "16468": {
+    "deps": [
+      "77651",
+      "53105",
+      "12563",
+      "34990",
+      "40842",
+      "72890",
+      "12563",
+      "64505"
+    ],
+    "exports": [],
+    "importedBy": [
+      "13094"
+    ],
+    "lines": 45
+  },
+  "16630": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "10540",
+      "29975",
+      "32879",
+      "33340",
+      "73609",
+      "75680",
+      "79638",
+      "98127"
+    ],
+    "lines": 1011
+  },
+  "16905": {
+    "deps": [
+      "44617",
+      "32137",
+      "70140",
+      "39800",
+      "80187",
+      "29975",
+      "54604",
+      "75917",
+      "66046",
+      "22249",
+      "68495"
+    ],
+    "exports": [
+      "Features",
+      "Task"
+    ],
+    "importedBy": [
+      "3883",
+      "4630",
+      "24090",
+      "24586",
+      "39800",
+      "40702",
+      "47553",
+      "52031",
+      "54619",
+      "65489",
+      "93927"
+    ],
+    "lines": 460
+  },
+  "17051": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.pad.Iso10126 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 17
+  },
+  "17059": {
+    "deps": [],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 37
+  },
+  "17250": {
+    "deps": [
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "3499",
+      "6930",
+      "12171",
+      "24943",
+      "41939",
+      "87382",
+      "91686",
+      "95782"
+    ],
+    "lines": 23
+  },
+  "17503": {
+    "deps": [
+      "28684"
+    ],
+    "exports": [
+      "Priorities",
+      "PromptWishlist",
+      "PromptElementRanges",
+      "PromptChoices",
+      "PromptBackground",
+      "PromptElementKind"
+    ],
+    "importedBy": [
+      "28684"
+    ],
+    "lines": 302
+  },
+  "18107": {
+    "deps": [
+      "58112",
+      "58885",
+      "74678",
+      "6165",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.RabbitLegacy $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 133
+  },
+  "18559": {
+    "deps": [
+      "58112"
+    ],
+    "exports": [
+      "$complex-export$ n.enc.Utf16 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 63
+  },
+  "18998": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "qP",
+      "wp"
+    ],
+    "importedBy": [
+      "29816"
+    ],
+    "lines": 40
+  },
+  "19172": {
+    "deps": [
+      "22173",
+      "68423",
+      "42172"
+    ],
+    "exports": [
+      "$complex-export$ require(68423) $complex-export$",
+      "$complex-export$ require(42172) $complex-export$"
+    ],
+    "importedBy": [
+      "6751"
+    ],
+    "lines": 6
+  },
+  "20039": {
+    "deps": [
+      "14735",
+      "\"util\"",
+      "39800",
+      "54619",
+      "63405",
+      "65489"
+    ],
+    "exports": [
+      "postRequest",
+      "Response",
+      "isAbortError",
+      "Fetcher"
+    ],
+    "importedBy": [
+      "4630",
+      "30446",
+      "33340",
+      "35765",
+      "40702",
+      "52031",
+      "53406",
+      "57158",
+      "66046",
+      "82161",
+      "93927",
+      "94340",
+      "96712"
+    ],
+    "lines": 90
+  },
+  "20190": {
+    "deps": [
+      "70140",
+      "50467",
+      "\"path\""
+    ],
+    "exports": [
+      "getLanguageDetection",
+      "primeLanguageDetectionCache",
+      "LanguageDetection",
+      "Language"
+    ],
+    "importedBy": [
+      "4630",
+      "10540",
+      "40702",
+      "67066",
+      "93927"
+    ],
+    "lines": 68
+  },
+  "20493": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "21974"
+    ],
+    "lines": 38
+  },
+  "20632": {
+    "deps": [
+      "21974",
+      "43186",
+      "26818"
+    ],
+    "exports": [
+      "$complex-export$ global._asyncHook $complex-export$",
+      "$complex-export$ global._asyncHook = new n() $complex-export$"
+    ],
+    "importedBy": [
+      "42172"
+    ],
+    "lines": 14
+  },
+  "20839": {
+    "deps": [
+      "67574"
+    ],
+    "exports": [
+      "isResponseMessage",
+      "isNotificationMessage",
+      "isRequestMessage",
+      "NotificationType9",
+      "NotificationType8",
+      "NotificationType7",
+      "NotificationType6",
+      "NotificationType5",
+      "NotificationType4",
+      "NotificationType3",
+      "NotificationType2",
+      "NotificationType1",
+      "NotificationType0",
+      "NotificationType",
+      "RequestType9",
+      "RequestType8",
+      "RequestType7",
+      "RequestType6",
+      "RequestType5",
+      "RequestType4",
+      "RequestType3",
+      "RequestType2",
+      "RequestType1",
+      "RequestType",
+      "RequestType0",
+      "AbstractMessageSignature",
+      "ParameterStructures",
+      "ResponseError",
+      "ErrorCodes"
+    ],
+    "importedBy": [
+      "23870",
+      "61343"
+    ],
+    "lines": 237
+  },
+  "20913": {
+    "deps": [],
+    "exports": [
+      "isVerboseLoggingEnabled",
+      "isDebugEnabled",
+      "shouldFailForDebugPurposes",
+      "isRunningInTest",
+      "RuntimeMode"
+    ],
+    "importedBy": [
+      "598",
+      "3855",
+      "3883",
+      "4630",
+      "32879",
+      "40702",
+      "47553",
+      "65489",
+      "87426",
+      "93402",
+      "93927"
+    ],
+    "lines": 58
+  },
+  "21162": {
+    "deps": [
+      "98634"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 12
+  },
+  "21244": {
+    "deps": [
+      "85512"
+    ],
+    "exports": [
+      "samplingTelemetryProcessor",
+      "getSamplingHashCode"
+    ],
+    "importedBy": [
+      "91711"
+    ],
+    "lines": 28
+  },
+  "21431": {
+    "deps": [
+      "56105",
+      "60070",
+      "5945",
+      "54326",
+      "98967",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.ssh = n.ssh || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 117
+  },
+  "21862": {
+    "deps": [
+      "74389",
+      "66140"
+    ],
+    "exports": [
+      "WorkDoneProgressCancelNotification",
+      "WorkDoneProgressCreateRequest",
+      "WorkDoneProgress"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 23
+  },
+  "21974": {
+    "deps": [
+      "13191",
+      "20493",
+      "68280",
+      "43186"
+    ],
+    "exports": [
+      "$maybe-default$ u $maybe-default$"
+    ],
+    "importedBy": [
+      "20632"
+    ],
+    "lines": 97
+  },
+  "22173": {
+    "deps": [],
+    "exports": [
+      "SEMVER_SPEC_VERSION",
+      "re",
+      "src",
+      "parse",
+      "valid",
+      "clean",
+      "SemVer",
+      "inc",
+      "diff",
+      "compareIdentifiers",
+      "rcompareIdentifiers",
+      "major",
+      "minor",
+      "patch",
+      "compare",
+      "compareLoose",
+      "rcompare",
+      "sort",
+      "rsort",
+      "gt",
+      "lt",
+      "eq",
+      "neq",
+      "gte",
+      "lte",
+      "cmp",
+      "Comparator",
+      "Range",
+      "toComparators",
+      "satisfies",
+      "maxSatisfying",
+      "minSatisfying",
+      "minVersion",
+      "validRange",
+      "ltr",
+      "gtr",
+      "outside",
+      "prerelease",
+      "intersects",
+      "coerce"
+    ],
+    "importedBy": [
+      "19172"
+    ],
+    "lines": 1103
+  },
+  "22229": {
+    "deps": [
+      "892",
+      "86236",
+      "45922",
+      "9321",
+      "5381",
+      "6159"
+    ],
+    "exports": [
+      "FakeAuthManager",
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 56
+  },
+  "22249": {
+    "deps": [],
+    "exports": [
+      "FilterSettings",
+      "telmetryNames",
+      "TargetPopulation",
+      "Filter"
+    ],
+    "importedBy": [
+      "16905",
+      "68495"
+    ],
+    "lines": 77
+  },
+  "22371": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "10407"
+    ],
+    "lines": 1245
+  },
+  "22609": {
+    "deps": [
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
     ],
     "lines": 26
   },
-  "1133": {
+  "22776": {
     "deps": [
-      "3055563",
-      "4197",
-      "9189",
-      "4147"
+      "40273"
+    ],
+    "exports": [
+      "LinkedEditingRangeFeature"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 13
+  },
+  "22930": {
+    "deps": [
+      "892",
+      "86236",
+      "5381",
+      "6159"
+    ],
+    "exports": [
+      "CompletionDocuments",
+      "default"
+    ],
+    "importedBy": [
+      "33340",
+      "65332"
+    ],
+    "lines": 37
+  },
+  "23034": {
+    "deps": [
+      "30147",
+      "\"util\"",
+      "83911",
+      "75530"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "74389"
+    ],
+    "lines": 148
+  },
+  "23245": {
+    "deps": [
+      "56105",
+      "61057",
+      "81877",
+      "4173",
+      "25661",
+      "72299",
+      "88577",
+      "51242",
+      "69597",
+      "56827",
+      "46461"
+    ],
+    "exports": [
+      "$complex-export$ n.pki = n.pki || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758",
+      "78653"
+    ],
+    "lines": 52
+  },
+  "23272": {
+    "deps": [],
+    "exports": [
+      "getPathMarker",
+      "getLanguageMarker",
+      "comment",
+      "hasLanguageMarker",
+      "languageCommentMarkers"
+    ],
+    "importedBy": [
+      "13094",
+      "28684"
+    ],
+    "lines": 315
+  },
+  "23452": {
+    "deps": [
+      "77649",
+      "26590"
+    ],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "29816",
+      "55128"
+    ],
+    "lines": 87
+  },
+  "23787": {
+    "deps": [
+      "58112"
+    ],
+    "exports": [
+      "$complex-export$ n.RIPEMD160 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 168
+  },
+  "23805": {
+    "deps": [
+      "85512",
+      "66932"
+    ],
+    "exports": [
+      "wp"
+    ],
+    "importedBy": [
+      "3245"
+    ],
+    "lines": 44
+  },
+  "23870": {
+    "deps": [
+      "20839",
+      "83911",
+      "27135",
+      "13881",
+      "56525",
+      "96654",
+      "61343",
+      "30147"
+    ],
+    "exports": [
+      "CancellationSenderStrategy",
+      "CancellationReceiverStrategy",
+      "ConnectionError",
+      "ConnectionErrors",
+      "LogTraceNotification",
+      "SetTraceNotification",
+      "TraceFormat",
+      "Trace",
+      "ProgressType",
+      "createMessageConnection",
+      "NullLogger",
+      "ConnectionOptions",
+      "ConnectionStrategy",
+      "WriteableStreamMessageWriter",
+      "AbstractMessageWriter",
+      "MessageWriter",
+      "ReadableStreamMessageReader",
+      "AbstractMessageReader",
+      "MessageReader",
+      "CancellationToken",
+      "CancellationTokenSource",
+      "Emitter",
+      "Event",
+      "Disposable",
+      "ParameterStructures",
+      "NotificationType9",
+      "NotificationType8",
+      "NotificationType7",
+      "NotificationType6",
+      "NotificationType5",
+      "NotificationType4",
+      "NotificationType3",
+      "NotificationType2",
+      "NotificationType1",
+      "NotificationType0",
+      "NotificationType",
+      "ErrorCodes",
+      "ResponseError",
+      "RequestType9",
+      "RequestType8",
+      "RequestType7",
+      "RequestType6",
+      "RequestType5",
+      "RequestType4",
+      "RequestType3",
+      "RequestType2",
+      "RequestType1",
+      "RequestType0",
+      "RequestType",
+      "RAL",
+      "CancellationStrategy"
+    ],
+    "importedBy": [
+      "74389",
+      "74389"
+    ],
+    "lines": 114
+  },
+  "23966": {
+    "deps": [
+      "58112"
+    ],
+    "exports": [
+      "$complex-export$ n.lib.WordArray $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 33
+  },
+  "24090": {
+    "deps": [
+      "44617",
+      "39800",
+      "16905",
+      "70819",
+      "29975",
+      "2273",
+      "3591"
+    ],
+    "exports": [
+      "extractPrompt",
+      "trimLastLine",
+      "_contextTooShort",
+      "MIN_PROMPT_CHARS"
+    ],
+    "importedBy": [
+      "36317",
+      "40702",
+      "93402"
+    ],
+    "lines": 144
+  },
+  "24586": {
+    "deps": [
+      "16905",
+      "5798",
+      "65489",
+      "598"
+    ],
+    "exports": [
+      "prepareSolutionForReturn",
+      "SSEProcessor",
+      "splitChunk"
+    ],
+    "importedBy": [
+      "52031"
+    ],
+    "lines": 268
+  },
+  "24943": {
+    "deps": [
+      "3499",
+      "15669",
+      "17250",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "34243",
+      "46951"
+    ],
+    "lines": 107
+  },
+  "25127": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "96696"
+    ],
+    "lines": 88
+  },
+  "25135": {
+    "deps": [
+      "70819"
+    ],
+    "exports": [
+      "ChangeTracker"
+    ],
+    "importedBy": [
+      "93402"
+    ],
+    "lines": 37
+  },
+  "25225": {
+    "deps": [
+      "70819"
+    ],
+    "exports": [
+      "registerCursorTracker",
+      "cursorHistoryStack",
+      "registerDocumentTracker",
+      "sortByAccessTimes",
+      "accessTimes"
+    ],
+    "importedBy": [
+      "29975",
+      "32879"
+    ],
+    "lines": 42
+  },
+  "25316": {
+    "deps": [
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 14
+  },
+  "25661": {
+    "deps": [
+      "56105",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.pem = n.pem || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "23245",
+      "35758",
+      "45067",
+      "46461",
+      "78653"
+    ],
+    "lines": 174
+  },
+  "26305": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "LinkedEditingRangeRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 11
+  },
+  "26590": {
+    "deps": [
+      "77649",
+      "12010"
+    ],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "12049",
+      "23452",
+      "29816",
+      "55128",
+      "58144",
+      "81483"
+    ],
+    "lines": 116
+  },
+  "26759": {
+    "deps": [
+      "56105",
+      "56827",
+      "\"crypto\""
+    ],
+    "exports": [
+      "$complex-export$ n.prng = n.prng || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758",
+      "46572"
+    ],
+    "lines": 239
+  },
+  "26818": {
+    "deps": [
+      "70735",
+      "82396"
+    ],
+    "exports": [
+      "$complex-export$ global._stackChain $complex-export$",
+      "$complex-export$ global._stackChain = require(82396) $complex-export$"
+    ],
+    "importedBy": [
+      "20632",
+      "42172"
+    ],
+    "lines": 5
+  },
+  "27135": {
+    "deps": [
+      "30147"
+    ],
+    "exports": [
+      "Emitter",
+      "Event"
+    ],
+    "importedBy": [
+      "13881",
+      "23870",
+      "56525",
+      "61343",
+      "96654"
+    ],
+    "lines": 134
+  },
+  "27140": {
+    "deps": [
+      "56105",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.cipher = n.cipher || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758",
+      "60070",
+      "62148"
+    ],
+    "lines": 87
+  },
+  "27289": {
+    "deps": [
+      "91186",
+      "8748"
+    ],
+    "exports": [
+      "getNeighborSnippets",
+      "neighborOptionToSelection",
+      "NeighboringSnippetType",
+      "NeighboringTabsOption"
+    ],
+    "importedBy": [
+      "13094",
+      "28684"
+    ],
+    "lines": 103
+  },
+  "27916": {
+    "deps": [
+      "85512",
+      "66932"
+    ],
+    "exports": [
+      "wp"
+    ],
+    "importedBy": [
+      "3245"
+    ],
+    "lines": 67
+  },
+  "28327": {
+    "deps": [
+      "54214",
+      "48226",
+      "45591",
+      "86029"
+    ],
+    "exports": [
+      "Response"
+    ],
+    "importedBy": [
+      "14735",
+      "98941"
+    ],
+    "lines": 108
+  },
+  "28553": {
+    "deps": [
+      "\"fs\"",
+      "\"os\"",
+      "\"path\"",
+      "46467",
+      "59424",
+      "54586",
+      "79321"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "79321"
+    ],
+    "lines": 128
+  },
+  "28634": {
+    "deps": [
+      "40273"
+    ],
+    "exports": [
+      "WorkspaceFoldersFeature"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 35
+  },
+  "28684": {
+    "deps": [
+      "23272",
+      "41986",
+      "27289",
+      "41729",
+      "83542",
+      "17503",
+      "6885",
+      "8748"
+    ],
+    "exports": [
+      "getPrompt",
+      "newLineEnded",
+      "normalizeLanguageId",
+      "PromptOptions",
+      "SuffixStartMode",
+      "SuffixMatchOption",
+      "SuffixOption",
+      "LineEndingOptions",
+      "LocalImportContextOption",
+      "SnippetSelectionOption",
+      "SnippetPositionOption",
+      "SiblingOption",
+      "PathMarkerOption",
+      "LanguageMarkerOption",
+      "TOKENS_RESERVED_FOR_SUFFIX_ENCODING",
+      "MAX_EDIT_DISTANCE_LENGTH",
+      "MAX_PROMPT_LENGTH"
+    ],
+    "importedBy": [
+      "11864",
+      "13094",
+      "17503",
+      "41729"
+    ],
+    "lines": 363
+  },
+  "29180": {
+    "deps": [
+      "13103",
+      "85512"
+    ],
+    "exports": [
+      "performanceMetricsTelemetryProcessor"
+    ],
+    "importedBy": [
+      "91711"
+    ],
+    "lines": 20
+  },
+  "29374": {
+    "deps": [
+      "48628"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "4428",
+      "96292"
+    ],
+    "lines": 129
+  },
+  "29816": {
+    "deps": [
+      "\"http\"",
+      "\"https\"",
+      "12010",
+      "77649",
+      "76357",
+      "81483",
+      "6751",
+      "26590",
+      "23452",
+      "1767",
+      "45452",
+      "62953",
+      "39215",
+      "18998"
+    ],
+    "exports": [
+      "$maybe-default$ h $maybe-default$"
+    ],
+    "importedBy": [
+      "439",
+      "53629",
+      "58144",
+      "90589"
+    ],
+    "lines": 202
+  },
+  "29908": {
+    "deps": [
+      "56105",
+      "56827",
+      "46572",
+      "10017"
+    ],
+    "exports": [
+      "$complex-export$ n.kem = n.kem || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 62
+  },
+  "29929": {
+    "deps": [
+      "\"fs\"",
+      "\"os\"",
+      "\"path\"",
+      "58212",
+      "58144"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "89531"
+    ],
+    "lines": 325
+  },
+  "29975": {
+    "deps": [
+      "16630",
+      "25225"
+    ],
+    "exports": [
+      "NeighborSource",
+      "CursorHistoryStrategy",
+      "NeighborFileType"
+    ],
+    "importedBy": [
+      "16905",
+      "24090"
+    ],
+    "lines": 200
+  },
+  "30002": {
+    "deps": [
+      "15669",
+      "77421",
+      "87382",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "86236"
+    ],
+    "lines": 127
+  },
+  "30141": {
+    "deps": [
+      "\"path\"",
+      "\"child_process\"",
+      "50302"
+    ],
+    "exports": [],
+    "importedBy": [
+      "79321",
+      "79321"
+    ],
+    "lines": 114
+  },
+  "30147": {
+    "deps": [],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "13881",
+      "23034",
+      "23870",
+      "27135",
+      "56525",
+      "61343",
+      "80142",
+      "96654"
+    ],
+    "lines": 17
+  },
+  "30445": {
+    "deps": [
+      "56105",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.cipher.modes = n.cipher.modes || {} $complex-export$"
+    ],
+    "importedBy": [
+      "60070",
+      "62148"
+    ],
+    "lines": 550
+  },
+  "30446": {
+    "deps": [
+      "20039",
+      "65489"
+    ],
+    "exports": [
+      "registerDefaultHandlers"
+    ],
+    "importedBy": [
+      "81843"
+    ],
+    "lines": 62
+  },
+  "30585": {
+    "deps": [
+      "56105",
+      "56827",
+      "46572",
+      "98967"
+    ],
+    "exports": [
+      "$complex-export$ n.pkcs1 = n.pkcs1 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758",
+      "69597"
+    ],
+    "lines": 181
+  },
+  "31284": {
+    "deps": [
+      "58112"
+    ],
+    "exports": [
+      "$complex-export$ u.SHA1 $complex-export$"
+    ],
+    "importedBy": [
+      "6165",
+      "59220",
+      "76679"
+    ],
+    "lines": 86
+  },
+  "31337": {
+    "deps": [
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 44
+  },
+  "31451": {
+    "deps": [
+      "892",
+      "86236",
+      "53406",
+      "9321",
+      "5381"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 51
+  },
+  "31512": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "86236"
+    ],
+    "lines": 3
+  },
+  "31620": {
+    "deps": [
+      "892",
+      "86236",
+      "65489",
+      "5381"
+    ],
+    "exports": [
+      "telemetryExceptionMethod"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 31
+  },
+  "31814": {
+    "deps": [
+      "\"path\"",
+      "\"child_process\"",
+      "\"fs\"",
+      "67684",
+      "67546",
+      "71321"
+    ],
+    "exports": [
+      "$maybe-default$ m $maybe-default$"
+    ],
+    "importedBy": [
+      "84567"
+    ],
+    "lines": 237
+  },
+  "32101": {
+    "deps": [
+      "71018",
+      "41939"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "35671"
+    ],
+    "lines": 18
+  },
+  "32137": {
+    "deps": [],
+    "exports": [
+      "Clock"
+    ],
+    "importedBy": [
+      "4630",
+      "5798",
+      "16905",
+      "93927"
+    ],
+    "lines": 9
+  },
+  "32480": {
+    "deps": [],
+    "exports": [
+      "contentVocabulary",
+      "metadataVocabulary"
+    ],
+    "importedBy": [
+      "35671"
+    ],
+    "lines": 18
+  },
+  "32879": {
+    "deps": [
+      "35809",
+      "16630",
+      "25225",
+      "5798",
+      "20913",
+      "87426",
+      "76974",
+      "65332",
+      "94340",
+      "5381",
+      "10540"
+    ],
+    "exports": [
+      "CopilotService"
+    ],
+    "importedBy": [
+      "81843"
+    ],
+    "lines": 94
+  },
+  "33340": {
+    "deps": [
+      "892",
+      "86236",
+      "7057",
+      "16630",
+      "75611",
+      "63993",
+      "40702",
+      "41749",
+      "5798",
+      "20039",
+      "65489",
+      "52369",
+      "9321",
+      "69582",
+      "53007",
+      "5381",
+      "7838",
+      "6159",
+      "42401",
+      "22930",
+      "56056"
+    ],
+    "exports": [
+      "handleGetCompletionsCycling",
+      "handleGetCompletions"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 195
+  },
+  "34243": {
+    "deps": [
+      "91686",
+      "3499",
+      "88936",
+      "24943"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 59
+  },
+  "34990": {
+    "deps": [],
+    "exports": [
+      "duplicateTree",
+      "cutTreeAfterLine",
+      "isTop",
+      "isVirtual",
+      "isLine",
+      "isBlank",
+      "topNode",
+      "blankNode",
+      "lineNode",
+      "virtualNode"
+    ],
+    "importedBy": [
+      "12563",
+      "16468",
+      "40842",
+      "53105",
+      "72890",
+      "77651"
+    ],
+    "lines": 79
+  },
+  "35034": {
+    "deps": [],
+    "exports": [
+      "normalizeIndentCharacter"
+    ],
+    "importedBy": [
+      "63993"
+    ],
+    "lines": 43
+  },
+  "35095": {
+    "deps": [
+      "35765",
+      "40084"
+    ],
+    "exports": [
+      "TestProductFeatures",
+      "ProductFeature"
+    ],
+    "importedBy": [
+      "4630"
+    ],
+    "lines": 46
+  },
+  "35671": {
+    "deps": [
+      "32101",
+      "37499",
+      "46951",
+      "4480",
+      "32480"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "86236"
+    ],
+    "lines": 17
+  },
+  "35758": {
+    "deps": [
+      "56105",
+      "60070",
+      "63063",
+      "61057",
+      "27140",
+      "62148",
+      "48757",
+      "5945",
+      "29908",
+      "84401",
+      "63585",
+      "91003",
+      "72299",
+      "25661",
+      "30585",
+      "88577",
+      "45067",
+      "23245",
+      "77466",
+      "26759",
+      "51242",
+      "46572",
+      "50514",
+      "21431",
+      "78653",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ require(56105) $complex-export$"
+    ],
+    "importedBy": [
+      "15291",
+      "60325",
+      "98094"
+    ],
+    "lines": 26
+  },
+  "35765": {
+    "deps": [
+      "\"events\"",
+      "39800",
+      "70769",
+      "5798",
+      "20039",
+      "69035",
+      "65489",
+      "84567",
+      "40084"
+    ],
+    "exports": [
+      "refreshToken",
+      "CopilotTokenManagerFromGitHubToken",
+      "FixedCopilotTokenManager",
+      "CopilotTokenManager",
+      "CopilotToken",
+      "authFromGitHubToken",
+      "nowSeconds",
+      "TOKEN_REFRESHED_EVENT"
+    ],
+    "importedBy": [
+      "3591",
+      "4630",
+      "9321",
+      "35095",
+      "45922",
+      "52031",
+      "81843",
+      "91728"
+    ],
+    "lines": 307
+  },
+  "35809": {
+    "deps": [
+      "40289",
+      "49891",
+      "87613",
+      "40273",
+      "76265"
+    ],
+    "exports": [
+      "createConnection",
+      "Files"
+    ],
+    "importedBy": [
+      "10540",
+      "79638",
+      "32879",
+      "39824",
+      "61926",
+      "76974",
+      "87426"
+    ],
+    "lines": 180
+  },
+  "36147": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "56827"
+    ],
+    "lines": 90
+  },
+  "36188": {
+    "deps": [
+      "91225"
+    ],
+    "exports": [],
+    "importedBy": [
+      "79321"
+    ],
+    "lines": 54
+  },
+  "36314": {
+    "deps": [
+      "57418"
+    ],
+    "exports": [
+      "$maybe-default$ i $maybe-default$"
+    ],
+    "importedBy": [
+      "3591"
+    ],
+    "lines": 245
+  },
+  "36317": {
+    "deps": [
+      "7057",
+      "11661",
+      "39800",
+      "75680",
+      "5798",
+      "47553",
+      "598",
+      "86635",
+      "47917",
+      "24090",
+      "2273",
+      "3591",
+      "3883",
+      "65489",
+      "52369"
+    ],
+    "exports": [
+      "launchSolutions",
+      "normalizeCompletionText"
+    ],
+    "importedBy": [
+      "79638"
+    ],
+    "lines": 203
+  },
+  "36577": {
+    "deps": [
+      "15669",
+      "88936",
+      "94285"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 23
+  },
+  "37499": {
+    "deps": [
+      "31337",
+      "59706",
+      "99507",
+      "51216",
+      "70034",
+      "96962",
+      "61135",
+      "10194",
+      "36577",
+      "59450"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "35671"
+    ],
+    "lines": 34
+  },
+  "37560": {
+    "deps": [],
+    "exports": [
+      "generateUuid",
+      "parse",
+      "isUUID",
+      "v4",
+      "empty"
+    ],
+    "importedBy": [
+      "42731",
+      "49891"
+    ],
+    "lines": 107
+  },
+  "37846": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "WillDeleteFilesRequest",
+      "DidDeleteFilesNotification",
+      "DidRenameFilesNotification",
+      "WillRenameFilesRequest",
+      "DidCreateFilesNotification",
+      "WillCreateFilesRequest",
+      "FileOperationPatternKind"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 50
+  },
+  "38173": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "68049",
+      "71756"
+    ],
+    "lines": 15
+  },
+  "38355": {
+    "deps": [
+      "91686",
+      "15669",
+      "46448",
+      "91578",
+      "82881",
+      "87382",
+      "15669",
+      "96696",
+      "97332",
+      "88936",
+      "71143",
+      "10407"
+    ],
+    "exports": [
+      "CodeGen",
+      "Name",
+      "nil",
+      "stringify",
+      "str",
+      "_",
+      "KeywordCxt",
+      "default"
+    ],
+    "importedBy": [
+      "86236"
+    ],
+    "lines": 676
+  },
+  "38878": {
+    "deps": [
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "extendSubschemaMode",
+      "extendSubschemaData",
+      "getSubschema"
+    ],
+    "importedBy": [
+      "91686"
+    ],
+    "lines": 107
+  },
+  "39215": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "qP",
+      "wp"
+    ],
+    "importedBy": [
+      "29816"
+    ],
+    "lines": 34
+  },
+  "39434": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "SemanticTokensRefreshRequest",
+      "SemanticTokensRangeRequest",
+      "SemanticTokensDeltaRequest",
+      "SemanticTokensRequest",
+      "SemanticTokensRegistrationType",
+      "TokenFormat",
+      "SemanticTokens",
+      "SemanticTokenModifiers",
+      "SemanticTokenTypes"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 92
+  },
+  "39731": {
+    "deps": [
+      "43139"
+    ],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 37
+  },
+  "39800": {
+    "deps": [
+      "44617",
+      "68139",
+      "16905",
+      "99876"
     ],
     "exports": [
       "editorVersionHeaders",
       "EditorAndPluginInfo",
       "formatNameAndVersion",
-      "getTestVscInfo",
-      "VscInfo",
+      "EditorSession",
       "getVersion",
       "getBuild",
       "getBuildType",
@@ -841,486 +3505,1434 @@ let module_deps_data = {
       "ConfigKey"
     ],
     "importedBy": [
-      "3",
-      "362",
-      "893",
-      "937",
-      "2279",
-      "2388",
-      "2990",
-      "3197",
-      "4419",
-      "4428",
-      "4540",
-      "4969",
-      "6333",
-      "7254",
-      "9189",
-      "9334",
-      "9380",
-      "9425",
-      "9899",
-      "main"
+      "598",
+      "3895",
+      "4630",
+      "5798",
+      "6159",
+      "16905",
+      "20039",
+      "24090",
+      "35765",
+      "36317",
+      "40702",
+      "47553",
+      "52031",
+      "53406",
+      "57158",
+      "61025",
+      "65120",
+      "65489",
+      "79638",
+      "81843",
+      "89531",
+      "89629",
+      "93927",
+      "94340"
     ],
-    "lines": 312
+    "lines": 309
   },
-  "1148": {
+  "39824": {
     "deps": [
-      "8249",
-      "5109"
+      "35809",
+      "87426"
     ],
     "exports": [
-      "$complex-export$ o.mode.ECB $complex-export$"
+      "FakeWrappedConnection",
+      "FakeMessageWriter",
+      "FakeMessageReader"
     ],
     "importedBy": [
-      "1354"
+      "6159"
     ],
-    "lines": 16
+    "lines": 47
   },
-  "1188": {
+  "39941": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "14735",
+      "56633"
+    ],
+    "lines": 773
+  },
+  "40084": {
     "deps": [
-      "2728"
+      "\"events\""
     ],
     "exports": [
-      "H"
+      "CopilotTokenNotifier"
     ],
     "importedBy": [
-      "4433"
+      "4630",
+      "15291",
+      "35095",
+      "35765",
+      "65489",
+      "93927"
     ],
-    "lines": 44
+    "lines": 13
   },
-  "1227": {
+  "40273": {
     "deps": [
-      "4953"
+      "74389",
+      "51661"
+    ],
+    "exports": [
+      "createProtocolConnection"
+    ],
+    "importedBy": [
+      "8120",
+      "22776",
+      "28634",
+      "42731",
+      "47985",
+      "49891",
+      "50828",
+      "52507",
+      "59817",
+      "76265",
+      "85421",
+      "35809"
+    ],
+    "lines": 38
+  },
+  "40289": {
+    "deps": [],
+    "exports": [
+      "thenable",
+      "typedArray",
+      "stringArray",
+      "array",
+      "func",
+      "error",
+      "number",
+      "string",
+      "boolean"
+    ],
+    "importedBy": [
+      "35809",
+      "49891",
+      "52507"
+    ],
+    "lines": 43
+  },
+  "40585": {
+    "deps": [
+      "\"fs\"",
+      "\"os\"",
+      "\"process\""
+    ],
+    "exports": [
+      "makeXdgPersistenceManager",
+      "PersistenceManager"
+    ],
+    "importedBy": [
+      "81843"
+    ],
+    "lines": 64
+  },
+  "40702": {
+    "deps": [
+      "44617",
+      "76679",
+      "7057",
+      "70140",
+      "83940",
+      "11661",
+      "39800",
+      "70769",
+      "16905",
+      "20190",
+      "5798",
+      "20039",
+      "47553",
+      "52031",
+      "598",
+      "86635",
+      "47917",
+      "24090",
+      "3591",
+      "71153",
+      "3883",
+      "65489",
+      "20913",
+      "52369",
+      "96817",
+      "54619",
+      "41749"
+    ],
+    "exports": [
+      "getGhostText",
+      "completionCache",
+      "ResultType",
+      "ghostTextLogger"
+    ],
+    "importedBy": [
+      "33340",
+      "63993",
+      "91300"
+    ],
+    "lines": 779
+  },
+  "40764": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "DeclarationRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 9
+  },
+  "40842": {
+    "deps": [
+      "34990",
+      "72890"
+    ],
+    "exports": [
+      "lastLineOf",
+      "firstLineOf",
+      "encodeTree",
+      "describeTree",
+      "deparseAndCutTree",
+      "deparseTree",
+      "deparseLine"
+    ],
+    "importedBy": [
+      "16468"
+    ],
+    "lines": 123
+  },
+  "41241": {
+    "deps": [
+      "96292",
+      "4428"
+    ],
+    "exports": [
+      "$complex-export$ require(96292) $complex-export$",
+      "$complex-export$ require(4428) $complex-export$"
+    ],
+    "importedBy": [
+      "14735",
+      "44673",
+      "45591",
+      "56633",
+      "57652",
+      "84751"
+    ],
+    "lines": 10
+  },
+  "41729": {
+    "deps": [
+      "28684",
+      "42133"
+    ],
+    "exports": [
+      "getSiblingFunctionStart",
+      "getSiblingFunctions"
+    ],
+    "importedBy": [
+      "28684"
+    ],
+    "lines": 75
+  },
+  "41749": {
+    "deps": [
+      "65489",
+      "96817"
+    ],
+    "exports": [
+      "handleGhostTextResultTelemetry",
+      "mkBasicResultTelemetry",
+      "mkCanceledResultTelemetry",
+      "telemetryRejected",
+      "telemetryAccepted",
+      "telemetryShown"
+    ],
+    "importedBy": [
+      "33340",
+      "40702",
+      "91300",
+      "93402"
+    ],
+    "lines": 73
+  },
+  "41875": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "56974"
+    ],
+    "lines": 7
+  },
+  "41939": {
+    "deps": [
+      "91578",
+      "3499",
+      "15669",
+      "17250",
+      "87382",
+      "88936"
+    ],
+    "exports": [
+      "callRef",
+      "getValidate",
+      "default"
+    ],
+    "importedBy": [
+      "32101"
+    ],
+    "lines": 141
+  },
+  "41986": {
+    "deps": [
+      "\"path\"",
+      "42133"
+    ],
+    "exports": [
+      "extractLocalImportContext",
+      "getDocComment"
+    ],
+    "importedBy": [
+      "28684"
+    ],
+    "lines": 223
+  },
+  "42133": {
+    "deps": [
+      "\"path\"",
+      "60498"
+    ],
+    "exports": [
+      "getFunctionPositions",
+      "getFirstPrecedingComment",
+      "isFunctionDefinition",
+      "isFunction",
+      "getAncestorWithSiblingFunctions",
+      "queryPythonIsDocstring",
+      "queryGlobalVars",
+      "queryExports",
+      "queryImports",
+      "queryFunctions",
+      "getBlockCloseToken",
+      "parsesWithoutError",
+      "parseTreeSitter",
+      "getLanguage",
+      "languageIdToWasmLanguage",
+      "isSupportedLanguageId",
+      "WASMLanguage"
+    ],
+    "importedBy": [
+      "11864",
+      "13094",
+      "41729",
+      "41986",
+      "94343"
+    ],
+    "lines": 283
+  },
+  "42172": {
+    "deps": [
+      "\"util\"",
+      "\"assert\"",
+      "7267",
+      "20632",
+      "26818"
+    ],
+    "exports": [
+      "getNamespace",
+      "createNamespace",
+      "destroyNamespace",
+      "reset",
+      "ERROR_SYMBOL"
+    ],
+    "importedBy": [
+      "19172"
+    ],
+    "lines": 450
+  },
+  "42401": {
+    "deps": [
+      "96813",
+      "91674",
+      "52369",
+      "70819"
+    ],
+    "exports": [
+      "AgentTextDocument",
+      "getTextDocumentChecked",
+      "AgentLocationFactory"
+    ],
+    "importedBy": [
+      "6159",
+      "10540",
+      "33340",
+      "79638",
+      "81843"
+    ],
+    "lines": 96
+  },
+  "42495": {
+    "deps": [
+      "85315"
+    ],
+    "exports": [
+      "$maybe-default$ i $maybe-default$"
+    ],
+    "importedBy": [
+      "12049"
+    ],
+    "lines": 32
+  },
+  "42731": {
+    "deps": [
+      "40273",
+      "37560"
+    ],
+    "exports": [
+      "attachPartialResult",
+      "ProgressFeature",
+      "attachWorkDone"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 150
+  },
+  "42864": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.pad.ZeroPadding $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 20
+  },
+  "43139": {
+    "deps": [],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "39731",
+      "93809"
+    ],
+    "lines": 37
+  },
+  "43186": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "20632",
+      "21974"
+    ],
+    "lines": 3
+  },
+  "43739": {
+    "deps": [],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 37
+  },
+  "44207": {
+    "deps": [
+      "56105",
+      "61057",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.pkcs7asn1 = n.pkcs7asn1 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "45067",
+      "88577"
+    ],
+    "lines": 309
+  },
+  "44617": {
+    "deps": [
+      "\"fs\"",
+      "\"path\"",
+      "\"util\"",
+      "\"worker_threads\""
+    ],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "2273",
+      "3591",
+      "4630",
+      "6159",
+      "16905",
+      "24090",
+      "39800",
+      "40702",
+      "81843"
+    ],
+    "lines": 8018
+  },
+  "44673": {
+    "deps": [
+      "41241",
+      "56633"
+    ],
+    "exports": [
+      "$complex-export$ new p().api() $complex-export$"
+    ],
+    "importedBy": [
+      "14735"
+    ],
+    "lines": 39
+  },
+  "44826": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "mongo2",
+      "mongo3",
+      "mongo330",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 211
+  },
+  "45067": {
+    "deps": [
+      "56105",
+      "60070",
+      "61057",
+      "62148",
+      "81877",
+      "25661",
+      "44207",
+      "46572",
+      "56827",
+      "46461"
+    ],
+    "exports": [
+      "$complex-export$ n.pkcs7 = n.pkcs7 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 816
+  },
+  "45337": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "98094"
+    ],
+    "lines": 3
+  },
+  "45452": {
+    "deps": [
+      "66932"
     ],
     "exports": [
       "qP",
       "wp"
     ],
     "importedBy": [
-      "8723"
+      "29816"
     ],
-    "lines": 40
+    "lines": 36
   },
-  "1240": {
+  "45591": {
     "deps": [
-      "3487",
-      "9306"
+      "\"buffer\"",
+      "\"stream\"",
+      "\"util\"",
+      "\"zlib\"",
+      "41241"
     ],
     "exports": [
-      "default"
+      "decodeStream",
+      "isPlainObject",
+      "sizeof",
+      "streamToBuffer"
     ],
     "importedBy": [
-      "1581"
+      "14735",
+      "28327",
+      "48226",
+      "54214",
+      "56633",
+      "57652",
+      "84751",
+      "93505"
     ],
-    "lines": 110
+    "lines": 114
   },
-  "1259": {
+  "45922": {
     "deps": [
-      "7625",
-      "731",
-      "8723",
-      "5282"
+      "\"fs\"",
+      "35765"
     ],
     "exports": [
-      "$maybe-default$ l $maybe-default$"
+      "readTestingGitHubToken",
+      "getTestingCopilotTokenManager"
     ],
     "importedBy": [
-      "9574"
-    ],
-    "lines": 69
-  },
-  "1354": {
-    "deps": [
-      "8249",
-      "4938",
-      "2422",
-      "298",
-      "8269",
-      "8214",
-      "2783",
-      "2153",
-      "7792",
-      "34",
-      "7460",
-      "3327",
-      "706",
-      "9824",
-      "2112",
-      "888",
-      "5109",
-      "8568",
-      "4242",
-      "9968",
-      "7660",
-      "1148",
-      "3615",
-      "2807",
-      "1077",
-      "6475",
-      "6991",
-      "2209",
-      "452",
-      "4253",
-      "1857",
-      "4454",
-      "3974"
-    ],
-    "exports": [
-      "$maybe-default$ r $maybe-default$"
-    ],
-    "importedBy": [
-      "3076"
+      "22229"
     ],
     "lines": 35
   },
-  "1547": {
+  "46157": {
     "deps": [],
     "exports": [
-      "NotificationSender"
+      "$maybe-default$ o $maybe-default$"
     ],
     "importedBy": [
-      "362",
-      "8771",
-      "main"
+      "93809"
     ],
-    "lines": 5
+    "lines": 38
   },
-  "1581": {
-    "deps": [
-      "7159",
-      "3924",
-      "1240",
-      "98",
-      "4815",
-      "3487"
-    ],
-    "exports": [
-      "CodeGen",
-      "Name",
-      "nil",
-      "stringify",
-      "str",
-      "_",
-      "KeywordCxt",
-      "default",
-      "$complex-export$ exports = l $complex-export$"
-    ],
-    "importedBy": [
-      "6333"
-    ],
-    "lines": 51
-  },
-  "1595": {
-    "deps": [
-      "\"fs\""
-    ],
-    "exports": [
-      "$complex-export$ () =&gt; (undefined === o && (o = function () {\n  try {\n    r.statSync(\"/.dockerenv\");\n    return true;\n  } catch (e) {\n    return false;\n  }\n}() || function () {\n  try {\n    return r.readFileSync(\"/proc/self/cgroup\", \"utf8\").includes(\"docker\");\n  } catch (e) {\n    return false;\n  }\n}()), o) $complex-export$"
-    ],
-    "importedBy": [
-      "2818",
-      "8318"
-    ],
-    "lines": 22
-  },
-  "1629": {
-    "deps": [
-      "9253",
-      "4470",
-      "5282",
-      "\"applicationinsights-native-metrics\""
-    ],
-    "exports": [
-      "AutoCollectNativePerformance"
-    ],
-    "importedBy": [
-      "9574"
-    ],
-    "lines": 212
-  },
-  "1687": {
-    "deps": [
-      "3487"
-    ],
+  "46448": {
+    "deps": [],
     "exports": [
       "default"
     ],
     "importedBy": [
-      "2649"
-    ],
-    "lines": 23
-  },
-  "1747": {
-    "deps": [
-      "1788",
-      "3507",
-      "9931",
-      "820",
-      "9852",
-      "7408",
-      "4431"
-    ],
-    "exports": [
-      "getPrompt",
-      "newLineEnded",
-      "normalizeLanguageId",
-      "PromptOptions",
-      "SuffixStartMode",
-      "SuffixMatchOption",
-      "SuffixOption",
-      "LineEndingOptions",
-      "LocalImportContextOption",
-      "SnippetSelectionOption",
-      "NeighboringTabsPositionOption",
-      "NeighboringTabsOption",
-      "SiblingOption",
-      "PathMarkerOption",
-      "LanguageMarkerOption",
-      "TOKENS_RESERVED_FOR_SUFFIX_ENCODING",
-      "MAX_EDIT_DISTANCE_LENGTH",
-      "MAX_PROMPT_LENGTH"
-    ],
-    "importedBy": [
-      "820",
-      "1016",
-      "4723",
-      "7408"
-    ],
-    "lines": 365
-  },
-  "1758": {
-    "deps": [
-      "2447"
-    ],
-    "exports": [
-      "formatArgs",
-      "save",
-      "storage",
-      "load",
-      "useColors",
-      "destroy",
-      "colors",
-      "log",
-      "humanize",
-      "$complex-export$ require(2447)(exports) $complex-export$"
-    ],
-    "importedBy": [
-      "8104"
-    ],
-    "lines": 174
-  },
-  "1787": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "7262",
-      "9575",
-      "9803"
+      "38355",
+      "87382"
     ],
     "lines": 11
   },
-  "1788": {
-    "deps": [],
-    "exports": [
-      "getPathMarker",
-      "getLanguageMarker",
-      "comment",
-      "hasLanguageMarker",
-      "languageCommentMarkers"
-    ],
-    "importedBy": [
-      "1747",
-      "4723",
-      "9931"
-    ],
-    "lines": 315
-  },
-  "1839": {
+  "46461": {
     "deps": [
-      "3136"
+      "56105",
+      "60070",
+      "61057",
+      "62148",
+      "91183",
+      "9370",
+      "81877",
+      "25661",
+      "51242",
+      "69597",
+      "56827"
     ],
     "exports": [
-      "registerDocumentTracker",
-      "sortByAccessTimes"
+      "$complex-export$ n.pki = n.pki || {} $complex-export$"
     ],
     "importedBy": [
-      "4969",
-      "main"
+      "23245",
+      "45067",
+      "88577"
     ],
-    "lines": 22
+    "lines": 1999
   },
-  "1857": {
+  "46467": {
     "deps": [
-      "8249",
-      "8269",
-      "8214",
-      "888",
-      "5109"
+      "\"fs\"",
+      "\"path\"",
+      "55575"
     ],
     "exports": [
-      "$complex-export$ r.RC4 $complex-export$"
+      "$complex-export$ (e, t) =&gt; Promise.resolve().then(() => {\n  a(e);\n  t = Object.assign({}, s, t);\n  const r = o(t.fs.mkdir);\n  const n = o(t.fs.stat);\n  const c = e => r(e, t.mode).then(() => e).catch(t => {\n    if (\"ENOENT\" === t.code) {\n      if (t.message.includes(\"null bytes\") || i.dirname(e) === e) throw t;\n      return c(i.dirname(e)).then(() => c(e));\n    }\n    return n(e).then(t => t.isDirectory() ? e : Promise.reject()).catch(() => {\n      throw t;\n    });\n  });\n  return c(i.resolve(e));\n}) $complex-export$",
+      "sync"
     ],
     "importedBy": [
-      "1354"
+      "28553"
     ],
-    "lines": 80
+    "lines": 61
   },
-  "1862": {
+  "46572": {
     "deps": [
-      "\"vscode\"",
-      "362",
-      "6794",
-      "9899",
-      "6333",
-      "47"
+      "56105",
+      "60070",
+      "12262",
+      "26759",
+      "56827"
     ],
     "exports": [
-      "VSCodeCopilotTokenManager",
-      "ExtensionNotificationSender",
-      "setExtensionContext",
-      "telemetryAcceptanceKey"
+      "$complex-export$ n.random $complex-export$"
     ],
     "importedBy": [
-      "main"
+      "4173",
+      "29908",
+      "30585",
+      "35758",
+      "45067",
+      "48757",
+      "51242",
+      "69597",
+      "77466",
+      "78653",
+      "88577"
     ],
-    "lines": 130
+    "lines": 87
   },
-  "1906": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "8318"
-    ],
-    "lines": 21
-  },
-  "1929": {
+  "46725": {
     "deps": [
-      "\"vscode\"",
-      "256",
-      "6333",
-      "3060",
-      "4540"
+      "58112",
+      "58885",
+      "74678",
+      "6165",
+      "78976"
     ],
     "exports": [
-      "OpenCopilotActionProvider"
+      "$complex-export$ n.AES $complex-export$"
     ],
     "importedBy": [
-      "main"
+      "76679"
     ],
-    "lines": 117
+    "lines": 209
   },
-  "1974": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "6694"
-    ],
-    "lines": 46
-  },
-  "2028": {
+  "46951": {
     "deps": [
-      "4953"
-    ],
-    "exports": [
-      "mongoCore",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 33
-  },
-  "2112": {
-    "deps": [
-      "8249",
-      "2783",
-      "9824"
-    ],
-    "exports": [
-      "$complex-export$ d.PBKDF2 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 73
-  },
-  "2130": {
-    "deps": [
-      "\"os\"",
-      "6560"
-    ],
-    "exports": [
-      "supportsColor",
-      "stdout",
-      "stderr"
-    ],
-    "importedBy": [
-      "39"
-    ],
-    "lines": 73
-  },
-  "2141": {
-    "deps": [
-      "3487"
+      "78891",
+      "21162",
+      "98634",
+      "65151",
+      "95609",
+      "5463",
+      "53021",
+      "24943",
+      "34243",
+      "98103",
+      "72869",
+      "54279",
+      "14880",
+      "22609",
+      "50076",
+      "25316"
     ],
     "exports": [
       "default"
     ],
     "importedBy": [
-      "412",
-      "4181",
-      "4815",
-      "5005",
-      "5173",
-      "5667",
-      "8280",
-      "9351"
+      "35671"
     ],
-    "lines": 23
+    "lines": 41
   },
-  "2153": {
+  "47553": {
     "deps": [
-      "8249"
+      "39800",
+      "16905",
+      "20913"
     ],
     "exports": [
-      "$complex-export$ r.SHA256 $complex-export$"
+      "getEngineURL",
+      "TEST_ENGINE_PATHS",
+      "OPENAI_PROXY_HOST"
     ],
     "importedBy": [
-      "1354",
-      "7792"
+      "36317",
+      "40702"
     ],
-    "lines": 129
+    "lines": 34
   },
-  "2209": {
+  "47917": {
     "deps": [
-      "8249",
-      "5109"
+      "52369",
+      "2273"
     ],
     "exports": [
-      "$complex-export$ s.format.Hex $complex-export$"
+      "indentationBlockFinished",
+      "completionCutOrContinue",
+      "contextIndentationFromText",
+      "contextIndentation",
+      "getNodeStart",
+      "isBlockBodyFinished",
+      "isEmptyBlockStart"
     ],
     "importedBy": [
-      "1354"
+      "36317",
+      "40702",
+      "93402"
     ],
-    "lines": 20
+    "lines": 131
   },
-  "2218": {
+  "47985": {
     "deps": [
-      "2277",
-      "6403",
-      "9334",
-      "3286"
+      "40273"
     ],
     "exports": [
-      "completionsFromGhostTextResults"
+      "CallHierarchyFeature"
     ],
     "importedBy": [
-      "3197"
+      "49891"
     ],
-    "lines": 67
+    "lines": 40
   },
-  "2249": {
+  "48226": {
+    "deps": [
+      "\"http\"",
+      "45591"
+    ],
+    "exports": [
+      "Headers"
+    ],
+    "importedBy": [
+      "7619",
+      "14735",
+      "28327",
+      "93505",
+      "98941"
+    ],
+    "lines": 112
+  },
+  "48258": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ o.mode.CTR $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 24
+  },
+  "48410": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "55128"
+    ],
+    "lines": 46
+  },
+  "48517": {
+    "deps": [],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 37
+  },
+  "48628": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "29374"
+    ],
+    "lines": 95
+  },
+  "48757": {
+    "deps": [
+      "56105",
+      "10017",
+      "46572",
+      "593",
+      "56827",
+      "89796"
+    ],
+    "exports": [
+      "$complex-export$ n.pki.ed25519 = n.ed25519 = n.ed25519 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 892
+  },
+  "49161": {
+    "deps": [],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "99507"
+    ],
+    "lines": 22
+  },
+  "49668": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 4
+  },
+  "49891": {
+    "deps": [
+      "40273",
+      "40289",
+      "37560",
+      "42731",
+      "52507",
+      "28634",
+      "47985",
+      "59817",
+      "85421",
+      "50828",
+      "22776",
+      "8120"
+    ],
+    "exports": [
+      "createConnection",
+      "combineFeatures",
+      "combineLanguagesFeatures",
+      "combineWorkspaceFeatures",
+      "combineWindowFeatures",
+      "combineClientFeatures",
+      "combineTracerFeatures",
+      "combineTelemetryFeatures",
+      "combineConsoleFeatures",
+      "_LanguagesImpl",
+      "BulkUnregistration",
+      "BulkRegistration",
+      "ErrorMessageTracker",
+      "TextDocuments"
+    ],
+    "importedBy": [
+      "35809",
+      "76265"
+    ],
+    "lines": 861
+  },
+  "50076": {
+    "deps": [
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 70
+  },
+  "50302": {
+    "deps": [
+      "81327",
+      "\"string_decoder\""
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "30141"
+    ],
+    "lines": 48
+  },
+  "50467": {
+    "deps": [],
+    "exports": [
+      "knownFileExtensions",
+      "knownLanguages",
+      "knownTemplateLanguageExtensions"
+    ],
+    "importedBy": [
+      "20190"
+    ],
+    "lines": 705
+  },
+  "50514": {
+    "deps": [
+      "56105",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.rc2 = n.rc2 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "35758"
+    ],
+    "lines": 172
+  },
+  "50828": {
+    "deps": [
+      "40273"
+    ],
+    "exports": [
+      "FileOperationsFeature"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 38
+  },
+  "51216": {
+    "deps": [
+      "3499",
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 22
+  },
+  "51242": {
+    "deps": [
+      "56105",
+      "46572",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.pss = n.pss || {} $complex-export$"
+    ],
+    "importedBy": [
+      "23245",
+      "35758",
+      "46461"
+    ],
+    "lines": 101
+  },
+  "51661": {
+    "deps": [
+      "74389",
+      "91674",
+      "66140",
+      "10542",
+      "73767"
+    ],
+    "exports": [
+      "LSPErrorCodes",
+      "createProtocolConnection"
+    ],
+    "importedBy": [
+      "40273"
+    ],
+    "lines": 45
+  },
+  "52031": {
+    "deps": [
+      "\"util\"",
+      "35765",
+      "11661",
+      "39800",
+      "16905",
+      "54619",
+      "5798",
+      "20039",
+      "86635",
+      "3591",
+      "54604",
+      "65489",
+      "598",
+      "24586"
+    ],
+    "exports": [
+      "LiveOpenAIFetcher",
+      "postProcessChoices",
+      "OpenAIFetcher",
+      "extractEngineName",
+      "getProcessingTime",
+      "getRequestId",
+      "CopilotUiKind"
+    ],
+    "importedBy": [
+      "598",
+      "40702",
+      "93927"
+    ],
+    "lines": 271
+  },
+  "52369": {
+    "deps": [],
+    "exports": [
+      "LocationFactory"
+    ],
+    "importedBy": [
+      "4630",
+      "6159",
+      "33340",
+      "36317",
+      "40702",
+      "42401",
+      "47917",
+      "63993",
+      "75680",
+      "79638",
+      "81843"
+    ],
+    "lines": 5
+  },
+  "52505": {
+    "deps": [],
+    "exports": [
+      "TimeBucketGranularity",
+      "DEFAULT_GRANULARITY",
+      "GranularityImplementation"
+    ],
+    "importedBy": [
+      "68495"
+    ],
+    "lines": 98
+  },
+  "52507": {
+    "deps": [
+      "40273",
+      "40289"
+    ],
+    "exports": [
+      "ConfigurationFeature"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 26
+  },
+  "53007": {
+    "deps": [
+      "70140"
+    ],
+    "exports": [
+      "CopilotCompletionCache"
+    ],
+    "importedBy": [
+      "6159",
+      "33340",
+      "55581",
+      "71382",
+      "81843",
+      "91300"
+    ],
+    "lines": 11
+  },
+  "53021": {
+    "deps": [
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 42
+  },
+  "53105": {
+    "deps": [
+      "34990",
+      "12563"
+    ],
+    "exports": [
+      "processMarkdown"
+    ],
+    "importedBy": [
+      "16468"
+    ],
+    "lines": 40
+  },
+  "53406": {
+    "deps": [
+      "39800",
+      "70769",
+      "20039"
+    ],
+    "exports": [
+      "GitHubDeviceFlow"
+    ],
+    "importedBy": [
+      "31451",
+      "81843"
+    ],
+    "lines": 87
+  },
+  "53571": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "79321"
+    ],
+    "lines": 15
+  },
+  "53629": {
+    "deps": [
+      "\"https\"",
+      "29816",
+      "12010"
+    ],
+    "exports": [
+      "$maybe-default$ s $maybe-default$"
+    ],
+    "importedBy": [
+      "80639"
+    ],
+    "lines": 64
+  },
+  "53954": {
+    "deps": [
+      "58112",
+      "58885",
+      "74678",
+      "6165",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.RC4 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 80
+  },
+  "54086": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "80751"
+    ],
+    "lines": 223
+  },
+  "54214": {
+    "deps": [
+      "\"stream\"",
+      "\"util\"",
+      "2501",
+      "45591"
+    ],
+    "exports": [
+      "Body",
+      "cloneStream",
+      "guessContentType"
+    ],
+    "importedBy": [
+      "14735",
+      "28327",
+      "93505"
+    ],
+    "lines": 118
+  },
+  "54279": {
+    "deps": [
+      "3499"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 13
+  },
+  "54326": {
+    "deps": [
+      "56105",
+      "91183",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.md5 = n.md5 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "21431",
+      "63585",
+      "78653"
+    ],
+    "lines": 159
+  },
+  "54586": {
+    "deps": [
+      "\"crypto\"",
+      "98094",
+      "59424"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "28553",
+      "79321"
+    ],
+    "lines": 53
+  },
+  "54604": {
+    "deps": [],
+    "exports": [
+      "isRepetitive",
+      "RepetitionFilterMode"
+    ],
+    "importedBy": [
+      "3883",
+      "16905",
+      "52031"
+    ],
+    "lines": 57
+  },
+  "54619": {
+    "deps": [
+      "16905"
+    ],
+    "exports": [
+      "getDebounceLimit",
+      "GhostTextDebounceManager"
+    ],
+    "importedBy": [
+      "4630",
+      "20039",
+      "40702",
+      "52031",
+      "93927"
+    ],
+    "lines": 25
+  },
+  "54725": {
+    "deps": [],
+    "exports": [
+      "treeScore"
+    ],
+    "importedBy": [
+      "96817"
+    ],
+    "lines": 6415
+  },
+  "54800": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ i.mode.ECB $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 16
+  },
+  "55128": {
+    "deps": [
+      "\"url\"",
+      "85512",
+      "77649",
+      "76357",
+      "57774",
+      "26590",
+      "48410",
+      "23452"
+    ],
+    "exports": [
+      "$maybe-default$ h $maybe-default$"
+    ],
+    "importedBy": [
+      "92646"
+    ],
+    "lines": 226
+  },
+  "55575": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "46467"
+    ],
+    "lines": 63
+  },
+  "55581": {
+    "deps": [
+      "892",
+      "86236",
+      "93402",
+      "53007",
+      "5381",
+      "6159",
+      "56056"
+    ],
+    "exports": [
+      "notifyAccepted"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 40
+  },
+  "55856": {
+    "deps": [
+      "66932",
+      "\"path\"",
+      "1055",
+      "76990"
+    ],
+    "exports": [
+      "mysql",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 81
+  },
+  "56056": {
+    "deps": [
+      "892"
+    ],
+    "exports": [
+      "TestingOptions"
+    ],
+    "importedBy": [
+      "33340",
+      "55581",
+      "71382",
+      "79638",
+      "86934",
+      "91300",
+      "94340"
+    ],
+    "lines": 8
+  },
+  "56105": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "593",
+      "4173",
+      "5945",
+      "9370",
+      "10017",
+      "12262",
+      "21431",
+      "23245",
+      "25661",
+      "26759",
+      "27140",
+      "29908",
+      "30445",
+      "30585",
+      "35758",
+      "44207",
+      "45067",
+      "46461",
+      "46572",
+      "48757",
+      "50514",
+      "51242",
+      "54326",
+      "56827",
+      "60070",
+      "61057",
+      "62148",
+      "63063",
+      "69597",
+      "72299",
+      "77466",
+      "78653",
+      "81877",
+      "84401",
+      "88577",
+      "89796",
+      "91003",
+      "91183",
+      "98967"
+    ],
+    "lines": 5
+  },
+  "56190": {
     "deps": [],
     "exports": [
       "SEMVER_SPEC_VERSION",
@@ -1365,546 +4977,1422 @@ let module_deps_data = {
       "coerce"
     ],
     "importedBy": [
-      "7645"
+      "8497"
     ],
     "lines": 1103
   },
-  "2277": {
+  "56238": {
     "deps": [
-      "\"crypto\""
+      "57214"
     ],
-    "exports": [],
+    "exports": [
+      "TestAgentNotificationSender"
+    ],
     "importedBy": [
-      "2218",
-      "2388",
-      "9334"
+      "6159"
     ],
-    "lines": 199
+    "lines": 20
   },
-  "2279": {
+  "56261": {
     "deps": [
-      "6143",
-      "5468",
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.pad.NoPadding $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 8
+  },
+  "56405": {
+    "deps": [
+      "\"os\"",
+      "85512",
+      "85315",
+      "77649",
+      "12010"
+    ],
+    "exports": [
+      "$maybe-default$ u $maybe-default$"
+    ],
+    "importedBy": [
+      "80639"
+    ],
+    "lines": 176
+  },
+  "56525": {
+    "deps": [
+      "30147",
+      "67574",
+      "27135"
+    ],
+    "exports": [
+      "ReadableStreamMessageReader",
+      "AbstractMessageReader",
+      "MessageReader"
+    ],
+    "importedBy": [
+      "23870"
+    ],
+    "lines": 191
+  },
+  "56633": {
+    "deps": [
+      "\"stream\"",
+      "\"tls\"",
       "\"util\"",
-      "1133",
-      "5413",
-      "6333"
+      "39941",
+      "41241",
+      "75899",
+      "84751",
+      "57652",
+      "93430",
+      "45591",
+      "86029",
+      "93180"
     ],
     "exports": [
-      "postRequest",
-      "Response",
-      "HelixFetcher",
-      "isAbortError",
-      "Fetcher",
-      "init"
+      "request",
+      "setupContext",
+      "resetContext",
+      "RequestAbortedError",
+      "ALPN_HTTP2",
+      "ALPN_HTTP2C",
+      "ALPN_HTTP1_1",
+      "ALPN_HTTP1_0"
     ],
     "importedBy": [
-      "362",
-      "4419",
-      "9334",
-      "9408",
-      "9748",
-      "main"
+      "44673"
     ],
-    "lines": 171
+    "lines": 309
   },
-  "2296": {
+  "56827": {
     "deps": [
-      "412",
-      "3487",
-      "6776",
-      "6776"
+      "56105",
+      "36147"
     ],
     "exports": [
-      "default"
+      "$complex-export$ n.util = n.util || {} $complex-export$"
     ],
     "importedBy": [
-      "8200"
+      "593",
+      "4173",
+      "5945",
+      "12262",
+      "21431",
+      "23245",
+      "25661",
+      "26759",
+      "27140",
+      "29908",
+      "30445",
+      "30585",
+      "35758",
+      "44207",
+      "45067",
+      "46461",
+      "46572",
+      "48757",
+      "50514",
+      "51242",
+      "54326",
+      "60070",
+      "61057",
+      "62148",
+      "69597",
+      "72299",
+      "77466",
+      "78653",
+      "84401",
+      "88577",
+      "91003",
+      "98967"
     ],
-    "lines": 78
+    "lines": 1330
   },
-  "2301": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "2512",
-      "7898"
-    ],
-    "lines": 3
-  },
-  "2337": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "6008",
-      "9073"
-    ],
-    "lines": 15
-  },
-  "2388": {
+  "56974": {
     "deps": [
-      "2277",
-      "6932",
-      "1133",
-      "256",
-      "9899",
-      "3",
-      "937",
-      "6722",
-      "7727",
-      "4969",
-      "2533",
-      "766",
-      "1124",
-      "6333",
-      "6403"
+      "\"os\"",
+      "41875"
     ],
     "exports": [
-      "launchSolutions",
-      "normalizeCompletionText"
+      "supportsColor",
+      "stdout",
+      "stderr"
     ],
     "importedBy": [
-      "893"
+      "4428"
     ],
-    "lines": 246
+    "lines": 73
   },
-  "2422": {
+  "57158": {
     "deps": [
-      "8249"
+      "14735",
+      "1193",
+      "39800",
+      "20039",
+      "58290"
     ],
     "exports": [
-      "$complex-export$ r.lib.WordArray $complex-export$"
+      "HelixFetcher"
     ],
     "importedBy": [
-      "1354"
+      "4630",
+      "93927"
     ],
-    "lines": 33
+    "lines": 87
   },
-  "2447": {
+  "57214": {
     "deps": [
-      "7824"
+      "69035",
+      "87426"
+    ],
+    "exports": [
+      "ConnectionNotificationSender",
+      "AgentNotificationSender"
+    ],
+    "importedBy": [
+      "6159",
+      "56238",
+      "61926",
+      "76974",
+      "79638",
+      "81843",
+      "82043"
+    ],
+    "lines": 22
+  },
+  "57418": {
+    "deps": [
+      "91320",
+      "68049"
     ],
     "exports": [
       "$maybe-default$ <anonymouse-function> $maybe-default$"
     ],
     "importedBy": [
-      "39",
-      "1758"
+      "36314"
     ],
-    "lines": 129
+    "lines": 25
   },
-  "2495": {
+  "57600": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "71274"
+    ],
+    "lines": 27
+  },
+  "57652": {
     "deps": [
-      "4953",
+      "\"http2\"",
       "\"stream\"",
-      "\"console\""
+      "41241",
+      "75899",
+      "45591"
     ],
     "exports": [
-      "console",
-      "enable"
+      "request",
+      "setupContext",
+      "resetContext"
     ],
     "importedBy": [
-      "4106"
+      "56633"
     ],
-    "lines": 70
+    "lines": 253
   },
-  "2499": {
+  "57774": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "55128",
+      "81483"
+    ],
+    "lines": 26
+  },
+  "58112": {
+    "deps": [
+      "\"crypto\""
+    ],
+    "exports": [
+      "$maybe-default$ n $maybe-default$"
+    ],
+    "importedBy": [
+      "1007",
+      "3866",
+      "5129",
+      "6165",
+      "6863",
+      "14373",
+      "17051",
+      "18107",
+      "18559",
+      "23787",
+      "23966",
+      "31284",
+      "42864",
+      "46725",
+      "48258",
+      "53954",
+      "54800",
+      "56261",
+      "58885",
+      "59220",
+      "69708",
+      "71455",
+      "73456",
+      "74678",
+      "76679",
+      "78976",
+      "83816",
+      "88400",
+      "89039",
+      "91371",
+      "92232",
+      "95207",
+      "98581"
+    ],
+    "lines": 264
+  },
+  "58144": {
+    "deps": [
+      "6751",
+      "3245",
+      "13014",
+      "13103",
+      "29816",
+      "92646",
+      "26590",
+      "12010",
+      "80639",
+      "80582",
+      "439",
+      "85512"
+    ],
+    "exports": [
+      "TelemetryClient",
+      "Contracts",
+      "DistributedTracingModes",
+      "defaultClient",
+      "liveMetricsClient",
+      "setup",
+      "start",
+      "getCorrelationContext",
+      "wrapWithCorrelationContext",
+      "Configuration",
+      "dispose"
+    ],
+    "importedBy": [
+      "29929"
+    ],
+    "lines": 221
+  },
+  "58212": {
     "deps": [],
     "exports": [
-      "redactPaths"
+      "extensions",
+      "workspace",
+      "env",
+      "UIKind",
+      "EndOfLine"
     ],
     "importedBy": [
-      "6333"
+      "29929"
     ],
-    "lines": 13
+    "lines": 29
   },
-  "2500": {
+  "58290": {
     "deps": [
-      "\"stream\"",
-      "9872",
-      "2981"
+      "\"tls\"",
+      "15291"
     ],
     "exports": [
-      "cacheableResponse"
+      "RootCertificateConfigurator"
     ],
     "importedBy": [
-      "6143"
+      "57158"
     ],
-    "lines": 89
+    "lines": 31
   },
-  "2512": {
+  "58885": {
     "deps": [
-      "2301",
-      "7898"
+      "58112"
     ],
     "exports": [
-      "$complex-export$ global._stackChain $complex-export$",
-      "$complex-export$ global._stackChain = require(7898) $complex-export$"
+      "$complex-export$ n.enc.Base64 $complex-export$"
     ],
     "importedBy": [
-      "3223",
-      "4046"
+      "5129",
+      "18107",
+      "46725",
+      "53954",
+      "69708",
+      "76679"
     ],
-    "lines": 5
+    "lines": 67
   },
-  "2531": {
+  "59091": {
     "deps": [
-      "6776",
-      "4063",
-      "9461",
-      "540"
+      "\"crypto\""
     ],
     "exports": [
-      "getSchemaRefs",
-      "resolveUrl",
-      "normalizeId",
-      "_getFullPath",
-      "getFullPath",
-      "inlineRef"
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
     ],
     "importedBy": [
-      "4815",
-      "5173",
-      "6646",
-      "7159"
+      "79321"
     ],
-    "lines": 149
+    "lines": 11
   },
-  "2533": {
+  "59187": {
     "deps": [
-      "3055563",
-      "4723"
+      "66545"
     ],
     "exports": [
-      "parsesWithoutError",
-      "getPrompt",
-      "getNodeStart",
-      "getFunctionPositions",
-      "getBlockCloseToken",
-      "isSupportedLanguageId",
-      "isBlockBodyFinished",
-      "isEmptyBlockStart",
-      "terminate",
-      "init",
-      "n"
+      "ValueScope",
+      "ValueScopeName",
+      "Scope",
+      "varKinds",
+      "UsedValueState"
     ],
     "importedBy": [
-      "1124",
-      "2388",
-      "4969",
-      "7727",
-      "main"
+      "15669",
+      "15669"
     ],
-    "lines": 135
+    "lines": 160
   },
-  "2588": {
+  "59220": {
     "deps": [
-      "\"fs\"",
-      "\"os\"",
-      "\"path\"",
-      "\"zlib\"",
-      "\"child_process\"",
-      "5282",
-      "8723",
-      "5740"
+      "58112",
+      "31284",
+      "73456"
     ],
     "exports": [
-      "$maybe-default$ d $maybe-default$"
+      "$complex-export$ d.PBKDF2 $complex-export$"
     ],
     "importedBy": [
-      "7625"
+      "76679"
     ],
-    "lines": 466
+    "lines": 73
   },
-  "2626": {
+  "59424": {
     "deps": [
-      "5481"
+      "98094"
     ],
     "exports": [
-      "hasOwnProperty",
-      "n"
+      "$maybe-default$ u $maybe-default$"
     ],
     "importedBy": [
-      "5290"
+      "28553",
+      "54586",
+      "70229",
+      "79321"
     ],
-    "lines": 9
+    "lines": 93
   },
-  "2649": {
+  "59450": {
     "deps": [
-      "3983",
-      "430",
-      "3229",
-      "4336",
-      "498",
-      "3301",
-      "1687",
-      "2958",
-      "4693",
-      "966"
+      "15669",
+      "88936",
+      "94285"
     ],
     "exports": [
       "default"
     ],
     "importedBy": [
-      "3924"
+      "37499"
+    ],
+    "lines": 47
+  },
+  "59558": {
+    "deps": [],
+    "exports": [
+      "lexEditDistance",
+      "lexicalAnalyzer",
+      "lexGeneratorWords",
+      "reverseLexDictionary",
+      "emptyLexDictionary",
+      "editDistance"
+    ],
+    "importedBy": [
+      "93402"
+    ],
+    "lines": 159
+  },
+  "59591": {
+    "deps": [],
+    "exports": [
+      "redactPaths"
+    ],
+    "importedBy": [
+      "65489"
+    ],
+    "lines": 13
+  },
+  "59706": {
+    "deps": [
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 24
+  },
+  "59817": {
+    "deps": [
+      "40273"
+    ],
+    "exports": [
+      "SemanticTokensBuilder",
+      "SemanticTokensFeature"
+    ],
+    "importedBy": [
+      "49891",
+      "76265"
+    ],
+    "lines": 148
+  },
+  "60070": {
+    "deps": [
+      "56105",
+      "27140",
+      "30445",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.aes = n.aes || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "21431",
+      "35758",
+      "45067",
+      "46461",
+      "46572",
+      "63063"
+    ],
+    "lines": 353
+  },
+  "60325": {
+    "deps": [
+      "35758",
+      "84821"
+    ],
+    "exports": [
+      "validFormats",
+      "transform"
+    ],
+    "importedBy": [
+      "11240"
+    ],
+    "lines": 57
+  },
+  "60498": {
+    "deps": [
+      "\"path\"",
+      "\"fs\""
+    ],
+    "exports": [
+      "$maybe-default$ n $maybe-default$",
+      "$maybe-default$ i $maybe-default$"
+    ],
+    "importedBy": [
+      "42133",
+      "42133"
+    ],
+    "lines": 3999
+  },
+  "60660": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [],
+    "lines": 1
+  },
+  "61025": {
+    "deps": [
+      "892",
+      "86236",
+      "39800",
+      "5381"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 27
+  },
+  "61057": {
+    "deps": [
+      "56105",
+      "56827",
+      "81877"
+    ],
+    "exports": [
+      "$complex-export$ n.asn1 = n.asn1 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "23245",
+      "35758",
+      "44207",
+      "45067",
+      "46461",
+      "69597",
+      "78653",
+      "88577",
+      "89796"
+    ],
+    "lines": 688
+  },
+  "61135": {
+    "deps": [
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 23
+  },
+  "61343": {
+    "deps": [
+      "30147",
+      "67574",
+      "20839",
+      "96184",
+      "27135",
+      "13881"
+    ],
+    "exports": [
+      "createMessageConnection",
+      "ConnectionOptions",
+      "CancellationStrategy",
+      "CancellationSenderStrategy",
+      "CancellationReceiverStrategy",
+      "ConnectionStrategy",
+      "ConnectionError",
+      "ConnectionErrors",
+      "LogTraceNotification",
+      "SetTraceNotification",
+      "TraceFormat",
+      "Trace",
+      "NullLogger",
+      "ProgressType"
+    ],
+    "importedBy": [
+      "23870"
+    ],
+    "lines": 1073
+  },
+  "61624": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "tedious",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 67
+  },
+  "61747": {
+    "deps": [
+      "94403"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "71274"
+    ],
+    "lines": 241
+  },
+  "61886": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 25
+  },
+  "61926": {
+    "deps": [
+      "35809",
+      "57214"
+    ],
+    "exports": [
+      "NotificationStatusReporter"
+    ],
+    "importedBy": [
+      "81843"
+    ],
+    "lines": 65
+  },
+  "62148": {
+    "deps": [
+      "56105",
+      "27140",
+      "30445",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.des = n.des || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "35758",
+      "45067",
+      "46461"
+    ],
+    "lines": 369
+  },
+  "62953": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "qP",
+      "wp"
+    ],
+    "importedBy": [
+      "29816"
+    ],
+    "lines": 39
+  },
+  "63031": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "82396"
+    ],
+    "lines": 31
+  },
+  "63063": {
+    "deps": [
+      "56105",
+      "60070",
+      "78653"
+    ],
+    "exports": [
+      "$complex-export$ n.tls $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 154
+  },
+  "63405": {
+    "deps": [],
+    "exports": [
+      "HeaderContributors"
+    ],
+    "importedBy": [
+      "4630",
+      "20039",
+      "93927"
+    ],
+    "lines": 18
+  },
+  "63585": {
+    "deps": [
+      "91183",
+      "54326",
+      "98967",
+      "12262",
+      "593"
+    ],
+    "exports": [
+      "$complex-export$ require(91183) $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 5
+  },
+  "63993": {
+    "deps": [
+      "7057",
+      "52369",
+      "40702",
+      "35034"
+    ],
+    "exports": [
+      "completionsFromGhostTextResults"
+    ],
+    "importedBy": [
+      "33340"
+    ],
+    "lines": 67
+  },
+  "64346": {
+    "deps": [
+      "\"events\""
+    ],
+    "exports": [
+      "AbortController",
+      "AbortSignal",
+      "TimeoutSignal"
+    ],
+    "importedBy": [
+      "14735",
+      "93505"
+    ],
+    "lines": 111
+  },
+  "64505": {
+    "deps": [
+      "12563",
+      "72890"
+    ],
+    "exports": [
+      "getWindowsDelineations"
+    ],
+    "importedBy": [
+      "16468",
+      "91186"
+    ],
+    "lines": 75
+  },
+  "65120": {
+    "deps": [
+      "\"crypto\"",
+      "\"os\"",
+      "7057",
+      "39800"
+    ],
+    "exports": [
+      "agentEditorSession"
+    ],
+    "importedBy": [
+      "81843"
+    ],
+    "lines": 45
+  },
+  "65151": {
+    "deps": [
+      "15669",
+      "88936",
+      "3499",
+      "78891"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 31
+  },
+  "65332": {
+    "deps": [
+      "86934",
+      "33340",
+      "79638",
+      "61025",
+      "55581",
+      "71382",
+      "91300",
+      "89629",
+      "66885",
+      "31451",
+      "96656",
+      "31620",
+      "72530",
+      "8269",
+      "73609",
+      "86584",
+      "22930",
+      "8730",
+      "82043",
+      "22229",
+      "90623",
+      "98127"
+    ],
+    "exports": [
+      "NotificationHandlers",
+      "getAllMethods",
+      "MethodHandlers"
+    ],
+    "importedBy": [
+      "6159",
+      "32879",
+      "81843"
+    ],
+    "lines": 68
+  },
+  "65489": {
+    "deps": [
+      "86236",
+      "7057",
+      "40084",
+      "39800",
+      "16905",
+      "74914",
+      "20913",
+      "96712",
+      "59591"
+    ],
+    "exports": [
+      "logEnginePrompt",
+      "logEngineCompletion",
+      "telemetryError",
+      "telemetryException",
+      "telemetryRaw",
+      "telemetryExpProblem",
+      "telemetry",
+      "TelemetryEndpointUrl",
+      "now",
+      "telemetrizePromptLength",
+      "TelemetryData",
+      "TelemetryUserConfig",
+      "TelemetryReporters",
+      "CopilotTelemetryReporter"
+    ],
+    "importedBy": [
+      "598",
+      "3883",
+      "4630",
+      "5798",
+      "20039",
+      "24586",
+      "30446",
+      "31620",
+      "33340",
+      "35765",
+      "36317",
+      "40702",
+      "41749",
+      "52031",
+      "75917",
+      "79638",
+      "81843",
+      "89531",
+      "93402",
+      "93927",
+      "96712"
+    ],
+    "lines": 431
+  },
+  "65614": {
+    "deps": [
+      "\"fs\""
+    ],
+    "exports": [
+      "defaultFileSystem",
+      "FileSystem"
+    ],
+    "importedBy": [
+      "13094"
+    ],
+    "lines": 18
+  },
+  "66046": {
+    "deps": [
+      "20039",
+      "75917"
+    ],
+    "exports": [
+      "ExpConfigNone",
+      "ExpConfigFromTAS",
+      "ExpConfigMaker"
+    ],
+    "importedBy": [
+      "4630",
+      "16905",
+      "93927"
+    ],
+    "lines": 45
+  },
+  "66140": {
+    "deps": [
+      "74389"
+    ],
+    "exports": [
+      "ProtocolNotificationType",
+      "ProtocolNotificationType0",
+      "ProtocolRequestType",
+      "ProtocolRequestType0",
+      "RegistrationType"
+    ],
+    "importedBy": [
+      "5206",
+      "10542",
+      "13394",
+      "21862",
+      "26305",
+      "37846",
+      "39434",
+      "40764",
+      "51661",
+      "71589",
+      "73443",
+      "75726",
+      "79795",
+      "79891",
+      "82122",
+      "82918",
+      "85934"
+    ],
+    "lines": 39
+  },
+  "66471": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "94285",
+      "96696"
+    ],
+    "lines": 30
+  },
+  "66545": {
+    "deps": [],
+    "exports": [
+      "regexpCode",
+      "getEsmExportName",
+      "getProperty",
+      "safeStringify",
+      "stringify",
+      "strConcat",
+      "addCodeArg",
+      "str",
+      "_",
+      "nil",
+      "_Code",
+      "Name",
+      "IDENTIFIER",
+      "_CodeOrName"
+    ],
+    "importedBy": [
+      "15669",
+      "15669",
+      "59187",
+      "88936"
+    ],
+    "lines": 167
+  },
+  "66584": {
+    "deps": [
+      "69035"
+    ],
+    "exports": [
+      "TestNotificationSender",
+      "TestUrlOpener",
+      "rangeToString",
+      "positionToString"
+    ],
+    "importedBy": [
+      "4630"
+    ],
+    "lines": 41
+  },
+  "66885": {
+    "deps": [
+      "892",
+      "86236",
+      "9321",
+      "5381"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 47
+  },
+  "66932": {
+    "deps": [
+      "8497",
+      "99674",
+      "\"module\""
+    ],
+    "exports": [
+      "makePatchingRequire",
+      "channel"
+    ],
+    "importedBy": [
+      "1767",
+      "4765",
+      "7834",
+      "8159",
+      "18998",
+      "23805",
+      "27916",
+      "39215",
+      "44826",
+      "45452",
+      "55856",
+      "61624",
+      "62953",
+      "67726",
+      "68345",
+      "70248",
+      "72469",
+      "72784",
+      "88041"
+    ],
+    "lines": 113
+  },
+  "67066": {
+    "deps": [
+      "\"assert\"",
+      "20190"
+    ],
+    "exports": [
+      "FixedLanguageDetection",
+      "TestLanguageDetection"
+    ],
+    "importedBy": [
+      "4630"
+    ],
+    "lines": 41
+  },
+  "67546": {
+    "deps": [
+      "\"fs\""
+    ],
+    "exports": [
+      "$complex-export$ () =&gt; (undefined === i && (i = function () {\n  try {\n    n.statSync(\"/.dockerenv\");\n    return true;\n  } catch (e) {\n    return false;\n  }\n}() || function () {\n  try {\n    return n.readFileSync(\"/proc/self/cgroup\", \"utf8\").includes(\"docker\");\n  } catch (e) {\n    return false;\n  }\n}()), i) $complex-export$"
+    ],
+    "importedBy": [
+      "31814",
+      "67684"
+    ],
+    "lines": 22
+  },
+  "67574": {
+    "deps": [],
+    "exports": [
+      "stringArray",
+      "array",
+      "func",
+      "error",
+      "number",
+      "string",
+      "boolean"
+    ],
+    "importedBy": [
+      "13881",
+      "20839",
+      "56525",
+      "61343",
+      "96654"
     ],
     "lines": 34
   },
-  "2728": {
-    "deps": [],
-    "exports": [
-      "getArg",
-      "isAbsolute",
-      "urlParse",
-      "urlGenerate",
-      "normalize",
-      "join",
-      "relative",
-      "toSetString",
-      "fromSetString",
-      "compareByOriginalPositions",
-      "compareByGeneratedPositionsDeflated",
-      "compareByGeneratedPositionsInflated",
-      "parseSourceMapInput",
-      "computeSourceURL"
-    ],
-    "importedBy": [
-      "1188",
-      "4433",
-      "6771",
-      "7085",
-      "8213"
-    ],
-    "lines": 214
-  },
-  "2783": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$complex-export$ u.SHA1 $complex-export$"
-    ],
-    "importedBy": [
-      "888",
-      "1354",
-      "2112"
-    ],
-    "lines": 86
-  },
-  "2807": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.pad.Iso10126 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 17
-  },
-  "2818": {
+  "67684": {
     "deps": [
       "\"os\"",
       "\"fs\"",
-      "1595"
+      "67546"
     ],
     "exports": [
       "$maybe-default$ s $maybe-default$",
       "$complex-export$ s() $complex-export$"
     ],
     "importedBy": [
-      "8318"
+      "31814"
     ],
     "lines": 22
   },
-  "2826": {
+  "67726": {
+    "deps": [
+      "66932",
+      "\"events\""
+    ],
+    "exports": [
+      "postgres6",
+      "postgres7",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 222
+  },
+  "68049": {
+    "deps": [
+      "38173"
+    ],
+    "exports": [
+      "$maybe-default$ e $maybe-default$"
+    ],
+    "importedBy": [
+      "57418"
+    ],
+    "lines": 11
+  },
+  "68139": {
     "deps": [],
     "exports": [
-      "U"
+      "CopilotScheme",
+      "CopilotConfigPrefix"
     ],
     "importedBy": [
-      "6771"
+      "39800",
+      "75680"
     ],
-    "lines": 27
+    "lines": 6
   },
-  "2901": {
+  "68280": {
     "deps": [
-      "9899",
-      "6333",
-      "937"
+      "\"timers\""
     ],
     "exports": [
-      "prepareSolutionForReturn",
-      "processSSE",
-      "splitChunk"
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
     ],
     "importedBy": [
-      "4419"
+      "21974"
     ],
-    "lines": 233
+    "lines": 72
   },
-  "2924": {
+  "68345": {
     "deps": [
-      "4665"
+      "66932"
     ],
     "exports": [
-      "default"
+      "postgresPool1",
+      "enable"
     ],
     "importedBy": [
-      "8200"
+      "6315"
     ],
-    "lines": 12
+    "lines": 20
   },
-  "2958": {
+  "68423": {
     "deps": [
-      "453",
-      "3487",
-      "6776",
-      "3510"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 81
-  },
-  "2981": {
-    "deps": [
-      "5600",
-      "9872",
-      "4544",
-      "9407"
-    ],
-    "exports": [
-      "Response"
-    ],
-    "importedBy": [
-      "2500",
-      "6143"
-    ],
-    "lines": 108
-  },
-  "2990": {
-    "deps": [
-      "\"vscode\"",
-      "1133",
-      "4197",
-      "256",
-      "893",
-      "7017",
-      "3060"
-    ],
-    "exports": [
-      "CopilotPanel"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 115
-  },
-  "3054": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "6694",
-      "8339"
-    ],
-    "lines": 26
-  },
-  "3057": {
-    "deps": [
+      "\"util\"",
       "\"assert\"",
-      "9867",
-      "7645"
+      "7267",
+      "\"async_hooks\""
     ],
     "exports": [
       "getNamespace",
       "createNamespace",
       "destroyNamespace",
-      "reset"
+      "reset",
+      "ERROR_SYMBOL"
     ],
     "importedBy": [
-      "894"
+      "19172"
     ],
-    "lines": 162
+    "lines": 522
   },
-  "3060": {
+  "68495": {
+    "deps": [
+      "22249",
+      "52505"
+    ],
+    "exports": [
+      "GranularityDirectory"
+    ],
+    "importedBy": [
+      "16905"
+    ],
+    "lines": 38
+  },
+  "69035": {
     "deps": [],
     "exports": [
-      "CopilotLabelPrefix",
-      "CMDSendFeedback",
-      "CMDShowActivationErrors",
-      "CMDToggleCopilot",
-      "CMDAcceptPanelSolution",
-      "CMDOpenPanelForRange",
-      "CMDOpenPanel"
+      "NotificationSender"
     ],
     "importedBy": [
-      "1929",
-      "2990",
-      "7254",
-      "main"
+      "4630",
+      "6159",
+      "35765",
+      "57214",
+      "66584",
+      "70769",
+      "81843"
     ],
-    "lines": 18
+    "lines": 5
   },
-  "3076": {
+  "69533": {
+    "deps": [],
+    "exports": [
+      "objectLiteral",
+      "typedArray",
+      "stringArray",
+      "array",
+      "func",
+      "error",
+      "number",
+      "string",
+      "boolean"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 42
+  },
+  "69582": {
+    "deps": [],
+    "exports": [
+      "CancellationTokenSource",
+      "MergedToken"
+    ],
+    "importedBy": [
+      "33340",
+      "79638"
+    ],
+    "lines": 117
+  },
+  "69597": {
     "deps": [
-      "1354"
+      "56105",
+      "61057",
+      "10017",
+      "81877",
+      "30585",
+      "77466",
+      "46572",
+      "56827",
+      "\"crypto\""
+    ],
+    "exports": [
+      "$complex-export$ n.pki.rsa = n.rsa = n.rsa || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "23245",
+      "46461",
+      "88577"
+    ],
+    "lines": 1165
+  },
+  "69708": {
+    "deps": [
+      "58112",
+      "58885",
+      "74678",
+      "6165",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.TripleDES $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 669
+  },
+  "70034": {
+    "deps": [
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 23
+  },
+  "70140": {
+    "deps": [
+      "76679"
     ],
     "exports": [
       "LRUCache",
       "keyForPrompt"
     ],
     "importedBy": [
-      "766",
-      "9189",
-      "9334"
+      "3591",
+      "16905",
+      "20190",
+      "40702",
+      "53007"
     ],
     "lines": 55
   },
-  "3092": {
+  "70216": {
+    "deps": [
+      "\"events\""
+    ],
+    "exports": [
+      "PostInsertionNotifier"
+    ],
+    "importedBy": [
+      "4630",
+      "93402",
+      "93927"
+    ],
+    "lines": 7
+  },
+  "70229": {
+    "deps": [
+      "\"https\"",
+      "\"tls\"",
+      "59424"
+    ],
+    "exports": [
+      "$maybe-default$ d $maybe-default$"
+    ],
+    "importedBy": [
+      "79321",
+      "79321"
+    ],
+    "lines": 59
+  },
+  "70248": {
+    "deps": [
+      "66932"
+    ],
+    "exports": [
+      "bunyan",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 28
+  },
+  "70595": {
     "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
+    "exports": [],
     "importedBy": [
-      "9958"
+      "93809"
     ],
-    "lines": 37
+    "lines": 9
   },
-  "3099": {
+  "70735": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "26818",
+      "82396"
+    ],
+    "lines": 3
+  },
+  "70769": {
     "deps": [
-      "3487",
-      "6776"
+      "5798",
+      "69035",
+      "84567"
     ],
     "exports": [
-      "extendSubschemaMode",
-      "extendSubschemaData",
-      "getSubschema"
+      "UserErrorNotifier"
     ],
     "importedBy": [
-      "4815"
+      "4630",
+      "35765",
+      "40702",
+      "53406",
+      "93927"
     ],
-    "lines": 107
+    "lines": 46
   },
-  "3100": {
-    "deps": [
-      "8104",
-      "9575"
-    ],
-    "exports": [
-      "$complex-export$ new p().api() $complex-export$"
-    ],
-    "importedBy": [
-      "6143"
-    ],
-    "lines": 39
-  },
-  "3136": {
+  "70819": {
     "deps": [
       "\"path\""
     ],
@@ -1913,246 +6401,1177 @@ let module_deps_data = {
       "getRelativePath"
     ],
     "importedBy": [
-      "385",
-      "1839",
-      "4969",
-      "6881",
-      "7017",
-      "main"
+      "4630",
+      "6159",
+      "10540",
+      "24090",
+      "25135",
+      "25225",
+      "42401",
+      "73609",
+      "81843",
+      "93402",
+      "98127"
     ],
     "lines": 12
   },
-  "3141": {
+  "71018": {
+    "deps": [],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "32101"
+    ],
+    "lines": 10
+  },
+  "71143": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "38355"
+    ],
+    "lines": 3
+  },
+  "71153": {
+    "deps": [
+      "5798",
+      "11523"
+    ],
+    "exports": [
+      "ghostTextScoreQuantile",
+      "ghostTextScoreConfidence"
+    ],
+    "importedBy": [
+      "40702"
+    ],
+    "lines": 86
+  },
+  "71274": {
+    "deps": [
+      "94403",
+      "3341",
+      "61747",
+      "\"util\"",
+      "\"net\"",
+      "\"http\"",
+      "\"child_process\"",
+      "\"timers\"",
+      "\"dns\"",
+      "\"fs\"",
+      "\"zlib\"",
+      "\"crypto\"",
+      "57600"
+    ],
+    "exports": [],
+    "importedBy": [
+      "92611"
+    ],
+    "lines": 485
+  },
+  "71321": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "31814"
+    ],
+    "lines": 21
+  },
+  "71382": {
+    "deps": [
+      "892",
+      "86236",
+      "93402",
+      "53007",
+      "5381",
+      "6159",
+      "56056"
+    ],
+    "exports": [
+      "notifyRejected"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 43
+  },
+  "71455": {
+    "deps": [
+      "58112",
+      "88400"
+    ],
+    "exports": [
+      "$complex-export$ n.SHA3 $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 205
+  },
+  "71589": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "TypeDefinitionRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 10
+  },
+  "71756": {
+    "deps": [
+      "38173"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "91320"
+    ],
+    "lines": 46
+  },
+  "72299": {
+    "deps": [
+      "56105",
+      "5945",
+      "91183",
+      "56827",
+      "\"crypto\""
+    ],
+    "exports": [
+      "$complex-export$ n.pbkdf2 = o.pbkdf2 = function (e, t, r, o, s, a) {\n  if (\"function\" == typeof s) {\n    a = s;\n    s = null;\n  }\n  if (n.util.isNodejs && !n.options.usePureJavaScript && i.pbkdf2 && (null === s || \"object\" != typeof s) && (i.pbkdf2Sync.length &gt; 4 || !s || \"sha1\" === s)) return \"string\" != typeof s && (s = \"sha1\"), e = Buffer.from(e, \"binary\"), t = Buffer.from(t, \"binary\"), a ? 4 === i.pbkdf2Sync.length ? i.pbkdf2(e, t, r, o, function (e, t) {\n    if (e) return a(e);\n    a(null, t.toString(\"binary\"));\n  }) : i.pbkdf2(e, t, r, o, s, function (e, t) {\n    if (e) return a(e);\n    a(null, t.toString(\"binary\"));\n  }) : 4 === i.pbkdf2Sync.length ? i.pbkdf2Sync(e, t, r, o).toString(\"binary\") : i.pbkdf2Sync(e, t, r, o, s).toString(\"binary\");\n  if (null == s) {\n    s = \"sha1\";\n  }\n  if (\"string\" == typeof s) {\n    if (!(s in n.md.algorithms)) throw new Error(\"Unknown hash algorithm: \" + s);\n    s = n.md[s].create();\n  }\n  var c = s.digestLength;\n  if (o > 4294967295 * c) {\n    var l = new Error(\"Derived key is too long.\");\n    if (a) return a(l);\n    throw l;\n  }\n  var u = Math.ceil(o / c);\n  var d = o - (u - 1) * c;\n  var p = n.hmac.create();\n  p.start(s, e);\n  var h;\n  var f;\n  var g;\n  var m = \"\";\n  if (!a) {\n    for (var y = 1; y &lt;= u; ++y) {\n      p.start(null, null);\n      p.update(t);\n      p.update(n.util.int32ToBytes(y));\n      h = g = p.digest().getBytes();\n      for (var v = 2; v <= r; ++v) {\n        p.start(null, null);\n        p.update(g);\n        f = p.digest().getBytes();\n        h = n.util.xorBytes(h, f, c);\n        g = f;\n      }\n      m += y < u ? h : h.substr(0, d);\n    }\n    return m;\n  }\n  function _() {\n    if (y > u) return a(null, m);\n    p.start(null, null);\n    p.update(t);\n    p.update(n.util.int32ToBytes(y));\n    h = g = p.digest().getBytes();\n    v = 2;\n    b();\n  }\n  function b() {\n    if (v <= r) {\n      p.start(null, null);\n      p.update(g);\n      f = p.digest().getBytes();\n      h = n.util.xorBytes(h, f, c);\n      g = f;\n      ++v;\n      return n.util.setImmediate(b);\n    }\n    m += y < u ? h : h.substr(0, d);\n    ++y;\n    _();\n  }\n  y = 1;\n  _();\n} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "23245",
+      "35758"
+    ],
+    "lines": 107
+  },
+  "72406": {
+    "deps": [],
+    "exports": [
+      "normalizeNewlines",
+      "asReadableCert"
+    ],
+    "importedBy": [
+      "90623"
+    ],
+    "lines": 15
+  },
+  "72469": {
+    "deps": [
+      "85512",
+      "66932"
+    ],
+    "exports": [
+      "wp"
+    ],
+    "importedBy": [
+      "3245"
+    ],
+    "lines": 40
+  },
+  "72530": {
+    "deps": [
+      "892",
+      "86236",
+      "9321",
+      "5381",
+      "91728",
+      "6159"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 31
+  },
+  "72784": {
+    "deps": [
+      "66932",
+      "\"@opentelemetry/tracing\""
+    ],
+    "exports": [
+      "AzureMonitorSymbol",
+      "azureCoreTracing",
+      "enable"
+    ],
+    "importedBy": [
+      "6315"
+    ],
+    "lines": 70
+  },
+  "72869": {
+    "deps": [
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 32
+  },
+  "72890": {
+    "deps": [
+      "34990"
+    ],
+    "exports": [
+      "rebuildTree",
+      "foldTree",
+      "visitTreeConditionally",
+      "visitTree",
+      "resetLineNumbers",
+      "mapLabels",
+      "clearLabelsIf",
+      "clearLabels"
+    ],
+    "importedBy": [
+      "12563",
+      "16468",
+      "40842",
+      "64505",
+      "77651"
+    ],
+    "lines": 119
+  },
+  "73443": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "MonikerRequest",
+      "MonikerKind",
+      "UniquenessLevel"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 23
+  },
+  "73456": {
+    "deps": [
+      "58112"
+    ],
+    "exports": [
+      "$complex-export$ void (n.algo.HMAC = i.extend({\n  init: function (e, t) {\n    e = this._hasher = new e.init(), \"string\" == typeof t && (t = o.parse(t));\n    var r = e.blockSize,\n      n = 4 * r;\n    t.sigBytes &gt; n && (t = e.finalize(t)), t.clamp();\n    for (var i = this._oKey = t.clone(), s = this._iKey = t.clone(), a = i.words, c = s.words, l = 0; l &lt; r; l++) a[l] ^= 1549556828, c[l] ^= 909522486;\n    i.sigBytes = s.sigBytes = n, this.reset();\n  },\n  reset: function () {\n    var e = this._hasher;\n    e.reset(), e.update(this._iKey);\n  },\n  update: function (e) {\n    return this._hasher.update(e), this;\n  },\n  finalize: function (e) {\n    var t = this._hasher,\n      r = t.finalize(e);\n    return t.reset(), t.finalize(this._oKey.clone().concat(r));\n  }\n})) $complex-export$"
+    ],
+    "importedBy": [
+      "6165",
+      "59220",
+      "76679"
+    ],
+    "lines": 36
+  },
+  "73599": {
+    "deps": [
+      "15669"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "4480"
+    ],
+    "lines": 94
+  },
+  "73609": {
+    "deps": [
+      "892",
+      "86236",
+      "16630",
+      "70819",
+      "5381"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 35
+  },
+  "73767": {
+    "deps": [
+      "74389"
+    ],
+    "exports": [
+      "createProtocolConnection"
+    ],
+    "importedBy": [
+      "51661"
+    ],
+    "lines": 13
+  },
+  "74389": {
+    "deps": [
+      "23034",
+      "23870",
+      "\"path\"",
+      "\"os\"",
+      "\"crypto\"",
+      "\"net\""
+    ],
+    "exports": [
+      "createMessageConnection",
+      "createServerSocketTransport",
+      "createClientSocketTransport",
+      "createServerPipeTransport",
+      "createClientPipeTransport",
+      "generateRandomPipeName",
+      "StreamMessageWriter",
+      "StreamMessageReader",
+      "SocketMessageWriter",
+      "SocketMessageReader",
+      "IPCMessageWriter",
+      "IPCMessageReader"
+    ],
+    "importedBy": [
+      "21862",
+      "51661",
+      "66140",
+      "73767",
+      "40273"
+    ],
+    "lines": 219
+  },
+  "74532": {
+    "deps": [
+      "85512",
+      "77649",
+      "6751"
+    ],
+    "exports": [
+      "$maybe-default$ s $maybe-default$"
+    ],
+    "importedBy": [
+      "94641"
+    ],
+    "lines": 256
+  },
+  "74678": {
+    "deps": [
+      "58112"
+    ],
+    "exports": [
+      "$complex-export$ n.MD5 $complex-export$"
+    ],
+    "importedBy": [
+      "5129",
+      "18107",
+      "46725",
+      "53954",
+      "69708",
+      "76679"
+    ],
+    "lines": 164
+  },
+  "74914": {
+    "deps": [],
+    "exports": [
+      "ExpServiceTelemetryNames"
+    ],
+    "importedBy": [
+      "65489",
+      "75917"
+    ],
+    "lines": 10
+  },
+  "75530": {
+    "deps": [],
+    "exports": [
+      "AbstractMessageBuffer"
+    ],
+    "importedBy": [
+      "23034"
+    ],
+    "lines": 121
+  },
+  "75611": {
+    "deps": [],
+    "exports": [
+      "Context"
+    ],
+    "importedBy": [
+      "4630",
+      "6159",
+      "9321",
+      "33340",
+      "79638",
+      "93927",
+      "96712"
+    ],
+    "lines": 47
+  },
+  "75680": {
+    "deps": [
+      "16630",
+      "52369",
+      "68139"
+    ],
+    "exports": [
+      "decodeLocation",
+      "encodeLocation",
+      "completionContextForDocument",
+      "CompletionContext",
+      "completionTypeToString",
+      "CompletionType"
+    ],
+    "importedBy": [
+      "36317",
+      "79638"
+    ],
+    "lines": 65
+  },
+  "75726": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "ShowDocumentRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 9
+  },
+  "75899": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "56633",
+      "57652",
+      "84751"
+    ],
+    "lines": 11
+  },
+  "75917": {
+    "deps": [
+      "65489",
+      "74914"
+    ],
+    "exports": [
+      "ExpConfig",
+      "ExpTreatmentVariables"
+    ],
+    "importedBy": [
+      "16905",
+      "66046"
+    ],
+    "lines": 65
+  },
+  "76021": {
+    "deps": [
+      "\"fs\""
+    ],
+    "exports": [
+      "agentFileSystem"
+    ],
+    "importedBy": [
+      "6159",
+      "81843"
+    ],
+    "lines": 21
+  },
+  "76265": {
+    "deps": [
+      "59817",
+      "40273",
+      "49891"
+    ],
+    "exports": [
+      "ProposedFeatures",
+      "SemanticTokensBuilder"
+    ],
+    "importedBy": [
+      "35809"
+    ],
+    "lines": 39
+  },
+  "76357": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "29816",
+      "55128",
+      "77649",
+      "81483",
+      "92646"
+    ],
+    "lines": 11
+  },
+  "76679": {
+    "deps": [
+      "58112",
+      "88400",
+      "23966",
+      "18559",
+      "58885",
+      "74678",
+      "31284",
+      "92232",
+      "83816",
+      "89039",
+      "1007",
+      "71455",
+      "23787",
+      "73456",
+      "59220",
+      "6165",
+      "78976",
+      "98581",
+      "48258",
+      "14373",
+      "95207",
+      "54800",
+      "3866",
+      "17051",
+      "6863",
+      "42864",
+      "56261",
+      "91371",
+      "46725",
+      "69708",
+      "53954",
+      "5129",
+      "18107"
+    ],
+    "exports": [
+      "$maybe-default$ n $maybe-default$"
+    ],
+    "importedBy": [
+      "40702",
+      "70140",
+      "79638"
+    ],
+    "lines": 35
+  },
+  "76974": {
+    "deps": [
+      "35809",
+      "5798",
+      "57214"
+    ],
+    "exports": [
+      "NotificationLogger"
+    ],
+    "importedBy": [
+      "32879"
+    ],
+    "lines": 29
+  },
+  "76990": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "55856"
+    ],
+    "lines": 8
+  },
+  "77421": {
+    "deps": [],
+    "exports": [
+      "DiscrError"
+    ],
+    "importedBy": [
+      "30002"
+    ],
+    "lines": 7
+  },
+  "77466": {
+    "deps": [
+      "56105",
+      "56827",
+      "10017",
+      "46572"
+    ],
+    "exports": [
+      "$complex-export$ n.prime $complex-export$",
+      "$complex-export$ n.prime = n.prime || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758",
+      "69597"
+    ],
+    "lines": 154
+  },
+  "77649": {
+    "deps": [
+      "\"http\"",
+      "\"https\"",
+      "\"url\"",
+      "\"constants\"",
+      "12010",
+      "76357"
+    ],
+    "exports": [
+      "$maybe-default$ u $maybe-default$"
+    ],
+    "importedBy": [
+      "23452",
+      "26590",
+      "29816",
+      "55128",
+      "56405",
+      "74532",
+      "81483",
+      "90589",
+      "92646",
+      "94641"
+    ],
+    "lines": 304
+  },
+  "77651": {
+    "deps": [
+      "34990",
+      "72890",
+      "12563"
+    ],
+    "exports": [
+      "processJava"
+    ],
+    "importedBy": [
+      "16468"
+    ],
+    "lines": 41
+  },
+  "78653": {
+    "deps": [
+      "56105",
+      "61057",
+      "5945",
+      "54326",
+      "25661",
+      "23245",
+      "46572",
+      "98967",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.tls = n.tls || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758",
+      "63063"
+    ],
+    "lines": 1992
+  },
+  "78891": {
+    "deps": [
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "validateAdditionalItems",
+      "default"
+    ],
+    "importedBy": [
+      "46951",
+      "65151"
+    ],
+    "lines": 62
+  },
+  "78976": {
+    "deps": [
+      "58112",
+      "6165"
+    ],
+    "exports": [
+      "$complex-export$ void (n.lib.Cipher || (i = n, o = i.lib, s = o.Base, a = o.WordArray, c = o.BufferedBlockAlgorithm, l = i.enc, l.Utf8, u = l.Base64, d = i.algo.EvpKDF, p = o.Cipher = c.extend({\n  cfg: s.extend(),\n  createEncryptor: function (e, t) {\n    return this.create(this._ENC_XFORM_MODE, e, t);\n  },\n  createDecryptor: function (e, t) {\n    return this.create(this._DEC_XFORM_MODE, e, t);\n  },\n  init: function (e, t, r) {\n    this.cfg = this.cfg.extend(r), this._xformMode = e, this._key = t, this.reset();\n  },\n  reset: function () {\n    c.reset.call(this), this._doReset();\n  },\n  process: function (e) {\n    return this._append(e), this._process();\n  },\n  finalize: function (e) {\n    return e && this._append(e), this._doFinalize();\n  },\n  keySize: 4,\n  ivSize: 4,\n  _ENC_XFORM_MODE: 1,\n  _DEC_XFORM_MODE: 2,\n  _createHelper: function () {\n    function e(e) {\n      return \"string\" == typeof e ? w : _;\n    }\n    return function (t) {\n      return {\n        encrypt: function (r, n, i) {\n          return e(n).encrypt(t, r, n, i);\n        },\n        decrypt: function (r, n, i) {\n          return e(n).decrypt(t, r, n, i);\n        }\n      };\n    };\n  }()\n}), o.StreamCipher = p.extend({\n  _doFinalize: function () {\n    return this._process(!0);\n  },\n  blockSize: 1\n}), h = i.mode = {}, f = o.BlockCipherMode = s.extend({\n  createEncryptor: function (e, t) {\n    return this.Encryptor.create(e, t);\n  },\n  createDecryptor: function (e, t) {\n    return this.Decryptor.create(e, t);\n  },\n  init: function (e, t) {\n    this._cipher = e, this._iv = t;\n  }\n}), g = h.CBC = function () {\n  var e = f.extend();\n  function t(e, t, r) {\n    var n,\n      i = this._iv;\n    i ? (n = i, this._iv = void 0) : n = this._prevBlock;\n    for (var o = 0; o &lt; r; o++) e[t + o] ^= n[o];\n  }\n  return e.Encryptor = e.extend({\n    processBlock: function (e, r) {\n      var n = this._cipher,\n        i = n.blockSize;\n      t.call(this, e, r, i), n.encryptBlock(e, r), this._prevBlock = e.slice(r, r + i);\n    }\n  }), e.Decryptor = e.extend({\n    processBlock: function (e, r) {\n      var n = this._cipher,\n        i = n.blockSize,\n        o = e.slice(r, r + i);\n      n.decryptBlock(e, r), t.call(this, e, r, i), this._prevBlock = o;\n    }\n  }), e;\n}(), m = (i.pad = {}).Pkcs7 = {\n  pad: function (e, t) {\n    for (var r = 4 * t, n = r - e.sigBytes % r, i = n << 24 | n << 16 | n << 8 | n, o = [], s = 0; s < n; s += 4) o.push(i);\n    var c = a.create(o, n);\n    e.concat(c);\n  },\n  unpad: function (e) {\n    var t = 255 & e.words[e.sigBytes - 1 &gt;>> 2];\n    e.sigBytes -= t;\n  }\n}, o.BlockCipher = p.extend({\n  cfg: p.cfg.extend({\n    mode: g,\n    padding: m\n  }),\n  reset: function () {\n    var e;\n    p.reset.call(this);\n    var t = this.cfg,\n      r = t.iv,\n      n = t.mode;\n    this._xformMode == this._ENC_XFORM_MODE ? e = n.createEncryptor : (e = n.createDecryptor, this._minBufferSize = 1), this._mode && this._mode.__creator == e ? this._mode.init(this, r && r.words) : (this._mode = e.call(n, this, r && r.words), this._mode.__creator = e);\n  },\n  _doProcessBlock: function (e, t) {\n    this._mode.processBlock(e, t);\n  },\n  _doFinalize: function () {\n    var e,\n      t = this.cfg.padding;\n    return this._xformMode == this._ENC_XFORM_MODE ? (t.pad(this._data, this.blockSize), e = this._process(!0)) : (e = this._process(!0), t.unpad(e)), e;\n  },\n  blockSize: 4\n}), y = o.CipherParams = s.extend({\n  init: function (e) {\n    this.mixIn(e);\n  },\n  toString: function (e) {\n    return (e || this.formatter).stringify(this);\n  }\n}), v = (i.format = {}).OpenSSL = {\n  stringify: function (e) {\n    var t = e.ciphertext,\n      r = e.salt;\n    return (r ? a.create([1398893684, 1701076831]).concat(r).concat(t) : t).toString(u);\n  },\n  parse: function (e) {\n    var t,\n      r = u.parse(e),\n      n = r.words;\n    return 1398893684 == n[0] && 1701076831 == n[1] && (t = a.create(n.slice(2, 4)), n.splice(0, 4), r.sigBytes -= 16), y.create({\n      ciphertext: r,\n      salt: t\n    });\n  }\n}, _ = o.SerializableCipher = s.extend({\n  cfg: s.extend({\n    format: v\n  }),\n  encrypt: function (e, t, r, n) {\n    n = this.cfg.extend(n);\n    var i = e.createEncryptor(r, n),\n      o = i.finalize(t),\n      s = i.cfg;\n    return y.create({\n      ciphertext: o,\n      key: r,\n      iv: s.iv,\n      algorithm: e,\n      mode: s.mode,\n      padding: s.padding,\n      blockSize: e.blockSize,\n      formatter: n.format\n    });\n  },\n  decrypt: function (e, t, r, n) {\n    return n = this.cfg.extend(n), t = this._parse(t, n.format), e.createDecryptor(r, n).finalize(t.ciphertext);\n  },\n  _parse: function (e, t) {\n    return \"string\" == typeof e ? t.parse(e, this) : e;\n  }\n}), b = (i.kdf = {}).OpenSSL = {\n  execute: function (e, t, r, n) {\n    n || (n = a.random(8));\n    var i = d.create({\n        keySize: t + r\n      }).compute(e, n),\n      o = a.create(i.words.slice(t), 4 * r);\n    return i.sigBytes = 4 * t, y.create({\n      key: i,\n      iv: o,\n      salt: n\n    });\n  }\n}, w = o.PasswordBasedCipher = _.extend({\n  cfg: _.cfg.extend({\n    kdf: b\n  }),\n  encrypt: function (e, t, r, n) {\n    var i = (n = this.cfg.extend(n)).kdf.execute(r, e.keySize, e.ivSize);\n    n.iv = i.iv;\n    var o = _.encrypt.call(this, e, t, i.key, n);\n    return o.mixIn(i), o;\n  },\n  decrypt: function (e, t, r, n) {\n    n = this.cfg.extend(n), t = this._parse(t, n.format);\n    var i = n.kdf.execute(r, e.keySize, e.ivSize, t.salt);\n    return n.iv = i.iv, _.decrypt.call(this, e, t, i.key, n);\n  }\n}))) $complex-export$"
+    ],
+    "importedBy": [
+      "3866",
+      "5129",
+      "6863",
+      "14373",
+      "17051",
+      "18107",
+      "42864",
+      "46725",
+      "48258",
+      "53954",
+      "54800",
+      "56261",
+      "69708",
+      "76679",
+      "91371",
+      "95207",
+      "98581"
+    ],
+    "lines": 283
+  },
+  "79321": {
+    "deps": [
+      "97328",
+      "30141",
+      "36188",
+      "59091",
+      "28553",
+      "70229",
+      "79321",
+      "53571",
+      "59424",
+      "54586",
+      "84244"
+    ],
+    "exports": [
+      "$maybe-default$ s $maybe-default$"
+    ],
+    "importedBy": [
+      "28553",
+      "84244",
+      "15291",
+      "79321"
+    ],
+    "lines": 146
+  },
+  "79638": {
+    "deps": [
+      "892",
+      "86236",
+      "76679",
+      "7057",
+      "35809",
+      "16630",
+      "39800",
+      "75611",
+      "75680",
+      "36317",
+      "5798",
+      "65489",
+      "52369",
+      "9321",
+      "69582",
+      "57214",
+      "5381",
+      "7838",
+      "6159",
+      "42401",
+      "8730",
+      "56056"
+    ],
+    "exports": [
+      "handleGetPanelCompletions"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 232
+  },
+  "79795": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "DidChangeWorkspaceFoldersNotification",
+      "WorkspaceFoldersRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 13
+  },
+  "79891": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "ColorPresentationRequest",
+      "DocumentColorRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 13
+  },
+  "80142": {
+    "deps": [
+      "30147"
+    ],
+    "exports": [
+      "Semaphore"
+    ],
+    "importedBy": [
+      "96654"
+    ],
+    "lines": 62
+  },
+  "80187": {
+    "deps": [],
+    "exports": [
+      "contextualFilterCharacterMap",
+      "contextualFilterLanguageMap",
+      "contextualFilterWeights",
+      "contextualFilterIntercept",
+      "contextualFilterExplorationTraffic",
+      "contextualFilterAcceptThreshold"
+    ],
+    "importedBy": [
+      "16905",
+      "96817"
+    ],
+    "lines": 195
+  },
+  "80582": {
+    "deps": [
+      "12049",
+      "82028",
+      "12010",
+      "\"applicationinsights-native-metrics\""
+    ],
+    "exports": [
+      "AutoCollectNativePerformance"
+    ],
+    "importedBy": [
+      "58144"
+    ],
+    "lines": 212
+  },
+  "80639": {
+    "deps": [
+      "12010",
+      "12049",
+      "56405",
+      "53629",
+      "85315",
+      "82028"
+    ],
+    "exports": [
+      "$maybe-default$ l $maybe-default$"
+    ],
+    "importedBy": [
+      "58144"
+    ],
+    "lines": 139
+  },
+  "80751": {
+    "deps": [
+      "54086"
+    ],
+    "exports": [
+      "TestLocationFactory",
+      "TestTextDocumentManager",
+      "InMemoryTextDocument"
+    ],
+    "importedBy": [
+      "4630"
+    ],
+    "lines": 117
+  },
+  "81327": {
+    "deps": [
+      "\"stream\""
+    ],
+    "exports": [
+      "$maybe-default$ i $maybe-default$"
+    ],
+    "importedBy": [
+      "50302"
+    ],
+    "lines": 97
+  },
+  "81483": {
+    "deps": [
+      "\"url\"",
+      "85512",
+      "77649",
+      "76357",
+      "57774",
+      "26590"
+    ],
+    "exports": [
+      "$maybe-default$ d $maybe-default$"
+    ],
+    "importedBy": [
+      "29816"
+    ],
+    "lines": 118
+  },
+  "81843": {
+    "deps": [
+      "44617",
+      "35765",
+      "93927",
+      "39800",
+      "30446",
+      "5798",
+      "69035",
+      "86635",
+      "65489",
+      "89531",
+      "52369",
+      "70819",
+      "53406",
+      "9321",
+      "3895",
+      "53007",
+      "87426",
+      "61926",
+      "76021",
+      "65332",
+      "57214",
+      "40585",
+      "32879",
+      "65120",
+      "42401",
+      "10540"
+    ],
+    "exports": [
+      "logger",
+      "initializeLateDependencies",
+      "createAgentContext"
+    ],
+    "importedBy": [
+      "89629"
+    ],
+    "lines": 80
+  },
+  "81877": {
+    "deps": [
+      "56105"
+    ],
+    "exports": [
+      "$complex-export$ n.pki.oids = n.oids = n.oids || {} $complex-export$"
+    ],
+    "importedBy": [
+      "4173",
+      "23245",
+      "45067",
+      "46461",
+      "61057",
+      "69597",
+      "88577"
+    ],
+    "lines": 138
+  },
+  "82028": {
+    "deps": [
+      "\"os\"",
+      "\"fs\"",
+      "\"path\"",
+      "85512",
+      "12010"
+    ],
+    "exports": [
+      "$maybe-default$ c $maybe-default$"
+    ],
+    "importedBy": [
+      "80582",
+      "80639",
+      "94641"
+    ],
+    "lines": 55
+  },
+  "82043": {
+    "deps": [
+      "892",
+      "86236",
+      "5798",
+      "57214",
+      "5381"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 34
+  },
+  "82122": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "ImplementationRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 10
+  },
+  "82161": {
+    "deps": [
+      "\"stream\"",
+      "20039",
+      "15291"
+    ],
+    "exports": [
+      "createFakeStreamResponse",
+      "createFakeResponse",
+      "createTestCertificateReader"
+    ],
+    "importedBy": [
+      "4630"
+    ],
+    "lines": 79
+  },
+  "82396": {
+    "deps": [
+      "63031",
+      "70735"
+    ],
+    "exports": [
+      "$maybe-default$ s $maybe-default$"
+    ],
+    "importedBy": [
+      "26818"
+    ],
+    "lines": 123
+  },
+  "82881": {
     "deps": [],
     "exports": [
       "getRules",
       "isJSONType"
     ],
     "importedBy": [
-      "453",
-      "7159"
+      "38355",
+      "97332"
     ],
     "lines": 58
   },
-  "3197": {
+  "82918": {
     "deps": [
-      "\"vscode\"",
-      "1133",
-      "2218",
-      "9334",
-      "750",
-      "9899",
-      "7017",
-      "6333",
-      "4540"
+      "66140"
     ],
     "exports": [
-      "registerGhostText",
-      "handleGhostTextPostInsert",
-      "handleGhostTextShown",
-      "provideInlineCompletions",
-      "ghostTextLogger",
-      "getInsertionTextFromCompletion"
+      "CallHierarchyOutgoingCallsRequest",
+      "CallHierarchyIncomingCallsRequest",
+      "CallHierarchyPrepareRequest"
     ],
     "importedBy": [
-      "main"
+      "10542"
     ],
-    "lines": 227
+    "lines": 26
   },
-  "3223": {
+  "83542": {
     "deps": [
-      "9822",
-      "6157",
-      "2512"
+      "\"fs\"",
+      "\"path\"",
+      "\"util\""
     ],
     "exports": [
-      "$complex-export$ global._asyncHook $complex-export$",
-      "$complex-export$ global._asyncHook = new r() $complex-export$"
+      "getTokenizer",
+      "TokenizerName"
     ],
     "importedBy": [
-      "4046"
+      "13094",
+      "28684"
     ],
-    "lines": 14
+    "lines": 249
   },
-  "3229": {
+  "83816": {
     "deps": [
-      "3487",
-      "6776",
-      "4499"
+      "58112",
+      "92232"
     ],
     "exports": [
-      "default"
+      "$complex-export$ c.SHA224 $complex-export$"
     ],
     "importedBy": [
-      "2649"
+      "76679"
     ],
-    "lines": 29
+    "lines": 27
   },
-  "3269": {
+  "83911": {
+    "deps": [],
+    "exports": [
+      "Disposable"
+    ],
+    "importedBy": [
+      "23034",
+      "23870"
+    ],
+    "lines": 9
+  },
+  "83940": {
+    "deps": [],
+    "exports": [
+      "debounce",
+      "Debouncer"
+    ],
+    "importedBy": [
+      "40702"
+    ],
+    "lines": 31
+  },
+  "84244": {
+    "deps": [
+      "79321"
+    ],
+    "exports": [
+      "all",
+      "each"
+    ],
+    "importedBy": [
+      "79321"
+    ],
+    "lines": 53
+  },
+  "84401": {
+    "deps": [
+      "56105",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.log = n.log || {} $complex-export$"
+    ],
+    "importedBy": [
+      "35758"
+    ],
+    "lines": 130
+  },
+  "84567": {
+    "deps": [
+      "31814"
+    ],
+    "exports": [
+      "RealUrlOpener",
+      "UrlOpener"
+    ],
+    "importedBy": [
+      "4630",
+      "35765",
+      "70769",
+      "93927"
+    ],
+    "lines": 11
+  },
+  "84751": {
+    "deps": [
+      "\"http\"",
+      "\"https\"",
+      "\"stream\"",
+      "41241",
+      "75899",
+      "45591"
+    ],
+    "exports": [
+      "request",
+      "setupContext",
+      "resetContext"
+    ],
+    "importedBy": [
+      "56633"
+    ],
+    "lines": 161
+  },
+  "84821": {
     "deps": [],
     "exports": [],
     "importedBy": [
-      "9822"
+      "60325"
     ],
-    "lines": 35
+    "lines": 3
   },
-  "3286": {
-    "deps": [],
-    "exports": [
-      "normalizeIndentCharacter"
-    ],
-    "importedBy": [
-      "2218"
-    ],
-    "lines": 43
-  },
-  "3301": {
-    "deps": [
-      "412",
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 81
-  },
-  "3327": {
-    "deps": [
-      "8249",
-      "4938"
-    ],
-    "exports": [
-      "$complex-export$ r.SHA3 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 205
-  },
-  "3458": {
-    "deps": [
-      "9266"
-    ],
-    "exports": [
-      "$maybe-default$ o $maybe-default$"
-    ],
-    "importedBy": [
-      "766"
-    ],
-    "lines": 245
-  },
-  "3487": {
-    "deps": [
-      "7023",
-      "8490",
-      "7023",
-      "8490"
-    ],
-    "exports": [
-      "or",
-      "and",
-      "not",
-      "CodeGen",
-      "operators",
-      "varKinds",
-      "ValueScopeName",
-      "ValueScope",
-      "Scope",
-      "Name",
-      "regexpCode",
-      "stringify",
-      "getProperty",
-      "nil",
-      "strConcat",
-      "str",
-      "_"
-    ],
-    "importedBy": [
-      "313",
-      "412",
-      "430",
-      "453",
-      "498",
-      "966",
-      "1119",
-      "1240",
-      "1581",
-      "1687",
-      "2141",
-      "2296",
-      "2958",
-      "3099",
-      "3229",
-      "3301",
-      "3708",
-      "3983",
-      "4181",
-      "4200",
-      "4336",
-      "4665",
-      "4693",
-      "4783",
-      "4815",
-      "5005",
-      "5173",
-      "5667",
-      "6776",
-      "7159",
-      "7159",
-      "7772",
-      "8280",
-      "9351",
-      "9434",
-      "9651",
-      "9864"
-    ],
-    "lines": 707
-  },
-  "3504": {
-    "deps": [
-      "5282"
-    ],
-    "exports": [
-      "$maybe-default$ o $maybe-default$"
-    ],
-    "importedBy": [
-      "7625"
-    ],
-    "lines": 64
-  },
-  "3507": {
-    "deps": [
-      "\"path\"",
-      "464"
-    ],
-    "exports": [
-      "extractLocalImportContext",
-      "getDocComment"
-    ],
-    "importedBy": [
-      "1747"
-    ],
-    "lines": 288
-  },
-  "3510": {
-    "deps": [
-      "4063"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "966",
-      "2958",
-      "4693"
-    ],
-    "lines": 6
-  },
-  "3580": {
+  "85315": {
     "deps": [],
     "exports": [
       "DEFAULT_BREEZE_ENDPOINT",
@@ -2167,967 +7586,196 @@ let module_deps_data = {
       "TelemetryTypeStringToQuickPulseDocumentType"
     ],
     "importedBy": [
-      "3668",
-      "4350",
-      "5158",
-      "7148",
-      "9253"
+      "12049",
+      "13103",
+      "42495",
+      "56405",
+      "80639"
     ],
     "lines": 76
   },
-  "3615": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.pad.Ansix923 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 19
-  },
-  "3668": {
-    "deps": [
-      "5282",
-      "9253",
-      "7148",
-      "9184",
-      "3580",
-      "4470"
-    ],
-    "exports": [
-      "$maybe-default$ l $maybe-default$"
-    ],
-    "importedBy": [
-      "9574"
-    ],
-    "lines": 139
-  },
-  "3683": {
+  "85397": {
     "deps": [],
-    "exports": [],
-    "importedBy": [
-      "5600",
-      "6143"
-    ],
-    "lines": 29
-  },
-  "3708": {
-    "deps": [
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 42
-  },
-  "3769": {
-    "deps": [
-      "\"events\""
-    ],
-    "exports": [
-      "$complex-export$ () =&gt; {\n  const e = {};\n  const t = new r();\n  t.setMaxListeners(0);\n  return {\n    acquire: n => new Promise(r => {\n      if (!e[n]) {\n        e[n] = true;\n        return void r();\n      }\n      const o = i => {\n        if (e[n]) {\n          e[n] = true;\n          t.removeListener(n, o);\n          r(i);\n        }\n      };\n      t.on(n, o);\n    }),\n    release: (n, r) => {\n      Reflect.deleteProperty(e, n);\n      setImmediate(() => t.emit(n, r));\n    }\n  };\n} $complex-export$"
-    ],
-    "importedBy": [
-      "9575"
-    ],
-    "lines": 27
-  },
-  "3905": {
-    "deps": [
-      "6008"
-    ],
-    "exports": [
-      "$maybe-default$ s $maybe-default$"
-    ],
-    "importedBy": [
-      "9266"
-    ],
-    "lines": 207
-  },
-  "3924": {
-    "deps": [
-      "5684",
-      "2649",
-      "8200",
-      "9502",
-      "6167"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "1581"
-    ],
-    "lines": 17
-  },
-  "3964": {
-    "deps": [
-      "\"util\"",
-      "\"assert\"",
-      "9867",
-      "\"async_hooks\""
-    ],
-    "exports": [
-      "getNamespace",
-      "createNamespace",
-      "destroyNamespace",
-      "reset",
-      "ERROR_SYMBOL"
-    ],
-    "importedBy": [
-      "9562"
-    ],
-    "lines": 521
-  },
-  "3974": {
-    "deps": [
-      "8249",
-      "8269",
-      "8214",
-      "888",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.RabbitLegacy $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 133
-  },
-  "3983": {
-    "deps": [
-      "3487"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 44
-  },
-  "4014": {
-    "deps": [],
-    "exports": [
-      "SEMVER_SPEC_VERSION",
-      "re",
-      "src",
-      "parse",
-      "valid",
-      "clean",
-      "SemVer",
-      "inc",
-      "diff",
-      "compareIdentifiers",
-      "rcompareIdentifiers",
-      "major",
-      "minor",
-      "patch",
-      "compare",
-      "compareLoose",
-      "rcompare",
-      "sort",
-      "rsort",
-      "gt",
-      "lt",
-      "eq",
-      "neq",
-      "gte",
-      "lte",
-      "cmp",
-      "Comparator",
-      "Range",
-      "toComparators",
-      "satisfies",
-      "maxSatisfying",
-      "minSatisfying",
-      "minVersion",
-      "validRange",
-      "ltr",
-      "gtr",
-      "outside",
-      "prerelease",
-      "intersects",
-      "coerce"
-    ],
-    "importedBy": [
-      "7424"
-    ],
-    "lines": 1103
-  },
-  "4046": {
-    "deps": [
-      "\"util\"",
-      "\"assert\"",
-      "9867",
-      "3223",
-      "2512"
-    ],
-    "exports": [
-      "getNamespace",
-      "createNamespace",
-      "destroyNamespace",
-      "reset",
-      "ERROR_SYMBOL"
-    ],
-    "importedBy": [
-      "9562"
-    ],
-    "lines": 449
-  },
-  "4063": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "2531",
-      "3510"
-    ],
-    "lines": 30
-  },
-  "4087": {
-    "deps": [
-      "\"path\"",
-      "\"fs\""
-    ],
-    "exports": [
-      "$maybe-default$ o $maybe-default$",
-      "$maybe-default$ r $maybe-default$"
-    ],
-    "importedBy": [
-      "464",
-      "464"
-    ],
-    "lines": 2883
-  },
-  "4106": {
-    "deps": [
-      "8604",
-      "8859",
-      "2495",
-      "2028",
-      "8436",
-      "8002",
-      "9024",
-      "8060",
-      "4487",
-      "6661",
-      "4650"
-    ],
-    "exports": [
-      "azuresdk",
-      "bunyan",
-      "console",
-      "mongodbCore",
-      "mongodb",
-      "mysql",
-      "pgPool",
-      "pg",
-      "redis",
-      "tedious",
-      "winston",
-      "enable"
-    ],
-    "importedBy": [
-      "7396"
-    ],
-    "lines": 38
-  },
-  "4127": {
-    "deps": [
-      "4350",
-      "5290"
-    ],
-    "exports": [
-      "performanceMetricsTelemetryProcessor"
-    ],
-    "importedBy": [
-      "9428"
-    ],
-    "lines": 20
-  },
-  "4147": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "1133",
-      "9425"
-    ],
-    "lines": 3
-  },
-  "4181": {
-    "deps": [
-      "3487",
-      "6776",
-      "2141"
-    ],
-    "exports": [
-      "extendErrors",
-      "resetErrorsCount",
-      "reportExtraError",
-      "reportError",
-      "keyword$DataError",
-      "keywordError"
-    ],
-    "importedBy": [
-      "453",
-      "4815",
-      "5005",
-      "5667"
-    ],
-    "lines": 152
-  },
-  "4193": {
-    "deps": [
-      "6214",
-      "9872"
-    ],
-    "exports": [
-      "$complex-export$ class {\n  constructor(e, t, n) {\n    this.policy = new r(i(e), s(t), n);\n  }\n  storable() {\n    return this.policy.storable();\n  }\n  satisfiesWithoutRevalidation(e) {\n    return this.policy.satisfiesWithoutRevalidation(i(e));\n  }\n  responseHeaders(e) {\n    return new o(this.policy.responseHeaders(s(e)));\n  }\n  timeToLive() {\n    return this.policy.timeToLive();\n  }\n} $complex-export$"
-    ],
-    "importedBy": [
-      "6143"
-    ],
-    "lines": 28
-  },
-  "4197": {
-    "deps": [],
-    "exports": [
-      "CopilotScheme",
-      "CopilotConfigPrefix"
-    ],
-    "importedBy": [
-      "256",
-      "1133",
-      "2990",
-      "4540",
-      "9425",
-      "main"
-    ],
-    "lines": 6
-  },
-  "4200": {
-    "deps": [
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 62
-  },
-  "4242": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ i.mode.CTR $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 24
-  },
-  "4253": {
-    "deps": [
-      "8249",
-      "8269",
-      "8214",
-      "888",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.TripleDES $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 669
-  },
-  "4309": {
-    "deps": [
-      "5290",
-      "4953"
-    ],
-    "exports": [
-      "wp"
-    ],
-    "importedBy": [
-      "6281"
-    ],
-    "lines": 40
-  },
-  "4336": {
-    "deps": [
-      "412",
-      "3487"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 22
-  },
-  "4350": {
-    "deps": [
-      "\"os\"",
-      "3580"
-    ],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "731",
-      "4127",
-      "9574"
-    ],
-    "lines": 289
-  },
-  "4398": {
-    "deps": [
-      "\"fs\"",
-      "\"os\"",
-      "\"path\"",
-      "\"vscode\"",
-      "9574"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "4428",
-      "6333"
-    ],
-    "lines": 325
-  },
-  "4419": {
-    "deps": [
-      "\"util\"",
-      "362",
-      "6932",
-      "1133",
-      "9189",
-      "5413",
-      "9899",
-      "2279",
-      "6722",
-      "766",
-      "9657",
-      "6333",
-      "937",
-      "2901"
-    ],
-    "exports": [
-      "LiveOpenAIFetcher",
-      "postProcessChoices",
-      "OpenAIFetcher",
-      "extractEngineName",
-      "getProcessingTime",
-      "getRequestId",
-      "CopilotUiKind"
-    ],
-    "importedBy": [
-      "937",
-      "9334",
-      "main"
-    ],
-    "lines": 291
-  },
-  "4428": {
-    "deps": [
-      "4398",
-      "1133",
-      "6333",
-      "9380"
-    ],
-    "exports": [
-      "activate"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 23
-  },
-  "4431": {
-    "deps": [
-      "9852"
-    ],
-    "exports": [
-      "findEditDistanceScore"
-    ],
-    "importedBy": [
-      "1747"
-    ],
-    "lines": 37
-  },
-  "4433": {
-    "deps": [
-      "6400",
-      "2728",
-      "8213",
-      "1188"
-    ],
-    "exports": [
-      "h"
-    ],
-    "importedBy": [
-      "7085",
-      "9125"
-    ],
-    "lines": 293
-  },
-  "4454": {
-    "deps": [
-      "8249",
-      "8269",
-      "8214",
-      "888",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.Rabbit $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 138
-  },
-  "4470": {
-    "deps": [
-      "\"os\"",
-      "\"fs\"",
-      "\"path\"",
-      "5290",
-      "5282"
-    ],
-    "exports": [
-      "$maybe-default$ c $maybe-default$"
-    ],
-    "importedBy": [
-      "1629",
-      "3668",
-      "7625"
-    ],
-    "lines": 55
-  },
-  "4487": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "redis",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 41
-  },
-  "4499": {
-    "deps": [],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "3229"
-    ],
-    "lines": 22
-  },
-  "4526": {
-    "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "6279",
-      "9958"
-    ],
-    "lines": 37
-  },
-  "4540": {
-    "deps": [
-      "1133",
-      "4197"
-    ],
-    "exports": [
-      "ignoreDocument"
-    ],
-    "importedBy": [
-      "1929",
-      "3197"
-    ],
-    "lines": 13
-  },
-  "4544": {
-    "deps": [
-      "\"buffer\"",
-      "\"stream\"",
-      "\"util\"",
-      "\"zlib\"",
-      "8104"
-    ],
-    "exports": [
-      "decodeStream",
-      "isPlainObject",
-      "sizeof",
-      "streamToBuffer"
-    ],
-    "importedBy": [
-      "2981",
-      "5600",
-      "6143",
-      "7262",
-      "8359",
-      "9575",
-      "9803",
-      "9872"
-    ],
-    "lines": 114
-  },
-  "4650": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "winston3",
-      "winston2",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 169
-  },
-  "4665": {
-    "deps": [
-      "3487",
-      "6776",
-      "412"
-    ],
-    "exports": [
-      "validateTuple",
-      "default"
-    ],
-    "importedBy": [
-      "2924",
-      "8200"
-    ],
-    "lines": 55
-  },
-  "4693": {
-    "deps": [
-      "3487",
-      "6776",
-      "3510"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "2649"
-    ],
-    "lines": 23
-  },
-  "4694": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "8002"
-    ],
-    "lines": 8
-  },
-  "4723": {
-    "deps": [
-      "\"path\"",
-      "\"worker_threads\"",
-      "464",
-      "9940",
-      "1747",
-      "9852",
-      "1788",
-      "5012"
-    ],
-    "exports": [
-      "createWorker",
-      "FileSystem",
-      "comment",
-      "languageCommentMarkers"
-    ],
-    "importedBy": [
-      "2533"
-    ],
-    "lines": 50
-  },
-  "4775": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "7159"
-    ],
-    "lines": 3
-  },
-  "4777": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "qP",
-      "wp"
-    ],
-    "importedBy": [
-      "8723"
-    ],
-    "lines": 39
-  },
-  "4783": {
-    "deps": [
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "validateAdditionalItems",
-      "default"
-    ],
-    "importedBy": [
-      "1119",
-      "8200"
-    ],
-    "lines": 62
-  },
-  "4815": {
-    "deps": [
-      "5667",
-      "453",
-      "8876",
-      "453",
-      "313",
-      "5005",
-      "3099",
-      "3487",
-      "2141",
-      "2531",
-      "6776",
-      "4181"
-    ],
-    "exports": [
-      "getData",
-      "KeywordCxt",
-      "validateFunctionCode"
-    ],
-    "importedBy": [
-      "1581",
-      "5173",
-      "6239",
-      "7159"
-    ],
-    "lines": 553
-  },
-  "4855": {
-    "deps": [
-      "5288",
-      "9829"
-    ],
-    "exports": [
-      "getWindowsDelineations"
-    ],
-    "importedBy": [
-      "569"
-    ],
-    "lines": 75
-  },
-  "4938": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$maybe-default$ r $maybe-default$"
-    ],
-    "importedBy": [
-      "34",
-      "1354",
-      "3327",
-      "7460"
-    ],
-    "lines": 53
-  },
-  "4953": {
-    "deps": [
-      "7424",
-      "130",
-      "\"module\""
-    ],
-    "exports": [
-      "makePatchingRequire",
-      "channel"
-    ],
-    "importedBy": [
-      "454",
-      "1227",
-      "2028",
-      "2495",
-      "4309",
-      "4487",
-      "4650",
-      "4777",
-      "5071",
-      "5823",
-      "6661",
-      "7396",
-      "7886",
-      "8002",
-      "8060",
-      "8436",
-      "8604",
-      "8859",
-      "9024"
-    ],
-    "lines": 113
-  },
-  "4969": {
-    "deps": [
-      "3055563",
-      "1133",
-      "1839",
-      "9189",
-      "3136",
-      "2533",
-      "766"
-    ],
-    "exports": [
-      "extractPrompt",
-      "trimLastLine",
-      "_contextTooShort",
-      "MIN_PROMPT_CHARS"
-    ],
-    "importedBy": [
-      "2388",
-      "7017",
-      "9334"
-    ],
-    "lines": 147
-  },
-  "5005": {
-    "deps": [
-      "3487",
-      "2141",
-      "412",
-      "4181"
-    ],
-    "exports": [
-      "validateKeywordUsage",
-      "validSchemaType",
-      "funcKeywordCode",
-      "macroKeywordCode"
-    ],
-    "importedBy": [
-      "4815"
-    ],
-    "lines": 157
-  },
-  "5012": {
-    "deps": [
-      "\"fs\""
-    ],
-    "exports": [
-      "defaultFileSystem",
-      "FileSystem"
-    ],
-    "importedBy": [
-      "4723"
-    ],
-    "lines": 18
-  },
-  "5071": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "qP",
-      "wp"
-    ],
-    "importedBy": [
-      "8723"
-    ],
-    "lines": 34
-  },
-  "5109": {
-    "deps": [
-      "8249",
-      "888"
-    ],
-    "exports": [
-      "$complex-export$ void (r.lib.Cipher || (o = r, i = o.lib, s = i.Base, a = i.WordArray, c = i.BufferedBlockAlgorithm, l = o.enc, l.Utf8, u = l.Base64, d = o.algo.EvpKDF, p = i.Cipher = c.extend({\n  cfg: s.extend(),\n  createEncryptor: function (e, t) {\n    return this.create(this._ENC_XFORM_MODE, e, t);\n  },\n  createDecryptor: function (e, t) {\n    return this.create(this._DEC_XFORM_MODE, e, t);\n  },\n  init: function (e, t, n) {\n    this.cfg = this.cfg.extend(n), this._xformMode = e, this._key = t, this.reset();\n  },\n  reset: function () {\n    c.reset.call(this), this._doReset();\n  },\n  process: function (e) {\n    return this._append(e), this._process();\n  },\n  finalize: function (e) {\n    return e && this._append(e), this._doFinalize();\n  },\n  keySize: 4,\n  ivSize: 4,\n  _ENC_XFORM_MODE: 1,\n  _DEC_XFORM_MODE: 2,\n  _createHelper: function () {\n    function e(e) {\n      return \"string\" == typeof e ? w : v;\n    }\n    return function (t) {\n      return {\n        encrypt: function (n, r, o) {\n          return e(r).encrypt(t, n, r, o);\n        },\n        decrypt: function (n, r, o) {\n          return e(r).decrypt(t, n, r, o);\n        }\n      };\n    };\n  }()\n}), i.StreamCipher = p.extend({\n  _doFinalize: function () {\n    return this._process(!0);\n  },\n  blockSize: 1\n}), h = o.mode = {}, f = i.BlockCipherMode = s.extend({\n  createEncryptor: function (e, t) {\n    return this.Encryptor.create(e, t);\n  },\n  createDecryptor: function (e, t) {\n    return this.Decryptor.create(e, t);\n  },\n  init: function (e, t) {\n    this._cipher = e, this._iv = t;\n  }\n}), m = h.CBC = function () {\n  var e = f.extend();\n  function t(e, t, n) {\n    var r,\n      o = this._iv;\n    o ? (r = o, this._iv = void 0) : r = this._prevBlock;\n    for (var i = 0; i &lt; n; i++) e[t + i] ^= r[i];\n  }\n  return e.Encryptor = e.extend({\n    processBlock: function (e, n) {\n      var r = this._cipher,\n        o = r.blockSize;\n      t.call(this, e, n, o), r.encryptBlock(e, n), this._prevBlock = e.slice(n, n + o);\n    }\n  }), e.Decryptor = e.extend({\n    processBlock: function (e, n) {\n      var r = this._cipher,\n        o = r.blockSize,\n        i = e.slice(n, n + o);\n      r.decryptBlock(e, n), t.call(this, e, n, o), this._prevBlock = i;\n    }\n  }), e;\n}(), g = (o.pad = {}).Pkcs7 = {\n  pad: function (e, t) {\n    for (var n = 4 * t, r = n - e.sigBytes % n, o = r << 24 | r << 16 | r << 8 | r, i = [], s = 0; s < r; s += 4) i.push(o);\n    var c = a.create(i, r);\n    e.concat(c);\n  },\n  unpad: function (e) {\n    var t = 255 & e.words[e.sigBytes - 1 &gt;>> 2];\n    e.sigBytes -= t;\n  }\n}, i.BlockCipher = p.extend({\n  cfg: p.cfg.extend({\n    mode: m,\n    padding: g\n  }),\n  reset: function () {\n    var e;\n    p.reset.call(this);\n    var t = this.cfg,\n      n = t.iv,\n      r = t.mode;\n    this._xformMode == this._ENC_XFORM_MODE ? e = r.createEncryptor : (e = r.createDecryptor, this._minBufferSize = 1), this._mode && this._mode.__creator == e ? this._mode.init(this, n && n.words) : (this._mode = e.call(r, this, n && n.words), this._mode.__creator = e);\n  },\n  _doProcessBlock: function (e, t) {\n    this._mode.processBlock(e, t);\n  },\n  _doFinalize: function () {\n    var e,\n      t = this.cfg.padding;\n    return this._xformMode == this._ENC_XFORM_MODE ? (t.pad(this._data, this.blockSize), e = this._process(!0)) : (e = this._process(!0), t.unpad(e)), e;\n  },\n  blockSize: 4\n}), _ = i.CipherParams = s.extend({\n  init: function (e) {\n    this.mixIn(e);\n  },\n  toString: function (e) {\n    return (e || this.formatter).stringify(this);\n  }\n}), y = (o.format = {}).OpenSSL = {\n  stringify: function (e) {\n    var t = e.ciphertext,\n      n = e.salt;\n    return (n ? a.create([1398893684, 1701076831]).concat(n).concat(t) : t).toString(u);\n  },\n  parse: function (e) {\n    var t,\n      n = u.parse(e),\n      r = n.words;\n    return 1398893684 == r[0] && 1701076831 == r[1] && (t = a.create(r.slice(2, 4)), r.splice(0, 4), n.sigBytes -= 16), _.create({\n      ciphertext: n,\n      salt: t\n    });\n  }\n}, v = i.SerializableCipher = s.extend({\n  cfg: s.extend({\n    format: y\n  }),\n  encrypt: function (e, t, n, r) {\n    r = this.cfg.extend(r);\n    var o = e.createEncryptor(n, r),\n      i = o.finalize(t),\n      s = o.cfg;\n    return _.create({\n      ciphertext: i,\n      key: n,\n      iv: s.iv,\n      algorithm: e,\n      mode: s.mode,\n      padding: s.padding,\n      blockSize: e.blockSize,\n      formatter: r.format\n    });\n  },\n  decrypt: function (e, t, n, r) {\n    return r = this.cfg.extend(r), t = this._parse(t, r.format), e.createDecryptor(n, r).finalize(t.ciphertext);\n  },\n  _parse: function (e, t) {\n    return \"string\" == typeof e ? t.parse(e, this) : e;\n  }\n}), b = (o.kdf = {}).OpenSSL = {\n  execute: function (e, t, n, r) {\n    r || (r = a.random(8));\n    var o = d.create({\n        keySize: t + n\n      }).compute(e, r),\n      i = a.create(o.words.slice(t), 4 * n);\n    return o.sigBytes = 4 * t, _.create({\n      key: o,\n      iv: i,\n      salt: r\n    });\n  }\n}, w = i.PasswordBasedCipher = v.extend({\n  cfg: v.cfg.extend({\n    kdf: b\n  }),\n  encrypt: function (e, t, n, r) {\n    var o = (r = this.cfg.extend(r)).kdf.execute(n, e.keySize, e.ivSize);\n    r.iv = o.iv;\n    var i = v.encrypt.call(this, e, t, o.key, r);\n    return i.mixIn(o), i;\n  },\n  decrypt: function (e, t, n, r) {\n    r = this.cfg.extend(r), t = this._parse(t, r.format);\n    var o = r.kdf.execute(n, e.keySize, e.ivSize, t.salt);\n    return r.iv = o.iv, v.decrypt.call(this, e, t, o.key, r);\n  }\n}))) $complex-export$"
-    ],
-    "importedBy": [
-      "452",
-      "1077",
-      "1148",
-      "1354",
-      "1857",
-      "2209",
-      "2807",
-      "3615",
-      "3974",
-      "4242",
-      "4253",
-      "4454",
-      "6475",
-      "6991",
-      "7660",
-      "8568",
-      "9968"
-    ],
-    "lines": 283
-  },
-  "5120": {
-    "deps": [],
-    "exports": [
-      "lexEditDistance",
-      "lexicalAnalyzer",
-      "lexGeneratorWords",
-      "reverseLexDictionary",
-      "emptyLexDictionary",
-      "editDistance"
-    ],
-    "importedBy": [
-      "7017"
-    ],
-    "lines": 159
-  },
-  "5158": {
-    "deps": [
-      "3580"
-    ],
     "exports": [
       "$maybe-default$ o $maybe-default$"
     ],
     "importedBy": [
-      "9253"
+      "93809"
     ],
-    "lines": 32
+    "lines": 36
   },
-  "5173": {
+  "85421": {
     "deps": [
-      "3487",
-      "7426",
-      "2141",
-      "2531",
-      "6776",
-      "4815",
-      "540"
+      "40273"
+    ],
+    "exports": [
+      "ShowDocumentFeature"
+    ],
+    "importedBy": [
+      "49891"
+    ],
+    "lines": 11
+  },
+  "85512": {
+    "deps": [
+      "12436",
+      "93809",
+      "10234"
+    ],
+    "exports": [
+      "hasOwnProperty",
+      "r"
+    ],
+    "importedBy": [
+      "21244",
+      "23805",
+      "27916",
+      "29180",
+      "55128",
+      "56405",
+      "58144",
+      "72469",
+      "74532",
+      "81483",
+      "82028",
+      "94641"
+    ],
+    "lines": 12
+  },
+  "85934": {
+    "deps": [
+      "66140"
+    ],
+    "exports": [
+      "ConfigurationRequest"
+    ],
+    "importedBy": [
+      "10542"
+    ],
+    "lines": 7
+  },
+  "86029": {
+    "deps": [
+      "\"crypto\"",
+      "\"stream\""
+    ],
+    "exports": [
+      "isFormData",
+      "FormDataSerializer"
+    ],
+    "importedBy": [
+      "14735",
+      "28327",
+      "56633",
+      "93505"
+    ],
+    "lines": 83
+  },
+  "86236": {
+    "deps": [
+      "38355",
+      "35671",
+      "30002",
+      "31512",
+      "91686",
+      "15669"
+    ],
+    "exports": [
+      "CodeGen",
+      "Name",
+      "nil",
+      "stringify",
+      "str",
+      "_",
+      "KeywordCxt",
+      "default",
+      "$complex-export$ exports = l $complex-export$"
+    ],
+    "importedBy": [
+      "8269",
+      "8730",
+      "22229",
+      "22930",
+      "31451",
+      "31620",
+      "33340",
+      "55581",
+      "61025",
+      "65489",
+      "66885",
+      "71382",
+      "72530",
+      "73609",
+      "79638",
+      "82043",
+      "86584",
+      "86934",
+      "89629",
+      "90623",
+      "91300",
+      "94340",
+      "96656",
+      "98127"
+    ],
+    "lines": 51
+  },
+  "86584": {
+    "deps": [
+      "892",
+      "86236",
+      "9321",
+      "5381",
+      "91728",
+      "6159"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 31
+  },
+  "86635": {
+    "deps": [],
+    "exports": [
+      "NoOpStatusReporter",
+      "StatusReporter"
+    ],
+    "importedBy": [
+      "4630",
+      "36317",
+      "40702",
+      "52031",
+      "81843"
+    ],
+    "lines": 13
+  },
+  "86934": {
+    "deps": [
+      "892",
+      "86236",
+      "9321",
+      "5381",
+      "6159",
+      "56056"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 36
+  },
+  "87382": {
+    "deps": [
+      "15669",
+      "46448",
+      "17250",
+      "96696",
+      "88936",
+      "91686"
     ],
     "exports": [
       "resolveSchema",
@@ -3137,625 +7785,110 @@ let module_deps_data = {
       "SchemaEnv"
     ],
     "importedBy": [
-      "7159",
-      "8280"
+      "30002",
+      "38355",
+      "41939"
     ],
-    "lines": 268
+    "lines": 267
   },
-  "5258": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "9575"
-    ],
-    "lines": 3
-  },
-  "5282": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "731",
-      "894",
-      "1259",
-      "1629",
-      "2588",
-      "3504",
-      "3668",
-      "4470",
-      "5740",
-      "7148",
-      "7396",
-      "7625",
-      "8723",
-      "9184",
-      "9574",
-      "9962"
-    ],
-    "lines": 29
-  },
-  "5288": {
+  "87426": {
     "deps": [
-      "9608",
-      "9829"
+      "\"fs\"",
+      "\"stream\"",
+      "35809",
+      "5798",
+      "20913",
+      "4445"
     ],
     "exports": [
-      "parseTree",
-      "registerLanguageSpecificParser",
-      "flattenVirtual",
-      "groupBlocks",
-      "combineClosersAndOpeners",
-      "buildLabelRules",
-      "labelVirtualInherited",
-      "labelLines",
-      "parseRaw"
+      "WrappedConnection"
     ],
     "importedBy": [
-      "4855"
+      "6159",
+      "10540",
+      "32879",
+      "39824",
+      "57214",
+      "81843"
+    ],
+    "lines": 64
+  },
+  "87613": {
+    "deps": [
+      "\"url\"",
+      "\"path\"",
+      "\"fs\"",
+      "\"child_process\""
+    ],
+    "exports": [
+      "resolveModulePath",
+      "FileSystem",
+      "resolveGlobalYarnPath",
+      "resolveGlobalNodePath",
+      "resolve",
+      "uriToFilePath"
+    ],
+    "importedBy": [
+      "35809"
     ],
     "lines": 207
   },
-  "5290": {
+  "88041": {
     "deps": [
-      "9382",
-      "9958",
-      "2626"
+      "66932"
     ],
     "exports": [
-      "hasOwnProperty",
-      "n"
-    ],
-    "importedBy": [
-      "454",
-      "608",
-      "4127",
-      "4309",
-      "4470",
-      "5823",
-      "6694",
-      "7148",
-      "7625",
-      "8339",
-      "9574",
-      "9813"
-    ],
-    "lines": 12
-  },
-  "5413": {
-    "deps": [
-      "9189"
-    ],
-    "exports": [
-      "getDebounceLimit",
-      "GhostTextDebounceManager"
-    ],
-    "importedBy": [
-      "2279",
-      "4419",
-      "9334",
-      "main"
-    ],
-    "lines": 25
-  },
-  "5420": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "6252"
-    ],
-    "lines": 35
-  },
-  "5468": {
-    "deps": [
-      "\"net\"",
-      "\"tls\"",
-      "\"http\"",
-      "\"https\"",
-      "\"events\"",
-      "\"assert\"",
-      "\"util\""
-    ],
-    "exports": [
-      "httpOverHttp",
-      "httpsOverHttp",
-      "httpOverHttps",
-      "httpsOverHttps",
-      "debug"
-    ],
-    "importedBy": [
-      "2279"
-    ],
-    "lines": 223
-  },
-  "5481": {
-    "deps": [],
-    "exports": [
-      "telemetryTypeToBaseType",
-      "baseTypeToTelemetryType",
-      "TelemetryTypeString",
-      "TelemetryType"
-    ],
-    "importedBy": [
-      "2626"
-    ],
-    "lines": 58
-  },
-  "5600": {
-    "deps": [
-      "\"stream\"",
-      "\"util\"",
-      "3683",
-      "4544"
-    ],
-    "exports": [
-      "Body",
-      "cloneStream",
-      "guessContentType"
-    ],
-    "importedBy": [
-      "2981",
-      "6143",
-      "8359"
-    ],
-    "lines": 118
-  },
-  "5667": {
-    "deps": [
-      "4181",
-      "3487",
-      "2141"
-    ],
-    "exports": [
-      "boolOrEmptySchema",
-      "topBoolOrEmptySchema"
-    ],
-    "importedBy": [
-      "4815"
-    ],
-    "lines": 46
-  },
-  "5684": {
-    "deps": [
-      "8386",
-      "8280"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "3924"
-    ],
-    "lines": 18
-  },
-  "5697": {
-    "deps": [
-      "6776"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 32
-  },
-  "5740": {
-    "deps": [
-      "\"http\"",
-      "\"https\"",
-      "\"url\"",
-      "\"constants\"",
-      "5282",
-      "9036"
-    ],
-    "exports": [
-      "$maybe-default$ u $maybe-default$"
-    ],
-    "importedBy": [
-      "731",
-      "2588",
-      "6694",
-      "7148",
-      "7625",
-      "8090",
-      "8339",
-      "8723",
-      "9813",
-      "9962"
-    ],
-    "lines": 304
-  },
-  "5823": {
-    "deps": [
-      "5290",
-      "4953"
-    ],
-    "exports": [
-      "wp"
-    ],
-    "importedBy": [
-      "6281"
-    ],
-    "lines": 44
-  },
-  "6008": {
-    "deps": [
-      "2337"
-    ],
-    "exports": [
-      "$maybe-default$ <anonymouse-function> $maybe-default$"
-    ],
-    "importedBy": [
-      "3905"
-    ],
-    "lines": 46
-  },
-  "6143": {
-    "deps": [
-      "\"events\"",
-      "\"stream\"",
-      "8104",
-      "8348",
-      "5600",
-      "9872",
-      "8359",
-      "2981",
-      "3683",
-      "6829",
-      "4193",
-      "2500",
-      "4544",
-      "9407",
-      "3100"
-    ],
-    "exports": [
-      "$complex-export$ new P().api() $complex-export$"
-    ],
-    "importedBy": [
-      "2279"
-    ],
-    "lines": 367
-  },
-  "6157": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "3223",
-      "9822"
-    ],
-    "lines": 3
-  },
-  "6167": {
-    "deps": [],
-    "exports": [
-      "contentVocabulary",
-      "metadataVocabulary"
-    ],
-    "importedBy": [
-      "3924"
-    ],
-    "lines": 18
-  },
-  "6214": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "4193"
-    ],
-    "lines": 399
-  },
-  "6239": {
-    "deps": [
-      "4815",
-      "412",
-      "6776",
-      "9351"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 59
-  },
-  "6252": {
-    "deps": [
-      "9125",
-      "\"path\"",
-      "\"fs\"",
-      "5420"
-    ],
-    "exports": [
-      "wrapCallSite",
-      "getErrorSource",
-      "mapSourcePosition",
-      "retrieveSourceMap",
-      "install",
-      "resetRetrieveHandlers"
-    ],
-    "importedBy": [
-      "406"
-    ],
-    "lines": 454
-  },
-  "6267": {
-    "deps": [
-      "\"vscode\"",
-      "256"
-    ],
-    "exports": [
-      "commandOpenPanel",
-      "completionContextForEditor"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 35
-  },
-  "6279": {
-    "deps": [
-      "4526"
-    ],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 37
-  },
-  "6281": {
-    "deps": [
-      "7396",
-      "4309",
-      "5823",
-      "454"
-    ],
-    "exports": [
-      "$maybe-default$ o $maybe-default$"
-    ],
-    "importedBy": [
-      "9574"
-    ],
-    "lines": 28
-  },
-  "6290": {
-    "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 38
-  },
-  "6333": {
-    "deps": [
-      "1581",
-      "4398",
-      "1133",
-      "9189",
-      "6500",
-      "70",
-      "2499"
-    ],
-    "exports": [
-      "forceSendingTelemetry",
-      "dropTelemetryConfig",
-      "setTelemetryConfig",
-      "logEnginePrompt",
-      "logEngineCompletion",
-      "telemetryError",
-      "telemetryException",
-      "telemetryRaw",
-      "telemetryExpProblem",
-      "telemetry",
-      "configureReporter",
-      "TelemetryEndpointUrl",
-      "now",
-      "telemetrizePromptLength",
-      "TelemetryData",
-      "setupEmptyReporters",
-      "setupStandardReporters",
-      "TelemetryReporters",
-      "APP_INSIGHTS_KEY_SECURE",
-      "APP_INSIGHTS_KEY"
-    ],
-    "importedBy": [
-      "219",
-      "362",
-      "750",
-      "893",
-      "937",
-      "1124",
-      "1862",
-      "1929",
-      "2279",
-      "2388",
-      "2901",
-      "3197",
-      "4419",
-      "4428",
-      "7017",
-      "7254",
-      "9334",
-      "9408",
-      "9899",
-      "main"
-    ],
-    "lines": 504
-  },
-  "6372": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "7645",
-      "9090",
-      "9867"
-    ],
-    "lines": 92
-  },
-  "6400": {
-    "deps": [
-      "7923"
-    ],
-    "exports": [
-      "encode",
-      "decode"
-    ],
-    "importedBy": [
-      "4433",
-      "6771"
-    ],
-    "lines": 36
-  },
-  "6403": {
-    "deps": [],
-    "exports": [
-      "LocationFactory"
-    ],
-    "importedBy": [
-      "256",
-      "2218",
-      "2388",
-      "7727",
-      "8129",
-      "9334",
-      "main"
-    ],
-    "lines": 5
-  },
-  "6475": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.pad.ZeroPadding $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 20
-  },
-  "6500": {
-    "deps": [],
-    "exports": [
-      "ExpServiceTelemetryNames"
-    ],
-    "importedBy": [
-      "219",
-      "6333"
-    ],
-    "lines": 10
-  },
-  "6552": {
-    "deps": [
-      "6776"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 14
-  },
-  "6560": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "2130"
-    ],
-    "lines": 7
-  },
-  "6639": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "9574"
-    ],
-    "lines": 92
-  },
-  "6646": {
-    "deps": [
-      "2531"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "7159",
-      "8280"
-    ],
-    "lines": 12
-  },
-  "6661": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "tedious",
+      "winston3",
+      "winston2",
       "enable"
     ],
     "importedBy": [
-      "4106"
+      "6315"
     ],
-    "lines": 67
+    "lines": 169
   },
-  "6694": {
+  "88400": {
     "deps": [
-      "\"url\"",
-      "5290",
-      "5740",
-      "9036",
-      "3054",
-      "9962",
-      "1974",
-      "8090"
+      "58112"
     ],
     "exports": [
-      "$maybe-default$ h $maybe-default$"
+      "$maybe-default$ n $maybe-default$"
     ],
     "importedBy": [
-      "731"
+      "1007",
+      "71455",
+      "76679",
+      "89039"
     ],
-    "lines": 226
+    "lines": 53
   },
-  "6722": {
-    "deps": [],
-    "exports": [
-      "NoOpStatusReporter",
-      "StatusReporter"
-    ],
-    "importedBy": [
-      "2388",
-      "4419",
-      "9334",
-      "main"
-    ],
-    "lines": 13
-  },
-  "6771": {
+  "88577": {
     "deps": [
-      "2728",
-      "9216",
-      "8213",
-      "6400",
-      "2826"
+      "56105",
+      "61057",
+      "5945",
+      "81877",
+      "44207",
+      "4173",
+      "46572",
+      "69597",
+      "98967",
+      "56827",
+      "46461"
     ],
     "exports": [
-      "SourceMapConsumer"
+      "$complex-export$ n.pkcs12 = n.pkcs12 || {} $complex-export$"
     ],
     "importedBy": [
-      "9125"
+      "23245",
+      "35758"
     ],
-    "lines": 595
+    "lines": 719
   },
-  "6776": {
+  "88936": {
     "deps": [
-      "3487",
-      "7023"
+      "15669",
+      "66545"
     ],
     "exports": [
       "checkStrictMode",
@@ -3778,1028 +7911,56 @@ let module_deps_data = {
       "toHash"
     ],
     "importedBy": [
-      "313",
-      "412",
-      "453",
-      "966",
-      "1119",
-      "1125",
-      "2296",
-      "2296",
-      "2531",
-      "2958",
-      "3099",
-      "3229",
-      "3301",
-      "3708",
-      "4181",
-      "4200",
-      "4665",
-      "4693",
-      "4783",
-      "4815",
-      "5173",
-      "5697",
-      "6239",
-      "6552",
-      "7159",
-      "7772",
-      "8280",
-      "9351",
-      "9434",
-      "9864"
+      "3499",
+      "3499",
+      "5463",
+      "6930",
+      "10194",
+      "14880",
+      "22609",
+      "24943",
+      "25316",
+      "30002",
+      "34243",
+      "36577",
+      "38355",
+      "38878",
+      "41939",
+      "50076",
+      "53021",
+      "59450",
+      "65151",
+      "72869",
+      "78891",
+      "87382",
+      "91481",
+      "91686",
+      "95609",
+      "96696",
+      "96962",
+      "97332",
+      "98103",
+      "98103",
+      "98634",
+      "99507"
     ],
     "lines": 188
   },
-  "6794": {
-    "deps": [],
-    "exports": [
-      "TELEMETRY_TERMS_URL",
-      "LAST_TELEMETRY_TERMS_UPDATE"
-    ],
-    "importedBy": [
-      "1862"
-    ],
-    "lines": 6
-  },
-  "6829": {
+  "89039": {
     "deps": [
-      "\"events\""
+      "58112",
+      "88400"
     ],
     "exports": [
-      "AbortController",
-      "AbortSignal",
-      "TimeoutSignal"
+      "$complex-export$ n.SHA512 $complex-export$"
     ],
     "importedBy": [
-      "6143",
-      "8359"
+      "1007",
+      "76679"
     ],
-    "lines": 111
+    "lines": 337
   },
-  "6857": {
-    "deps": [
-      "\"vscode\""
-    ],
-    "exports": [
-      "extensionFileSystem"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 16
-  },
-  "6881": {
-    "deps": [
-      "3136"
-    ],
-    "exports": [
-      "ChangeTracker"
-    ],
-    "importedBy": [
-      "7017"
-    ],
-    "lines": 37
-  },
-  "6932": {
-    "deps": [],
-    "exports": [
-      "asyncIterableFromArray",
-      "asyncIterableMapFilter",
-      "asyncIterableFilter",
-      "asyncIterableMap"
-    ],
-    "importedBy": [
-      "2388",
-      "4419",
-      "9334"
-    ],
-    "lines": 28
-  },
-  "6991": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.pad.NoPadding $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 8
-  },
-  "7017": {
-    "deps": [
-      "6881",
-      "750",
-      "9899",
-      "7727",
-      "4969",
-      "5120",
-      "6333",
-      "3136"
-    ],
-    "exports": [
-      "postInsertionTasks",
-      "postRejectionTasks",
-      "captureCode"
-    ],
-    "importedBy": [
-      "2990",
-      "3197"
-    ],
-    "lines": 232
-  },
-  "7023": {
-    "deps": [],
-    "exports": [
-      "regexpCode",
-      "getProperty",
-      "safeStringify",
-      "stringify",
-      "strConcat",
-      "addCodeArg",
-      "str",
-      "_",
-      "nil",
-      "_Code",
-      "Name",
-      "IDENTIFIER",
-      "_CodeOrName"
-    ],
-    "importedBy": [
-      "3487",
-      "3487",
-      "6776",
-      "8490"
-    ],
-    "lines": 159
-  },
-  "7057": {
-    "deps": [
-      "8318"
-    ],
-    "exports": [
-      "RealUrlOpener",
-      "UrlOpener"
-    ],
-    "importedBy": [
-      "362",
-      "main"
-    ],
-    "lines": 11
-  },
-  "7085": {
-    "deps": [
-      "4433",
-      "2728"
-    ],
-    "exports": [],
-    "importedBy": [
-      "9125"
-    ],
-    "lines": 260
-  },
-  "7148": {
-    "deps": [
-      "\"os\"",
-      "5290",
-      "3580",
-      "5740",
-      "5282"
-    ],
-    "exports": [
-      "$maybe-default$ u $maybe-default$"
-    ],
-    "importedBy": [
-      "3668"
-    ],
-    "lines": 176
-  },
-  "7159": {
-    "deps": [
-      "4815",
-      "3487",
-      "7426",
-      "6646",
-      "3141",
-      "5173",
-      "3487",
-      "2531",
-      "453",
-      "6776",
-      "4775"
-    ],
-    "exports": [
-      "CodeGen",
-      "Name",
-      "nil",
-      "stringify",
-      "str",
-      "_",
-      "KeywordCxt",
-      "default"
-    ],
-    "importedBy": [
-      "1581"
-    ],
-    "lines": 660
-  },
-  "7190": {
-    "deps": [
-      "\"timers\""
-    ],
-    "exports": [
-      "$maybe-default$ <anonymouse-function> $maybe-default$"
-    ],
-    "importedBy": [
-      "9822"
-    ],
-    "lines": 72
-  },
-  "7220": {
-    "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 37
-  },
-  "7254": {
-    "deps": [
-      "\"vscode\"",
-      "106",
-      "1133",
-      "6333",
-      "3060"
-    ],
-    "exports": [
-      "CopilotStatusBar"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 175
-  },
-  "7262": {
-    "deps": [
-      "\"http2\"",
-      "\"stream\"",
-      "8104",
-      "1787",
-      "4544"
-    ],
-    "exports": [
-      "request",
-      "setupContext",
-      "resetContext"
-    ],
-    "importedBy": [
-      "9575"
-    ],
-    "lines": 253
-  },
-  "7300": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 5
-  },
-  "7339": {
-    "deps": [],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 37
-  },
-  "7373": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "256"
-    ],
-    "lines": 1011
-  },
-  "7396": {
-    "deps": [
-      "5282",
-      "4106",
-      "4953"
-    ],
-    "exports": [
-      "IsInitialized",
-      "registerContextPreservation"
-    ],
-    "importedBy": [
-      "894",
-      "6281",
-      "8723"
-    ],
-    "lines": 38
-  },
-  "7408": {
-    "deps": [
-      "1747",
-      "9852"
-    ],
-    "exports": [
-      "Priorities",
-      "PromptWishlist",
-      "PromptElementRanges",
-      "PromptChoices",
-      "PromptBackground",
-      "PromptElementKind"
-    ],
-    "importedBy": [
-      "1747"
-    ],
-    "lines": 306
-  },
-  "7424": {
-    "deps": [
-      "\"path\"",
-      "4014",
-      "\"module\""
-    ],
-    "exports": [
-      "makePatchingRequire"
-    ],
-    "importedBy": [
-      "4953",
-      "4953"
-    ],
-    "lines": 41
-  },
-  "7426": {
-    "deps": [],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "5173",
-      "7159"
-    ],
-    "lines": 11
-  },
-  "7460": {
-    "deps": [
-      "8249",
-      "4938",
-      "34"
-    ],
-    "exports": [
-      "$complex-export$ u.SHA384 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 38
-  },
-  "7481": {
-    "deps": [],
-    "exports": [
-      "ghostTextDisplayQuantiles",
-      "ghostTextDisplayLanguageParameters",
-      "ghostTextDisplayMeanAlternativeLogProbParameter",
-      "ghostTextDisplayMeanLogProbParameter",
-      "ghostTextDisplayLog1pcompCharLenParameter",
-      "ghostTextDisplayInterceptParameter"
-    ],
-    "importedBy": [
-      "1006"
-    ],
-    "lines": 34
-  },
-  "7625": {
-    "deps": [
-      "\"url\"",
-      "9253",
-      "4470",
-      "5290",
-      "3504",
-      "9428",
-      "894",
-      "2588",
-      "5740",
-      "5282",
-      "9813"
-    ],
-    "exports": [
-      "$maybe-default$ f $maybe-default$"
-    ],
-    "importedBy": [
-      "1259"
-    ],
-    "lines": 124
-  },
-  "7645": {
-    "deps": [
-      "6372",
-      "2249",
-      "9090",
-      "\"util\"",
-      "\"net\"",
-      "\"http\"",
-      "\"child_process\"",
-      "\"timers\"",
-      "\"dns\"",
-      "\"fs\"",
-      "\"zlib\"",
-      "\"crypto\"",
-      "8286"
-    ],
-    "exports": [],
-    "importedBy": [
-      "3057"
-    ],
-    "lines": 485
-  },
-  "7660": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ i.mode.OFB $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 22
-  },
-  "7727": {
-    "deps": [
-      "6403",
-      "2533"
-    ],
-    "exports": [
-      "indentationBlockFinished",
-      "completionCutOrContinue",
-      "contextIndentationFromText",
-      "contextIndentation",
-      "getNodeStart",
-      "isBlockBodyFinishedWithPrefix",
-      "isBlockBodyFinished",
-      "isEmptyBlockStart"
-    ],
-    "importedBy": [
-      "2388",
-      "7017",
-      "9334"
-    ],
-    "lines": 142
-  },
-  "7744": {
-    "deps": [],
-    "exports": [
-      "contextualFilterCharacterMap",
-      "contextualFilterLanguageMap",
-      "contextualFilterWeights",
-      "contextualFilterIntercept",
-      "contextualFilterAcceptThreshold"
-    ],
-    "importedBy": [
-      "8965",
-      "9189"
-    ],
-    "lines": 193
-  },
-  "7772": {
-    "deps": [
-      "3487",
-      "6776",
-      "412"
-    ],
-    "exports": [
-      "validateSchemaDeps",
-      "validatePropertyDeps",
-      "error",
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 90
-  },
-  "7792": {
-    "deps": [
-      "8249",
-      "2153"
-    ],
-    "exports": [
-      "$complex-export$ c.SHA224 $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 27
-  },
-  "7824": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "2447"
-    ],
-    "lines": 95
-  },
-  "7870": {
-    "deps": [],
-    "exports": [
-      "Context"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 60
-  },
-  "7886": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "qP",
-      "wp"
-    ],
-    "importedBy": [
-      "8723"
-    ],
-    "lines": 36
-  },
-  "7898": {
-    "deps": [
-      "465",
-      "2301"
-    ],
-    "exports": [
-      "$maybe-default$ s $maybe-default$"
-    ],
-    "importedBy": [
-      "2512"
-    ],
-    "lines": 123
-  },
-  "7923": {
-    "deps": [],
-    "exports": [
-      "encode",
-      "decode"
-    ],
-    "importedBy": [
-      "6400"
-    ],
-    "lines": 19
-  },
-  "8002": {
-    "deps": [
-      "4953",
-      "\"path\"",
-      "4694",
-      "420"
-    ],
-    "exports": [
-      "mysql",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 81
-  },
-  "8060": {
-    "deps": [
-      "4953",
-      "\"events\""
-    ],
-    "exports": [
-      "postgres6",
-      "postgres7",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 222
-  },
-  "8082": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 4
-  },
-  "8090": {
-    "deps": [
-      "5740",
-      "9962"
-    ],
-    "exports": [
-      "$maybe-default$ i $maybe-default$"
-    ],
-    "importedBy": [
-      "6694",
-      "8723"
-    ],
-    "lines": 87
-  },
-  "8104": {
-    "deps": [
-      "1758",
-      "39"
-    ],
-    "exports": [
-      "$complex-export$ require(1758) $complex-export$",
-      "$complex-export$ require(39) $complex-export$"
-    ],
-    "importedBy": [
-      "3100",
-      "4544",
-      "6143",
-      "7262",
-      "9575",
-      "9803"
-    ],
-    "lines": 10
-  },
-  "8129": {
-    "deps": [
-      "\"vscode\"",
-      "6403"
-    ],
-    "exports": [
-      "ExtensionLocationFactory"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 17
-  },
-  "8142": {
-    "deps": [],
-    "exports": [
-      "FilterSettings",
-      "telmetryNames",
-      "TargetPopulation",
-      "Filter"
-    ],
-    "importedBy": [
-      "9030",
-      "9189",
-      "9380"
-    ],
-    "lines": 77
-  },
-  "8200": {
-    "deps": [
-      "4783",
-      "2924",
-      "4665",
-      "1119",
-      "9864",
-      "7772",
-      "3708",
-      "9351",
-      "6239",
-      "2296",
-      "5697",
-      "19",
-      "4200",
-      "1125",
-      "9434",
-      "6552"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "3924"
-    ],
-    "lines": 41
-  },
-  "8213": {
-    "deps": [
-      "2728"
-    ],
-    "exports": [
-      "I"
-    ],
-    "importedBy": [
-      "4433",
-      "6771"
-    ],
-    "lines": 57
-  },
-  "8214": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$complex-export$ r.MD5 $complex-export$"
-    ],
-    "importedBy": [
-      "452",
-      "1354",
-      "1857",
-      "3974",
-      "4253",
-      "4454"
-    ],
-    "lines": 164
-  },
-  "8249": {
-    "deps": [
-      "\"crypto\""
-    ],
-    "exports": [
-      "$maybe-default$ r $maybe-default$"
-    ],
-    "importedBy": [
-      "34",
-      "298",
-      "452",
-      "706",
-      "888",
-      "1077",
-      "1148",
-      "1354",
-      "1857",
-      "2112",
-      "2153",
-      "2209",
-      "2422",
-      "2783",
-      "2807",
-      "3327",
-      "3615",
-      "3974",
-      "4242",
-      "4253",
-      "4454",
-      "4938",
-      "5109",
-      "6475",
-      "6991",
-      "7460",
-      "7660",
-      "7792",
-      "8214",
-      "8269",
-      "8568",
-      "9824",
-      "9968"
-    ],
-    "lines": 264
-  },
-  "8269": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$complex-export$ r.enc.Base64 $complex-export$"
-    ],
-    "importedBy": [
-      "452",
-      "1354",
-      "1857",
-      "3974",
-      "4253",
-      "4454"
-    ],
-    "lines": 67
-  },
-  "8280": {
-    "deps": [
-      "6646",
-      "412",
-      "3487",
-      "2141",
-      "5173",
-      "6776"
-    ],
-    "exports": [
-      "callRef",
-      "getValidate",
-      "default"
-    ],
-    "importedBy": [
-      "5684"
-    ],
-    "lines": 141
-  },
-  "8286": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "7645"
-    ],
-    "lines": 27
-  },
-  "8318": {
-    "deps": [
-      "\"path\"",
-      "\"child_process\"",
-      "\"fs\"",
-      "2818",
-      "1595",
-      "1906"
-    ],
-    "exports": [
-      "$maybe-default$ g $maybe-default$"
-    ],
-    "importedBy": [
-      "7057"
-    ],
-    "lines": 237
-  },
-  "8339": {
-    "deps": [
-      "\"url\"",
-      "5290",
-      "5740",
-      "9036",
-      "3054",
-      "9962"
-    ],
-    "exports": [
-      "$maybe-default$ d $maybe-default$"
-    ],
-    "importedBy": [
-      "8723"
-    ],
-    "lines": 118
-  },
-  "8348": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "6143",
-      "9575"
-    ],
-    "lines": 773
-  },
-  "8359": {
-    "deps": [
-      "6829",
-      "5600",
-      "9872",
-      "4544",
-      "9407"
-    ],
-    "exports": [
-      "Request"
-    ],
-    "importedBy": [
-      "6143"
-    ],
-    "lines": 153
-  },
-  "8386": {
-    "deps": [],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "5684"
-    ],
-    "lines": 10
-  },
-  "8436": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "mongo2",
-      "mongo3",
-      "mongo330",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 211
-  },
-  "8490": {
-    "deps": [
-      "7023"
-    ],
-    "exports": [
-      "ValueScope",
-      "ValueScopeName",
-      "Scope",
-      "varKinds",
-      "UsedValueState"
-    ],
-    "importedBy": [
-      "3487",
-      "3487"
-    ],
-    "lines": 160
-  },
-  "8568": {
-    "deps": [
-      "8249",
-      "5109"
-    ],
-    "exports": [
-      "$complex-export$ r.mode.CFB $complex-export$"
-    ],
-    "importedBy": [
-      "1354"
-    ],
-    "lines": 37
-  },
-  "8602": {
-    "deps": [
-      "495"
-    ],
-    "exports": [
-      "$maybe-default$ <anonymouse-function> $maybe-default$"
-    ],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 4
-  },
-  "8604": {
-    "deps": [
-      "4953",
-      "\"@opentelemetry/tracing\""
-    ],
-    "exports": [
-      "AzureMonitorSymbol",
-      "azureCoreTracing",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 70
-  },
-  "8723": {
-    "deps": [
-      "\"http\"",
-      "\"https\"",
-      "5282",
-      "5740",
-      "9036",
-      "8339",
-      "894",
-      "9962",
-      "8090",
-      "7396",
-      "7886",
-      "4777",
-      "5071",
-      "1227"
-    ],
-    "exports": [
-      "$maybe-default$ h $maybe-default$"
-    ],
-    "importedBy": [
-      "1259",
-      "2588",
-      "9184",
-      "9574"
-    ],
-    "lines": 202
-  },
-  "8771": {
-    "deps": [
-      "1547"
-    ],
-    "exports": [
-      "TestNotificationSender",
-      "TestUrlOpener",
-      "rangeToString",
-      "positionToString"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 35
-  },
-  "8859": {
-    "deps": [
-      "4953"
-    ],
-    "exports": [
-      "bunyan",
-      "enable"
-    ],
-    "importedBy": [
-      "4106"
-    ],
-    "lines": 28
-  },
-  "8876": {
+  "89073": {
     "deps": [],
     "exports": [
       "shouldUseRule",
@@ -4807,837 +7968,435 @@ let module_deps_data = {
       "schemaHasRulesForType"
     ],
     "importedBy": [
-      "453",
-      "4815"
+      "91686",
+      "97332"
     ],
     "lines": 25
   },
-  "8965": {
+  "89531": {
     "deps": [
-      "7744"
+      "29929",
+      "39800",
+      "65489",
+      "3855"
     ],
     "exports": [
-      "contextualFilterScore",
-      "getLastLineLength",
-      "ContextualFilterManager"
+      "forceSendingTelemetry",
+      "hackOptOutListener",
+      "setupStandardReporters",
+      "APP_INSIGHTS_KEY_SECURE",
+      "APP_INSIGHTS_KEY"
     ],
     "importedBy": [
-      "750",
-      "9334",
-      "main"
+      "4630",
+      "81843",
+      "96712"
     ],
-    "lines": 88
+    "lines": 69
   },
-  "9012": {
-    "deps": [],
-    "exports": [
-      "SEMVER_SPEC_VERSION",
-      "re",
-      "src",
-      "parse",
-      "valid",
-      "clean",
-      "SemVer",
-      "inc",
-      "diff",
-      "compareIdentifiers",
-      "rcompareIdentifiers",
-      "major",
-      "minor",
-      "patch",
-      "compare",
-      "compareLoose",
-      "rcompare",
-      "sort",
-      "rsort",
-      "gt",
-      "lt",
-      "eq",
-      "neq",
-      "gte",
-      "lte",
-      "cmp",
-      "Comparator",
-      "Range",
-      "toComparators",
-      "satisfies",
-      "maxSatisfying",
-      "minSatisfying",
-      "minVersion",
-      "validRange",
-      "ltr",
-      "gtr",
-      "outside",
-      "prerelease",
-      "intersects",
-      "coerce"
-    ],
-    "importedBy": [
-      "9562"
-    ],
-    "lines": 1103
-  },
-  "9024": {
+  "89600": {
     "deps": [
-      "4953"
+      "\"path\"",
+      "\"worker_threads\"",
+      "12414"
     ],
     "exports": [
-      "postgresPool1",
-      "enable"
+      "startFakeTelemetryServerIfNecessary"
     ],
     "importedBy": [
-      "4106"
+      "96712"
     ],
-    "lines": 20
+    "lines": 29
   },
-  "9030": {
+  "89629": {
     "deps": [
-      "8142",
-      "862"
+      "892",
+      "86236",
+      "39800",
+      "81843",
+      "5381",
+      "94340"
     ],
     "exports": [
-      "GranularityDirectory"
+      "handleSetEditorInfo"
     ],
     "importedBy": [
-      "9189"
+      "65332"
     ],
-    "lines": 38
+    "lines": 46
   },
-  "9036": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "731",
-      "5740",
-      "6694",
-      "8339",
-      "8723"
-    ],
-    "lines": 11
-  },
-  "9073": {
+  "89796": {
     "deps": [
-      "2337"
+      "56105",
+      "61057"
     ],
     "exports": [
-      "$maybe-default$ e $maybe-default$"
+      "privateKeyValidator",
+      "publicKeyValidator"
     ],
     "importedBy": [
-      "9266"
+      "48757"
     ],
-    "lines": 11
+    "lines": 71
   },
-  "9090": {
+  "90589": {
     "deps": [
-      "6372"
+      "\"fs\"",
+      "\"os\"",
+      "\"path\"",
+      "\"zlib\"",
+      "\"child_process\"",
+      "12010",
+      "29816",
+      "77649"
     ],
     "exports": [
-      "$maybe-default$ <anonymouse-function> $maybe-default$"
+      "$maybe-default$ d $maybe-default$"
     ],
     "importedBy": [
-      "7645"
+      "94641"
     ],
-    "lines": 241
+    "lines": 466
   },
-  "9125": {
+  "90623": {
     "deps": [
-      "4433",
-      "6771",
-      "7085"
+      "892",
+      "86236",
+      "\"os\"",
+      "15291",
+      "72406",
+      "5381"
     ],
     "exports": [
-      "SourceMapConsumer"
+      "handleVerifyCertificate"
     ],
     "importedBy": [
-      "6252"
+      "65332"
+    ],
+    "lines": 48
+  },
+  "91003": {
+    "deps": [
+      "56105",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.mgf.mgf1 = n.mgf1 = n.mgf1 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "9370",
+      "35758"
+    ],
+    "lines": 28
+  },
+  "91183": {
+    "deps": [
+      "56105"
+    ],
+    "exports": [
+      "$complex-export$ n.md = n.md || {} $complex-export$"
+    ],
+    "importedBy": [
+      "593",
+      "4173",
+      "5945",
+      "12262",
+      "46461",
+      "54326",
+      "63585",
+      "72299",
+      "98967"
     ],
     "lines": 3
   },
-  "9184": {
+  "91186": {
     "deps": [
-      "\"https\"",
-      "8723",
-      "5282"
+      "64505",
+      "11864"
+    ],
+    "exports": [
+      "computeScore",
+      "FunctionJaccardMatcher",
+      "IndentationBasedJaccardMatcher",
+      "FixedWindowSizeJaccardMatcher"
+    ],
+    "importedBy": [
+      "27289"
+    ],
+    "lines": 111
+  },
+  "91225": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "36188"
+    ],
+    "lines": 1
+  },
+  "91300": {
+    "deps": [
+      "892",
+      "86236",
+      "40702",
+      "41749",
+      "53007",
+      "5381",
+      "6159",
+      "56056"
+    ],
+    "exports": [
+      "notifyShown"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 40
+  },
+  "91320": {
+    "deps": [
+      "71756"
     ],
     "exports": [
       "$maybe-default$ s $maybe-default$"
     ],
     "importedBy": [
-      "3668"
+      "57418"
     ],
-    "lines": 64
+    "lines": 207
   },
-  "9189": {
+  "91371": {
     "deps": [
-      "3055563",
-      "299",
-      "3076",
-      "1133",
-      "7744",
-      "9657",
-      "219",
-      "9748",
-      "8142",
-      "9030"
+      "58112",
+      "78976"
     ],
     "exports": [
-      "Features",
-      "Task"
+      "$complex-export$ s.format.Hex $complex-export$"
     ],
     "importedBy": [
-      "3",
-      "1124",
-      "1133",
-      "4419",
-      "4969",
-      "5413",
-      "6333",
-      "9334",
-      "9380",
-      "main"
+      "76679"
     ],
-    "lines": 389
+    "lines": 20
   },
-  "9216": {
-    "deps": [],
-    "exports": [
-      "LEAST_UPPER_BOUND",
-      "GREATEST_LOWER_BOUND",
-      "search"
-    ],
-    "importedBy": [
-      "6771"
-    ],
-    "lines": 30
-  },
-  "9253": {
+  "91481": {
     "deps": [
-      "9962",
-      "5158",
-      "3580",
-      "\"url\""
+      "15669",
+      "88936"
     ],
     "exports": [
-      "$maybe-default$ a $maybe-default$"
+      "assignDefaults"
     ],
     "importedBy": [
-      "1629",
-      "3668",
-      "7625"
+      "91686"
     ],
-    "lines": 103
+    "lines": 24
   },
-  "9266": {
+  "91578": {
     "deps": [
-      "3905",
-      "9073"
-    ],
-    "exports": [
-      "$maybe-default$ <anonymouse-function> $maybe-default$"
-    ],
-    "importedBy": [
-      "3458"
-    ],
-    "lines": 25
-  },
-  "9306": {
-    "deps": [],
-    "exports": [
-      "DiscrError"
-    ],
-    "importedBy": [
-      "1240"
-    ],
-    "lines": 7
-  },
-  "9334": {
-    "deps": [
-      "3055563",
-      "2277",
-      "3076",
-      "106",
-      "6932",
-      "1133",
-      "9189",
-      "9899",
-      "2279",
-      "3",
-      "4419",
-      "937",
-      "6722",
-      "7727",
-      "4969",
-      "766",
-      "1006",
-      "1124",
-      "6333",
-      "70",
-      "6403",
-      "8965",
-      "5413",
-      "750"
-    ],
-    "exports": [
-      "getGhostText",
-      "completionCache",
-      "ResultType",
-      "ghostTextLogger"
-    ],
-    "importedBy": [
-      "2218",
-      "3197"
-    ],
-    "lines": 770
-  },
-  "9351": {
-    "deps": [
-      "412",
-      "3487",
-      "2141",
-      "6776"
+      "96696"
     ],
     "exports": [
       "default"
     ],
     "importedBy": [
-      "6239",
-      "8200"
+      "38355",
+      "41939"
     ],
-    "lines": 107
+    "lines": 12
   },
-  "9380": {
+  "91674": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "42401",
+      "51661"
+    ],
+    "lines": 1496
+  },
+  "91686": {
     "deps": [
-      "\"vscode\"",
-      "1133",
-      "9189",
-      "8142",
-      "9899"
+      "12171",
+      "97332",
+      "89073",
+      "97332",
+      "91481",
+      "95782",
+      "38878",
+      "15669",
+      "17250",
+      "96696",
+      "88936",
+      "6930"
     ],
     "exports": [
-      "setupExperimentationService",
-      "logger"
+      "getData",
+      "KeywordCxt",
+      "validateFunctionCode"
     ],
     "importedBy": [
-      "4428"
+      "34243",
+      "38355",
+      "86236",
+      "87382"
     ],
-    "lines": 34
+    "lines": 553
   },
-  "9382": {
+  "91711": {
     "deps": [
-      "9958"
-    ],
-    "exports": [
-      "RemoteDependencyDataConstants",
-      "domainSupportsProperties"
-    ],
-    "importedBy": [
-      "5290"
-    ],
-    "lines": 23
-  },
-  "9407": {
-    "deps": [
-      "\"crypto\"",
-      "\"stream\""
-    ],
-    "exports": [
-      "isFormData",
-      "FormDataSerializer"
-    ],
-    "importedBy": [
-      "2981",
-      "6143",
-      "8359",
-      "9575"
-    ],
-    "lines": 83
-  },
-  "9408": {
-    "deps": [
-      "2279",
-      "6333"
-    ],
-    "exports": [
-      "registerDefaultHandlers"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 62
-  },
-  "9425": {
-    "deps": [
-      "\"vscode\"",
-      "1133",
-      "4197",
-      "70",
-      "4147"
-    ],
-    "exports": [
-      "VSCodeEditorInfo",
-      "makeVscInfo",
-      "getExtension",
-      "setExtension",
-      "VSCodeConfigProvider"
-    ],
-    "importedBy": [
-      "main"
-    ],
-    "lines": 122
-  },
-  "9428": {
-    "deps": [
-      "608",
-      "4127"
+      "21244",
+      "29180"
     ],
     "exports": [
       "hasOwnProperty",
-      "n"
+      "r"
     ],
     "importedBy": [
-      "7625"
+      "94641"
     ],
     "lines": 11
   },
-  "9434": {
+  "91728": {
     "deps": [
-      "3487",
-      "6776"
+      "35765",
+      "9321"
     ],
     "exports": [
-      "default"
+      "AlwaysAuthManager",
+      "NotAuthManager"
     ],
     "importedBy": [
-      "8200"
+      "72530",
+      "86584"
     ],
-    "lines": 70
+    "lines": 32
   },
-  "9461": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "2531"
-    ],
-    "lines": 88
-  },
-  "9477": {
+  "92232": {
     "deps": [
-      "\"net\"",
-      "\"url\"",
-      "\"vscode\""
+      "58112"
     ],
     "exports": [
-      "initProxyEnvironment"
+      "$complex-export$ n.SHA256 $complex-export$"
     ],
     "importedBy": [
-      "main"
+      "76679",
+      "83816"
     ],
-    "lines": 67
+    "lines": 129
   },
-  "9502": {
+  "92611": {
     "deps": [
-      "9651"
+      "\"assert\"",
+      "7267",
+      "71274"
     ],
     "exports": [
-      "default"
+      "getNamespace",
+      "createNamespace",
+      "destroyNamespace",
+      "reset"
     ],
     "importedBy": [
-      "3924"
+      "6751"
     ],
-    "lines": 5
+    "lines": 163
   },
-  "9562": {
-    "deps": [
-      "9012",
-      "3964",
-      "4046"
-    ],
-    "exports": [
-      "$complex-export$ require(3964) $complex-export$",
-      "$complex-export$ require(4046) $complex-export$"
-    ],
-    "importedBy": [
-      "894"
-    ],
-    "lines": 6
-  },
-  "9565": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "9822"
-    ],
-    "lines": 38
-  },
-  "9574": {
-    "deps": [
-      "894",
-      "6281",
-      "6639",
-      "4350",
-      "8723",
-      "731",
-      "9962",
-      "5282",
-      "3668",
-      "1629",
-      "1259",
-      "5290"
-    ],
-    "exports": [
-      "TelemetryClient",
-      "Contracts",
-      "DistributedTracingModes",
-      "defaultClient",
-      "liveMetricsClient",
-      "setup",
-      "start",
-      "getCorrelationContext",
-      "wrapWithCorrelationContext",
-      "Configuration",
-      "dispose"
-    ],
-    "importedBy": [
-      "4398"
-    ],
-    "lines": 221
-  },
-  "9575": {
-    "deps": [
-      "\"stream\"",
-      "\"tls\"",
-      "\"util\"",
-      "8348",
-      "8104",
-      "1787",
-      "9803",
-      "7262",
-      "3769",
-      "4544",
-      "9407",
-      "5258"
-    ],
-    "exports": [
-      "request",
-      "setupContext",
-      "resetContext",
-      "RequestAbortedError",
-      "ALPN_HTTP2",
-      "ALPN_HTTP2C",
-      "ALPN_HTTP1_1",
-      "ALPN_HTTP1_0"
-    ],
-    "importedBy": [
-      "3100"
-    ],
-    "lines": 309
-  },
-  "9608": {
-    "deps": [],
-    "exports": [
-      "duplicateTree",
-      "cutTreeAfterLine",
-      "isTop",
-      "isVirtual",
-      "isLine",
-      "isBlank",
-      "topNode",
-      "blankNode",
-      "lineNode",
-      "virtualNode"
-    ],
-    "importedBy": [
-      "5288",
-      "9829"
-    ],
-    "lines": 79
-  },
-  "9651": {
-    "deps": [
-      "3487"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "9502"
-    ],
-    "lines": 94
-  },
-  "9657": {
-    "deps": [],
-    "exports": [
-      "isRepetitive",
-      "RepetitionFilterMode"
-    ],
-    "importedBy": [
-      "1124",
-      "4419",
-      "9189"
-    ],
-    "lines": 57
-  },
-  "9697": {
-    "deps": [],
-    "exports": [],
-    "importedBy": [
-      "9958"
-    ],
-    "lines": 9
-  },
-  "9748": {
-    "deps": [
-      "2279",
-      "219"
-    ],
-    "exports": [
-      "ExpConfigNone",
-      "ExpConfigFromTAS",
-      "ExpConfigMaker"
-    ],
-    "importedBy": [
-      "9189",
-      "main"
-    ],
-    "lines": 49
-  },
-  "9803": {
+  "92646": {
     "deps": [
       "\"http\"",
       "\"https\"",
-      "\"stream\"",
-      "8104",
-      "1787",
-      "4544"
+      "12010",
+      "77649",
+      "76357",
+      "55128",
+      "6751",
+      "13103"
     ],
     "exports": [
-      "request",
-      "setupContext",
-      "resetContext"
+      "$maybe-default$ d $maybe-default$"
     ],
     "importedBy": [
-      "9575"
+      "439",
+      "58144"
     ],
-    "lines": 161
+    "lines": 212
   },
-  "9813": {
-    "deps": [
-      "5290",
-      "5740",
-      "894"
-    ],
-    "exports": [
-      "$maybe-default$ s $maybe-default$"
-    ],
-    "importedBy": [
-      "7625"
-    ],
-    "lines": 256
-  },
-  "9822": {
-    "deps": [
-      "3269",
-      "9565",
-      "7190",
-      "6157"
-    ],
-    "exports": [
-      "$maybe-default$ u $maybe-default$"
-    ],
-    "importedBy": [
-      "3223"
-    ],
-    "lines": 97
-  },
-  "9824": {
-    "deps": [
-      "8249"
-    ],
-    "exports": [
-      "$complex-export$ void (r.algo.HMAC = o.extend({\n  init: function (e, t) {\n    e = this._hasher = new e.init(), \"string\" == typeof t && (t = i.parse(t));\n    var n = e.blockSize,\n      r = 4 * n;\n    t.sigBytes &gt; r && (t = e.finalize(t)), t.clamp();\n    for (var o = this._oKey = t.clone(), s = this._iKey = t.clone(), a = o.words, c = s.words, l = 0; l &lt; n; l++) a[l] ^= 1549556828, c[l] ^= 909522486;\n    o.sigBytes = s.sigBytes = r, this.reset();\n  },\n  reset: function () {\n    var e = this._hasher;\n    e.reset(), e.update(this._iKey);\n  },\n  update: function (e) {\n    return this._hasher.update(e), this;\n  },\n  finalize: function (e) {\n    var t = this._hasher,\n      n = t.finalize(e);\n    return t.reset(), t.finalize(this._oKey.clone().concat(n));\n  }\n})) $complex-export$"
-    ],
-    "importedBy": [
-      "888",
-      "1354",
-      "2112"
-    ],
-    "lines": 36
-  },
-  "9829": {
-    "deps": [
-      "9608"
-    ],
-    "exports": [
-      "rebuildTree",
-      "foldTree",
-      "visitTreeConditionally",
-      "visitTree",
-      "resetLineNumbers",
-      "mapLabels",
-      "clearLabelsIf",
-      "clearLabels"
-    ],
-    "importedBy": [
-      "4855",
-      "5288"
-    ],
-    "lines": 119
-  },
-  "9852": {
-    "deps": [
-      "\"fs\"",
-      "\"path\""
-    ],
-    "exports": [
-      "prepareTokenizer",
-      "tokenize",
-      "tokenize_strings",
-      "tokenLength",
-      "takeLastTokens",
-      "takeLastLinesTokens",
-      "takeFirstTokens",
-      "detokenize"
-    ],
-    "importedBy": [
-      "1747",
-      "4431",
-      "4723",
-      "7408"
-    ],
-    "lines": 183
-  },
-  "9864": {
-    "deps": [
-      "3487",
-      "6776"
-    ],
-    "exports": [
-      "default"
-    ],
-    "importedBy": [
-      "8200"
-    ],
-    "lines": 96
-  },
-  "9867": {
-    "deps": [
-      "6372"
-    ],
-    "exports": [
-      "$maybe-default$ <anonymouse-function> $maybe-default$"
-    ],
-    "importedBy": [
-      "3057",
-      "3964",
-      "4046"
-    ],
-    "lines": 124
-  },
-  "9871": {
+  "93180": {
     "deps": [],
     "exports": [],
     "importedBy": [
-      "9958"
+      "56633"
     ],
-    "lines": 25
+    "lines": 3
   },
-  "9872": {
+  "93402": {
     "deps": [
-      "\"http\"",
-      "4544"
+      "25135",
+      "41749",
+      "5798",
+      "47917",
+      "24090",
+      "59558",
+      "65489",
+      "70216",
+      "20913",
+      "70819"
     ],
     "exports": [
-      "Headers"
+      "postInsertionTasks",
+      "postRejectionTasks",
+      "captureCode",
+      "postInsertConfiguration"
     ],
     "importedBy": [
-      "2500",
-      "2981",
-      "4193",
-      "6143",
-      "8359"
+      "55581",
+      "71382"
     ],
-    "lines": 112
+    "lines": 254
   },
-  "9899": {
+  "93430": {
     "deps": [
-      "299",
-      "1133",
-      "6333"
+      "\"events\""
     ],
     "exports": [
-      "logger",
-      "toPlainText",
-      "Logger",
-      "MultiLog",
-      "OutputChannelLog",
-      "ConsoleLog",
-      "LogTarget",
-      "verboseLogging",
-      "LogVerbose",
-      "LogLevel"
+      "$complex-export$ () =&gt; {\n  const e = {};\n  const t = new n();\n  t.setMaxListeners(0);\n  return {\n    acquire: r => new Promise(n => {\n      if (!e[r]) {\n        e[r] = true;\n        return void n();\n      }\n      const i = o => {\n        if (e[r]) {\n          e[r] = true;\n          t.removeListener(r, i);\n          n(o);\n        }\n      };\n      t.on(r, i);\n    }),\n    release: (r, n) => {\n      Reflect.deleteProperty(e, r);\n      setImmediate(() => t.emit(r, n));\n    }\n  };\n} $complex-export$"
     ],
     "importedBy": [
-      "362",
-      "937",
-      "1006",
-      "1862",
-      "2388",
-      "2901",
-      "3197",
-      "4419",
-      "7017",
-      "9334",
-      "9380",
-      "main"
+      "56633"
     ],
-    "lines": 146
+    "lines": 27
   },
-  "9931": {
+  "93505": {
     "deps": [
-      "1788",
-      "569"
+      "64346",
+      "54214",
+      "48226",
+      "45591",
+      "86029"
     ],
     "exports": [
-      "getNeighborSnippets",
-      "neighborOptionToSelection"
+      "Request"
     ],
     "importedBy": [
-      "1747"
+      "14735"
     ],
-    "lines": 76
+    "lines": 153
   },
-  "9940": {
+  "93809": {
     "deps": [
-      "464"
-    ],
-    "exports": [
-      "getNodeStart",
-      "isBlockBodyFinished",
-      "isEmptyBlockStart",
-      "getBlockParser"
-    ],
-    "importedBy": [
-      "4723"
-    ],
-    "lines": 520
-  },
-  "9958": {
-    "deps": [
-      "7220",
-      "9871",
-      "320",
-      "8602",
-      "495",
-      "7300",
-      "4526",
-      "935",
-      "8082",
-      "901",
-      "3092",
-      "6279",
-      "6290",
-      "7339",
-      "9697"
+      "48517",
+      "61886",
+      "97878",
+      "946",
+      "14964",
+      "6441",
+      "43139",
+      "46157",
+      "49668",
+      "85397",
+      "17059",
+      "39731",
+      "5520",
+      "43739",
+      "70595"
     ],
     "exports": [
       "AvailabilityData",
@@ -5660,331 +8419,83 @@ let module_deps_data = {
       "StackFrame"
     ],
     "importedBy": [
-      "5290",
-      "9382"
+      "12436",
+      "85512"
     ],
     "lines": 21
   },
-  "9962": {
+  "93927": {
     "deps": [
-      "5740",
-      "5282"
+      "40084",
+      "32137",
+      "39800",
+      "75611",
+      "70769",
+      "16905",
+      "66046",
+      "96817",
+      "54619",
+      "63405",
+      "20190",
+      "5798",
+      "15291",
+      "57158",
+      "20039",
+      "52031",
+      "70216",
+      "65489",
+      "20913",
+      "84567"
     ],
     "exports": [
-      "$maybe-default$ i $maybe-default$"
+      "logger",
+      "createProductionContext"
     ],
     "importedBy": [
-      "6694",
-      "8090",
-      "8339",
-      "8723",
-      "9253",
-      "9574"
+      "81843"
     ],
-    "lines": 116
+    "lines": 55
   },
-  "9968": {
+  "94285": {
     "deps": [
-      "8249",
-      "5109"
+      "66471"
     ],
     "exports": [
-      "$complex-export$ r.mode.CTRGladman $complex-export$"
+      "default"
     ],
     "importedBy": [
-      "1354"
+      "10194",
+      "36577",
+      "59450"
     ],
-    "lines": 56
+    "lines": 6
   },
-  "305587": {
+  "94340": {
     "deps": [
-      "\"path\"",
-      "\"fs\""
+      "892",
+      "86236",
+      "39800",
+      "20039",
+      "5381",
+      "6159",
+      "56056"
     ],
     "exports": [
-      "$maybe-default$ i $maybe-default$",
-      "$maybe-default$ o $maybe-default$"
+      "applyNetworkProxyConfiguration",
+      "applySettingsToConfiguration",
+      "notifyChangeConfiguration",
+      "EditorConfigurationSettings",
+      "NetworkProxy"
     ],
     "importedBy": [
-      "3055306",
-      "3055306"
+      "32879",
+      "89629"
     ],
-    "lines": 2889
+    "lines": 88
   },
-  "305594": {
+  "94343": {
     "deps": [
-      "\"fs\"",
-      "\"path\""
-    ],
-    "exports": [
-      "prepareTokenizer",
-      "tokenize",
-      "tokenize_strings",
-      "tokenLength",
-      "takeLastTokens",
-      "takeLastLinesTokens",
-      "takeFirstTokens",
-      "detokenize"
-    ],
-    "importedBy": [
-      "3055312",
-      "3055395",
-      "3055456",
-      "3055563"
-    ],
-    "lines": 183
-  },
-  "3055125": {
-    "deps": [
-      "3055417",
-      "3055404"
-    ],
-    "exports": [
-      "getNeighborSnippets",
-      "neighborOptionToSelection"
-    ],
-    "importedBy": [
-      "3055312"
-    ],
-    "lines": 76
-  },
-  "3055179": {
-    "deps": [
-      "\"path\"",
-      "3055306"
-    ],
-    "exports": [
-      "extractLocalImportContext",
-      "getDocComment"
-    ],
-    "importedBy": [
-      "3055312"
-    ],
-    "lines": 288
-  },
-  "3055250": {
-    "deps": [
-      "3055469",
-      "3055617"
-    ],
-    "exports": [
-      "getWindowsDelineations"
-    ],
-    "importedBy": [
-      "3055404"
-    ],
-    "lines": 75
-  },
-  "3055271": {
-    "deps": [
-      "\"fs\""
-    ],
-    "exports": [
-      "defaultFileSystem",
-      "FileSystem"
-    ],
-    "importedBy": [
-      "3055563"
-    ],
-    "lines": 18
-  },
-  "3055306": {
-    "deps": [
-      "\"path\"",
-      "305587"
-    ],
-    "exports": [
-      "getFunctionPositions",
-      "getFirstPrecedingComment",
-      "isFunctionDefinition",
-      "isFunction",
-      "getAncestorWithSiblingFunctions",
-      "queryPythonIsDocstring",
-      "queryGlobalVars",
-      "queryExports",
-      "queryImports",
-      "queryFunctions",
-      "getBlockCloseToken",
-      "parsesWithoutError",
-      "parseTree",
-      "getLanguage",
-      "languageIdToWasmLanguage",
-      "isSupportedLanguageId",
-      "WASMLanguage"
-    ],
-    "importedBy": [
-      "3055179",
-      "3055563",
-      "3055610",
-      "3055670"
-    ],
-    "lines": 292
-  },
-  "3055312": {
-    "deps": [
-      "3055417",
-      "3055179",
-      "3055125",
-      "3055670",
-      "305594",
-      "3055456",
-      "3055395"
-    ],
-    "exports": [
-      "getPrompt",
-      "newLineEnded",
-      "normalizeLanguageId",
-      "PromptOptions",
-      "SuffixStartMode",
-      "SuffixMatchOption",
-      "SuffixOption",
-      "LineEndingOptions",
-      "LocalImportContextOption",
-      "SnippetSelectionOption",
-      "NeighboringTabsPositionOption",
-      "NeighboringTabsOption",
-      "SiblingOption",
-      "PathMarkerOption",
-      "LanguageMarkerOption",
-      "TOKENS_RESERVED_FOR_SUFFIX_ENCODING",
-      "MAX_EDIT_DISTANCE_LENGTH",
-      "MAX_PROMPT_LENGTH"
-    ],
-    "importedBy": [
-      "3055456",
-      "3055467",
-      "3055563",
-      "3055670"
-    ],
-    "lines": 365
-  },
-  "3055395": {
-    "deps": [
-      "305594"
-    ],
-    "exports": [
-      "findEditDistanceScore"
-    ],
-    "importedBy": [
-      "3055312"
-    ],
-    "lines": 37
-  },
-  "3055404": {
-    "deps": [
-      "3055250",
-      "3055467"
-    ],
-    "exports": [
-      "computeScore",
-      "IndentationBasedJaccardMatcher",
-      "FixedWindowSizeJaccardMatcher"
-    ],
-    "importedBy": [
-      "3055125"
-    ],
-    "lines": 84
-  },
-  "3055417": {
-    "deps": [],
-    "exports": [
-      "getPathMarker",
-      "getLanguageMarker",
-      "comment",
-      "hasLanguageMarker",
-      "languageCommentMarkers"
-    ],
-    "importedBy": [
-      "3055125",
-      "3055312",
-      "3055563"
-    ],
-    "lines": 315
-  },
-  "3055456": {
-    "deps": [
-      "3055312",
-      "305594"
-    ],
-    "exports": [
-      "Priorities",
-      "PromptWishlist",
-      "PromptElementRanges",
-      "PromptChoices",
-      "PromptBackground",
-      "PromptElementKind"
-    ],
-    "importedBy": [
-      "3055312"
-    ],
-    "lines": 306
-  },
-  "3055467": {
-    "deps": [
-      "3055312"
-    ],
-    "exports": [
-      "splitIntoWords",
-      "WindowedMatcher",
-      "SortOptions"
-    ],
-    "importedBy": [
-      "3055404"
-    ],
-    "lines": 267
-  },
-  "3055469": {
-    "deps": [
-      "3055876",
-      "3055617"
-    ],
-    "exports": [
-      "parseTree",
-      "registerLanguageSpecificParser",
-      "flattenVirtual",
-      "groupBlocks",
-      "combineClosersAndOpeners",
-      "buildLabelRules",
-      "labelVirtualInherited",
-      "labelLines",
-      "parseRaw"
-    ],
-    "importedBy": [
-      "3055250"
-    ],
-    "lines": 207
-  },
-  "3055563": {
-    "deps": [
-      "\"path\"",
-      "\"worker_threads\"",
-      "3055306",
-      "3055610",
-      "3055312",
-      "305594",
-      "3055417",
-      "3055271"
-    ],
-    "exports": [
-      "createWorker",
-      "FileSystem",
-      "comment",
-      "languageCommentMarkers"
-    ],
-    "importedBy": [
-      "766",
-      "1133",
-      "2533",
-      "4969",
-      "9189",
-      "9334",
-      "main"
-    ],
-    "lines": 50
-  },
-  "3055610": {
-    "deps": [
-      "3055306"
+      "42133"
     ],
     "exports": [
       "getNodeStart",
@@ -5993,114 +8504,432 @@ let module_deps_data = {
       "getBlockParser"
     ],
     "importedBy": [
-      "3055563"
+      "13094"
     ],
-    "lines": 520
+    "lines": 506
   },
-  "3055617": {
-    "deps": [
-      "3055876"
-    ],
-    "exports": [
-      "rebuildTree",
-      "foldTree",
-      "visitTreeConditionally",
-      "visitTree",
-      "resetLineNumbers",
-      "mapLabels",
-      "clearLabelsIf",
-      "clearLabels"
-    ],
+  "94403": {
+    "deps": [],
+    "exports": [],
     "importedBy": [
-      "3055250",
-      "3055469"
-    ],
-    "lines": 119
-  },
-  "3055670": {
-    "deps": [
-      "3055312",
-      "3055306"
-    ],
-    "exports": [
-      "getSiblingFunctionStart",
-      "getSiblingFunctions"
-    ],
-    "importedBy": [
-      "3055312"
+      "7267",
+      "61747",
+      "71274"
     ],
     "lines": 92
   },
-  "3055876": {
-    "deps": [],
+  "94641": {
+    "deps": [
+      "\"url\"",
+      "12049",
+      "82028",
+      "85512",
+      "4240",
+      "91711",
+      "6751",
+      "90589",
+      "77649",
+      "12010",
+      "74532"
+    ],
     "exports": [
-      "duplicateTree",
-      "cutTreeAfterLine",
-      "isTop",
-      "isVirtual",
-      "isLine",
-      "isBlank",
-      "topNode",
-      "blankNode",
-      "lineNode",
-      "virtualNode"
+      "$maybe-default$ f $maybe-default$"
     ],
     "importedBy": [
-      "3055469",
-      "3055617"
+      "439"
     ],
-    "lines": 79
+    "lines": 124
   },
-  "main": {
+  "95207": {
     "deps": [
-      "3055563",
-      "406",
-      "\"vscode\"",
-      "362",
-      "299",
-      "1133",
-      "4197",
-      "7870",
-      "9408",
-      "1839",
-      "9189",
-      "9748",
-      "8965",
-      "5413",
-      "9899",
-      "2279",
-      "1547",
-      "4419",
-      "6722",
-      "2533",
-      "766",
-      "6333",
-      "956",
-      "70",
-      "8771",
-      "6403",
-      "3136",
-      "7057",
-      "3197",
-      "1862",
-      "9425",
-      "3060",
-      "1929",
-      "6267",
-      "2990",
-      "6857",
-      "9477",
-      "7254",
-      "4428",
-      "8129",
-      "385"
+      "58112",
+      "78976"
     ],
     "exports": [
-      "deactivate",
-      "activate",
-      "init"
+      "$complex-export$ o.mode.OFB $complex-export$"
     ],
-    "importedBy": [],
-    "lines": 249
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 22
+  },
+  "95263": {
+    "deps": [],
+    "exports": [
+      "telemetryTypeToBaseType",
+      "baseTypeToTelemetryType",
+      "TelemetryTypeString",
+      "TelemetryType"
+    ],
+    "importedBy": [
+      "10234"
+    ],
+    "lines": 58
+  },
+  "95609": {
+    "deps": [
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 107
+  },
+  "95782": {
+    "deps": [
+      "15669",
+      "17250",
+      "3499",
+      "6930"
+    ],
+    "exports": [
+      "validateKeywordUsage",
+      "validSchemaType",
+      "funcKeywordCode",
+      "macroKeywordCode"
+    ],
+    "importedBy": [
+      "91686"
+    ],
+    "lines": 157
+  },
+  "96184": {
+    "deps": [],
+    "exports": [
+      "LRUCache",
+      "LinkedMap",
+      "Touch"
+    ],
+    "importedBy": [
+      "61343"
+    ],
+    "lines": 344
+  },
+  "96292": {
+    "deps": [
+      "29374"
+    ],
+    "exports": [
+      "formatArgs",
+      "save",
+      "storage",
+      "load",
+      "useColors",
+      "destroy",
+      "colors",
+      "log",
+      "humanize",
+      "$complex-export$ require(29374)(exports) $complex-export$"
+    ],
+    "importedBy": [
+      "41241"
+    ],
+    "lines": 174
+  },
+  "96654": {
+    "deps": [
+      "30147",
+      "67574",
+      "80142",
+      "27135"
+    ],
+    "exports": [
+      "WriteableStreamMessageWriter",
+      "AbstractMessageWriter",
+      "MessageWriter"
+    ],
+    "importedBy": [
+      "23870"
+    ],
+    "lines": 122
+  },
+  "96656": {
+    "deps": [
+      "892",
+      "86236",
+      "9321",
+      "5381"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 25
+  },
+  "96696": {
+    "deps": [
+      "88936",
+      "66471",
+      "25127"
+    ],
+    "exports": [
+      "getSchemaRefs",
+      "resolveUrl",
+      "normalizeId",
+      "_getFullPath",
+      "getFullPath",
+      "inlineRef"
+    ],
+    "importedBy": [
+      "38355",
+      "87382",
+      "91578",
+      "91686"
+    ],
+    "lines": 150
+  },
+  "96712": {
+    "deps": [
+      "\"assert\"",
+      "75611",
+      "20039",
+      "65489",
+      "89531",
+      "89600"
+    ],
+    "exports": [
+      "FailingTelemetryReporter",
+      "assertHasProperty",
+      "withInlineTelemetryCapture",
+      "withOptionalTelemetryCapture",
+      "withTelemetryCapture",
+      "allEvents",
+      "isException",
+      "isEvent",
+      "isRestrictedTelemetryMessage",
+      "isStandardTelemetryMessage",
+      "collectCapturedTelemetry"
+    ],
+    "importedBy": [
+      "65489"
+    ],
+    "lines": 104
+  },
+  "96813": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "42401"
+    ],
+    "lines": 264
+  },
+  "96817": {
+    "deps": [
+      "80187",
+      "54725"
+    ],
+    "exports": [
+      "contextualFilterScore",
+      "getLastLineLength",
+      "ContextualFilterManager"
+    ],
+    "importedBy": [
+      "4630",
+      "40702",
+      "41749",
+      "93927"
+    ],
+    "lines": 106
+  },
+  "96962": {
+    "deps": [
+      "3499",
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 81
+  },
+  "97328": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "79321"
+    ],
+    "lines": 12
+  },
+  "97332": {
+    "deps": [
+      "82881",
+      "89073",
+      "6930",
+      "15669",
+      "88936"
+    ],
+    "exports": [
+      "reportTypeError",
+      "checkDataTypes",
+      "checkDataType",
+      "coerceAndCheckDataType",
+      "getJSONTypes",
+      "getSchemaTypes",
+      "DataType"
+    ],
+    "importedBy": [
+      "10194",
+      "38355",
+      "91686",
+      "91686"
+    ],
+    "lines": 205
+  },
+  "97878": {
+    "deps": [],
+    "exports": [
+      "$maybe-default$ o $maybe-default$"
+    ],
+    "importedBy": [
+      "93809"
+    ],
+    "lines": 33
+  },
+  "98094": {
+    "deps": [
+      "35758",
+      "45337"
+    ],
+    "exports": [
+      "$maybe-default$ <anonymouse-function> $maybe-default$"
+    ],
+    "importedBy": [
+      "54586",
+      "59424"
+    ],
+    "lines": 18
+  },
+  "98103": {
+    "deps": [
+      "3499",
+      "15669",
+      "88936",
+      "88936"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "46951"
+    ],
+    "lines": 78
+  },
+  "98127": {
+    "deps": [
+      "892",
+      "86236",
+      "16630",
+      "70819",
+      "5381",
+      "10540"
+    ],
+    "exports": [
+      "handleVerifyWorkspaceState",
+      "handleVerifyState"
+    ],
+    "importedBy": [
+      "65332"
+    ],
+    "lines": 77
+  },
+  "98581": {
+    "deps": [
+      "58112",
+      "78976"
+    ],
+    "exports": [
+      "$complex-export$ n.mode.CFB $complex-export$"
+    ],
+    "importedBy": [
+      "76679"
+    ],
+    "lines": 37
+  },
+  "98634": {
+    "deps": [
+      "15669",
+      "88936",
+      "3499"
+    ],
+    "exports": [
+      "validateTuple",
+      "default"
+    ],
+    "importedBy": [
+      "21162",
+      "46951"
+    ],
+    "lines": 55
+  },
+  "98941": {
+    "deps": [
+      "\"stream\"",
+      "48226",
+      "28327"
+    ],
+    "exports": [
+      "cacheableResponse"
+    ],
+    "importedBy": [
+      "14735"
+    ],
+    "lines": 89
+  },
+  "98967": {
+    "deps": [
+      "56105",
+      "91183",
+      "56827"
+    ],
+    "exports": [
+      "$complex-export$ n.sha1 = n.sha1 || {} $complex-export$"
+    ],
+    "importedBy": [
+      "21431",
+      "30585",
+      "63585",
+      "78653",
+      "88577"
+    ],
+    "lines": 188
+  },
+  "99507": {
+    "deps": [
+      "15669",
+      "88936",
+      "49161"
+    ],
+    "exports": [
+      "default"
+    ],
+    "importedBy": [
+      "37499"
+    ],
+    "lines": 29
+  },
+  "99674": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "66932"
+    ],
+    "lines": 3
+  },
+  "99876": {
+    "deps": [],
+    "exports": [],
+    "importedBy": [
+      "39800"
+    ],
+    "lines": 3
   }
 }
